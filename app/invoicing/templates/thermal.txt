@@ -1,0 +1,56 @@
+{% set w = spec.width %}
+{% set iw = spec.item_w %}
+{% set qw = spec.qty_w %}
+{% set pw = spec.price_w %}
+{% set aw = spec.amount_w %}
+{{ rule(w, "-") }}
+{{ center(store_name, w) }}
+{{ center("SALES RECEIPT", w) }}
+{{ rule(w, "-") }}
+{{ kv("Invoice", "#" ~ invoice_number, w) }}
+{{ kv("Date", sale_date, w) }}
+{% if customer_name %}
+{{ kv("Customer", customer_name, w) }}
+{% endif %}
+{% if customer_phone %}
+{{ kv("Phone", customer_phone, w) }}
+{% endif %}
+{{ kv("Payment", payment_method, w) }}
+{{ kv("Status", payment_status, w) }}
+{{ rule(w, "-") }}
+{{ "%-*s%*s%*s%*s"|format(iw, "Item", qw, "Qty", pw, "Price", aw, "Amt") }}
+{{ rule(w, "-") }}
+{% for item in items %}
+{% set rows = item_rows(
+    item.index ~ ". " ~ item.name,
+    item.quantity,
+    item.unit_price,
+    item.line_total,
+    item_w=iw,
+    qty_w=qw,
+    price_w=pw,
+    amount_w=aw
+) %}
+{% for row in rows %}
+{{ row }}
+{% endfor %}
+{% endfor %}
+{{ rule(w, "-") }}
+{{ kv("Subtotal", subtotal, w) }}
+{% if discount %}
+{{ kv("Discount", "-" ~ discount, w) }}
+{% endif %}
+{% if tax %}
+{{ kv("Tax", "+" ~ tax, w) }}
+{% endif %}
+{{ rule(w, "=") }}
+{{ kv("TOTAL", total, w) }}
+{{ rule(w, "=") }}
+{{ kv("Paid", paid, w) }}
+{% if change %}
+{{ kv("Change", change, w) }}
+{% endif %}
+{{ rule(w, "-") }}
+{{ center("THANK YOU!", w) }}
+{{ center("We appreciate your business", w) }}
+{{ center("Powered by POS", w) }}
