@@ -2,6 +2,7 @@
 
 import os
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from sqlalchemy import create_engine, inspect
 from sqlalchemy.engine import Engine
@@ -9,29 +10,54 @@ from sqlalchemy.orm import Session, sessionmaker
 
 _engine: Engine | None = None
 _session_factory: sessionmaker[Session] | None = None
+_PROJECT_ROOT = Path(__file__).resolve().parents[3]
+
+
+def _load_local_env() -> None:
+    env_path = _PROJECT_ROOT / ".env"
+    if not env_path.is_file():
+        return
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#") or "=" not in stripped:
+            continue
+        key, value = stripped.split("=", 1)
+        key = key.strip()
+        if not key or key in os.environ:
+            continue
+        os.environ[key] = value.strip().strip('"').strip("'")
+
+
+def _require_supabase_url(configured: str) -> str:
+    parts = urlsplit(configured)
+    scheme = parts.scheme.lower()
+    if scheme in {"postgres", "postgresql"}:
+        scheme = "postgresql+psycopg"
+    elif scheme not in {"postgresql+psycopg", "postgresql+psycopg2"}:
+        raise RuntimeError("FastAPI connects only to Supabase Postgres. SQLite and pos.db are not used.")
+    host = (parts.hostname or "").lower()
+    if not (host.endswith(".supabase.co") or host.endswith(".pooler.supabase.com")):
+        raise RuntimeError("DATABASE_URL must be a Supabase Postgres host.")
+    query = dict(parse_qsl(parts.query, keep_blank_values=True))
+    query.setdefault("sslmode", "require")
+    return urlunsplit(parts._replace(scheme=scheme, query=urlencode(query)))
 
 
 def database_url() -> str:
-    """SQLite file by default. Set DATABASE_URL to use PostgreSQL."""
+    """Supabase Postgres connection string. Never falls back to pos.db."""
+    _load_local_env()
     configured = os.environ.get("DATABASE_URL", "").strip()
-    if configured:
-        return configured
-    data_dir = os.environ.get("AIPOS_DATA_DIR", "").strip()
-    if data_dir:
-        data_path = Path(data_dir).expanduser()
-        data_path.mkdir(parents=True, exist_ok=True)
-        db_path = data_path / "pos.db"
-    else:
-        db_path = Path(__file__).resolve().parents[3] / "pos.db"
-    return "sqlite:///" + db_path.as_posix()
+    if not configured:
+        raise RuntimeError(
+            "DATABASE_URL is required. FastAPI connects only to Supabase Postgres."
+        )
+    return _require_supabase_url(configured)
 
 
 def get_engine() -> Engine:
     global _engine, _session_factory
     if _engine is None:
-        url = database_url()
-        connect_args = {"check_same_thread": False} if url.startswith("sqlite") else {}
-        _engine = create_engine(url, connect_args=connect_args)
+        _engine = create_engine(database_url())
         _session_factory = sessionmaker(bind=_engine, expire_on_commit=False)
     return _engine
 
@@ -48,7 +74,7 @@ def init_db() -> None:
     from alembic.config import Config
 
     engine = get_engine()
-    root = Path(os.environ.get("AIPOS_BACKEND_ROOT", Path(__file__).resolve().parents[3]))
+    root = Path(os.environ.get("AIPOS_BACKEND_ROOT", _PROJECT_ROOT))
     config_path = Path(os.environ.get("AIPOS_ALEMBIC_CONFIG", root / "alembic.ini"))
     migrations_path = Path(os.environ.get("AIPOS_MIGRATIONS_DIR", root / "migrations"))
     cfg = Config(str(config_path))

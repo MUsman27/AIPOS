@@ -11,6 +11,5 @@ uvicorn>=0.28.0
 python-multipart>=0.0.9
 deep-translator>=1.11.4
 
-# PostgreSQL: pip install "psycopg[binary]"
-# DATABASE_URL=postgresql+psycopg://user:pass@localhost/pos
+psycopg[binary]>=3.1
 

@@ -1,6 +1,16 @@
-import sqlite3
+from sqlalchemy import text
 
-conn = sqlite3.connect('pos.db')
-print('alembic_version', conn.execute("SELECT * FROM alembic_version").fetchall())
-print('tables', conn.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name").fetchall())
-conn.close()
+from app.infrastructure.database.session import get_engine
+
+
+engine = get_engine()
+with engine.connect() as conn:
+    print("database", conn.execute(text("SELECT current_database()")).scalar())
+    print(
+        "tables",
+        conn.execute(
+            text(
+                "SELECT tablename FROM pg_tables WHERE schemaname = 'public' ORDER BY tablename"
+            )
+        ).fetchall(),
+    )
