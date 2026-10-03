@@ -1,0 +1,112 @@
+First I had created the Desktop app in Python. now I want python just as a service for PDF reading and saving Item in DB or returning JSON so reactive can save it to DB. possible?
+
+Yes, 100% possible, and in fact, it is a very common and powerful architecture!
+
+By keeping Python as a background service and using React Native for the frontend UI, you get the best of both worlds:
+
+Python: Handles heavy lifting (PDF extraction, OCR with PyMuPDF/Tesseract, SQLAlchemy DB operations, business logic).
+React Native / Electron: Handles high-performance, modern user interfaces and client-side interactions.
++--------------------------------------------------------------------+
+|                  Desktop Client (Electron / React Native)          |
+|  - Modern UI & Views                                               |
+|  - Calls APIs via `fetch()` or `axios`                             |
++--------------------------------------------------------------------+
+                                 |  HTTP / REST (localhost:8000)
+                                 v
++--------------------------------------------------------------------+
+|                    Python Backend Service (FastAPI)                |
+|  - PDF Processing: `pdf_import` (PyMuPDF / Tesseract)             |
+|  - Database: SQLAlchemy ORM (`pos.db`)                             |
+|  - Returns: Clean JSON data to React Native                        |
++--------------------------------------------------------------------+
+
+Implementation Guide
+1. Add FastAPI & Uvicorn to Python
+Install FastAPI to turn your existing Python logic into a lightweight local HTTP API:
+
+bash
+pip install fastapi uvicorn python-multipart
+2. Create the Python API Server (app/server.py)
+Wrap your existing modules (
+
+app/pdf_import
+ and SQLAlchemy logic) in FastAPI endpoints:
+
+python
+from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+# Import your existing Python modules:
+# from app.pdf_import.parser import parse_pdf_bytes
+# from app.infrastructure.database import save_item_to_db
+app = FastAPI(title="AIPOS Python Service")
+# Allow React Native / Electron to make local requests
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+@app.post("/api/pdf/parse")
+async def parse_pdf(file: UploadFile = File(...)):
+    """Reads uploaded PDF file, runs OCR/parsing, and returns extracted JSON data."""
+    contents = await file.read()
+    # extracted_data = parse_pdf_bytes(contents)
+    extracted_data = {
+        "item_name": "Sample Product",
+        "price": 49.99,
+        "tax": 5.0,
+        "raw_text": "Extracted from PDF..."
+    }
+    return {"status": "success", "data": extracted_data}
+@app.post("/api/items/save")
+async def save_item(item_data: dict):
+    """Saves item JSON received from React Native into pos.db via SQLAlchemy."""
+    # save_item_to_db(item_data)
+    return {"status": "saved", "item": item_data}
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=8000)
+3. Call Python from React Native (
+
+App.tsx
+)
+In React Native, call the Python service endpoints like any web API:
+
+typescript
+// Upload PDF to Python service
+const handlePdfUpload = async (fileUri: string) => {
+  const formData = new FormData();
+  formData.append('file', {
+    uri: fileUri,
+    name: 'invoice.pdf',
+    type: 'application/pdf',
+  } as any);
+  const response = await fetch('http://localhost:8000/api/pdf/parse', {
+    method: 'POST',
+    body: formData,
+  });
+  const result = await response.json();
+  console.log('Parsed JSON from Python:', result.data);
+};
+// Save Item JSON via Python service
+const handleSaveItem = async (item: object) => {
+  const response = await fetch('http://localhost:8000/api/items/save', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(item),
+  });
+  const result = await response.json();
+  console.log('Save result:', result);
+};
+How it Works in Production (Packaging Desktop App)
+When building the final .exe installer for desktop:
+
+Package Python into a single executable file using pyinstaller --onefile app/server.py.
+In Electron's 
+
+main.js
+, start the Python executable automatically as a child process when the app opens, and terminate it when the app closes:
+javascript
+const { spawn } = require('child_process');
+let pythonProcess = spawn('path/to/server.exe');

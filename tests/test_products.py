@@ -233,6 +233,52 @@ def test_translate_selected_products_only_updates_selected_rows(service: Product
     assert service.get(second.id).name == "Battery"
 
 
+def test_translate_missing_names_api_route(monkeypatch: pytest.MonkeyPatch) -> None:
+    from fastapi.testclient import TestClient
+
+    from app.domain import products as products_module
+    from app.server import app
+    from app.infrastructure.database.models import Base, Manufacturer, Product
+    from app.infrastructure.database.session import get_session
+    from sqlalchemy import create_engine
+    from sqlalchemy.orm import sessionmaker
+
+    engine = create_engine("sqlite:///:memory:")
+    Base.metadata.create_all(engine)
+    session = sessionmaker(bind=engine, expire_on_commit=False)()
+    manufacturer = Manufacturer(name="Test Mfg")
+    session.add(manufacturer)
+    session.flush()
+    session.add(
+        Product(
+            name="",
+            description_ur="ایئر فلٹر",
+            sku="TR-001",
+            manufacturer_id=manufacturer.id,
+            cost_price=Decimal("80.00"),
+            unit_price=Decimal("100.00"),
+            is_active=True,
+        )
+    )
+    session.commit()
+
+    app.dependency_overrides[get_session] = lambda: session
+    monkeypatch.setattr(
+        products_module.service.ProductService,
+        "translate_missing_names",
+        lambda self, **kwargs: 1,
+    )
+
+    with TestClient(app) as client:
+        response = client.post("/api/products/translate-missing-names", json={})
+
+    assert response.status_code == 200
+    assert response.json()["updated"] == 1
+    app.dependency_overrides.clear()
+    session.close()
+    engine.dispose()
+
+
 def test_delete_product(service: ProductService) -> None:
     created = service.create(product_input())
     service.delete(created.id)

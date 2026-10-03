@@ -9,6 +9,7 @@ from sqlalchemy import (
     ForeignKey,
     Numeric,
     String,
+    Text,
     UniqueConstraint,
     func,
 )
@@ -197,5 +198,48 @@ class SaleItem(Base):
 
     sale: Mapped[Sale] = relationship(back_populates="items")
     product: Mapped[Product | None] = relationship()
+
+
+class LicenseCustomer(Base):
+    __tablename__ = "license_customers"
+
+    customer_id: Mapped[str] = mapped_column(String(100), primary_key=True)
+    name: Mapped[str] = mapped_column(String(200), nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime, nullable=False, default=datetime.now, server_default=func.now()
+    )
+    devices: Mapped[list["LicensedDevice"]] = relationship(back_populates="customer")
+
+
+class LicensedDevice(Base):
+    __tablename__ = "licensed_devices"
+
+    device_id: Mapped[str] = mapped_column(String(120), primary_key=True)
+    customer_id: Mapped[str] = mapped_column(
+        ForeignKey("license_customers.customer_id"), nullable=False, index=True
+    )
+    device_public_key: Mapped[str] = mapped_column(String(64), nullable=False)
+    status: Mapped[str] = mapped_column(String(20), nullable=False, default="ACTIVE")
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime, nullable=False, default=datetime.now, server_default=func.now()
+    )
+    customer: Mapped[LicenseCustomer] = relationship(back_populates="devices")
+    licenses: Mapped[list["IssuedLicense"]] = relationship(back_populates="device")
+
+
+class IssuedLicense(Base):
+    __tablename__ = "issued_licenses"
+
+    license_id: Mapped[str] = mapped_column(String(120), primary_key=True)
+    device_id: Mapped[str] = mapped_column(
+        ForeignKey("licensed_devices.device_id"), nullable=False, index=True
+    )
+    payload: Mapped[str] = mapped_column(Text, nullable=False)
+    signature: Mapped[str] = mapped_column(String(128), nullable=False)
+    expires_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, index=True)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime, nullable=False, default=datetime.now, server_default=func.now()
+    )
+    device: Mapped[LicensedDevice] = relationship(back_populates="licenses")
 
 

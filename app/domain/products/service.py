@@ -1,5 +1,6 @@
 """Create, update, search, and delete catalog products."""
 
+import logging
 import time
 from collections.abc import Callable
 from dataclasses import dataclass
@@ -14,6 +15,7 @@ from app.infrastructure.database.models import Manufacturer, Product
 
 _MAX_PRICE = Decimal("10000000000")
 _TWOPLACES = Decimal("0.01")
+logger = logging.getLogger("aipos.products")
 
 
 class ProductError(Exception):
@@ -63,6 +65,10 @@ class ProductService:
             if source:
                 products_to_update.append((product, source))
 
+        logger.info(
+            "translate_missing_names: found %s missing-name products to translate",
+            len(products_to_update),
+        )
         return self._apply_translations(products_to_update, translator)
 
     def translate_selected_missing_names(
@@ -81,12 +87,23 @@ class ProductService:
                 continue
             seen.add(product_id)
             product = self.get(product_id)
-            if product is None or not self._is_missing_name(product.name):
+            if product is None:
+                logger.warning("translate_selected_missing_names: product id %s not found", product_id)
+                continue
+            if not self._is_missing_name(product.name):
+                logger.info("translate_selected_missing_names: skipping product %s because name is not missing", product_id)
                 continue
             source = (product.description_ur or product.model or "").strip()
             if source:
                 products_to_update.append((product, source))
+                logger.info("translate_selected_missing_names: queued product %s with source '%s'", product_id, source)
+            else:
+                logger.warning("translate_selected_missing_names: no Urdu/model source for product %s", product_id)
 
+        logger.info(
+            "translate_selected_missing_names: translating %s selected products",
+            len(products_to_update),
+        )
         return self._apply_translations(products_to_update, translator)
 
     def _apply_translations(
@@ -95,8 +112,10 @@ class ProductService:
         translator: Callable[[str], str],
     ) -> int:
         if not products_to_update:
+            logger.info("_apply_translations: no products to update")
             return 0
 
+        logger.info("_apply_translations: starting batch translation for %s products", len(products_to_update))
         if translator is self._default_urdu_to_english:
             translations = self._batch_translate_urdu(
                 [source for _, source in products_to_update]
@@ -107,11 +126,19 @@ class ProductService:
         updated = 0
         for (product, source), translated in zip(products_to_update, translations):
             cleaned = (translated or "").strip()
+            logger.info(
+                "_apply_translations: product %s source='%s' translated='%s'",
+                product.id,
+                source,
+                cleaned,
+            )
             if cleaned and cleaned != source:
                 product.name = cleaned[:500]
                 updated += 1
+                logger.info("_apply_translations: updated product %s name to '%s'", product.id, cleaned[:500])
 
         self.session.commit()
+        logger.info("_apply_translations: committed %s product updates", updated)
         return updated
 
     @staticmethod

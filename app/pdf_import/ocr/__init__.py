@@ -12,8 +12,12 @@ from PIL import Image
 
 from app.pdf_import.parse import Word
 
-_TESSDATA = Path(__file__).resolve().parents[3] / ".tessdata"
-_TESSERACT = Path(r"C:\Program Files\Tesseract-OCR\tesseract.exe")
+_TESSDATA = Path(
+    os.environ.get("AIPOS_TESSDATA_DIR", Path(__file__).resolve().parents[3] / ".tessdata")
+)
+_TESSERACT = Path(
+    os.environ.get("AIPOS_TESSERACT_EXE", r"C:\Program Files\Tesseract-OCR\tesseract.exe")
+)
 
 
 def configure_tesseract() -> None:

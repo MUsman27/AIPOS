@@ -1,23 +1,14 @@
-"""Start the POS desktop app."""
+"""FastAPI service entry point for the PDF backend."""
 
-import sys
+from __future__ import annotations
 
-from PySide6.QtWidgets import QApplication
+import uvicorn
 
-from app.infrastructure.database.session import init_db
-from app.ui.main_window import MainWindow
-from app.ui.theme import build_stylesheet
+from app.server import app
 
 
 def main() -> None:
-    init_db()
-    app = QApplication(sys.argv)
-    app.setApplicationName("POS")
-    app.setStyleSheet(build_stylesheet("light"))
-    window = MainWindow()
-    window.set_theme("light")
-    window.show()
-    sys.exit(app.exec())
+    uvicorn.run(app, host="127.0.0.1", port=8000, reload=True)
 
 
 if __name__ == "__main__":

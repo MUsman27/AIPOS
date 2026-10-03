@@ -16,7 +16,13 @@ def database_url() -> str:
     configured = os.environ.get("DATABASE_URL", "").strip()
     if configured:
         return configured
-    db_path = Path(__file__).resolve().parents[3] / "pos.db"
+    data_dir = os.environ.get("AIPOS_DATA_DIR", "").strip()
+    if data_dir:
+        data_path = Path(data_dir).expanduser()
+        data_path.mkdir(parents=True, exist_ok=True)
+        db_path = data_path / "pos.db"
+    else:
+        db_path = Path(__file__).resolve().parents[3] / "pos.db"
     return "sqlite:///" + db_path.as_posix()
 
 
@@ -42,9 +48,11 @@ def init_db() -> None:
     from alembic.config import Config
 
     engine = get_engine()
-    root = Path(__file__).resolve().parents[3]
-    cfg = Config(str(root / "alembic.ini"))
-    cfg.set_main_option("script_location", str(root / "migrations"))
+    root = Path(os.environ.get("AIPOS_BACKEND_ROOT", Path(__file__).resolve().parents[3]))
+    config_path = Path(os.environ.get("AIPOS_ALEMBIC_CONFIG", root / "alembic.ini"))
+    migrations_path = Path(os.environ.get("AIPOS_MIGRATIONS_DIR", root / "migrations"))
+    cfg = Config(str(config_path))
+    cfg.set_main_option("script_location", str(migrations_path))
     cfg.set_main_option("sqlalchemy.url", database_url().replace("%", "%%"))
 
     tables = set(inspect(engine).get_table_names())
