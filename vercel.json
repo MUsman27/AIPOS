@@ -4,7 +4,12 @@
     "api": {
       "root": ".",
       "runtime": "container",
-      "entrypoint": "Dockerfile.vercel"
+      "entrypoint": "Dockerfile.vercel",
+      "functions": {
+        "app/server.py": {
+          "maxDuration": 300
+        }
+      }
     }
   },
   "rewrites": [
@@ -14,10 +19,5 @@
         "service": "api"
       }
     }
-  ],
-  "functions": {
-    "app/server.py": {
-      "maxDuration": 300
-    }
-  }
+  ]
 }
