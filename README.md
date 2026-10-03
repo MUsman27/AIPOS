@@ -1,5 +1,35 @@
 # AIPOS
 
+## Dockerized FastAPI backend
+
+The backend container includes Linux Tesseract and the English/Urdu trained
+data from `.tessdata/`. Build it from this directory, which is the Docker build
+context:
+
+```sh
+docker build -f Dockerfile.vercel -t aipos-api .
+```
+
+For a local run, configure `DATABASE_URL` for Supabase Postgres and any other
+backend secrets in an ignored `.env` file, then run:
+
+```sh
+docker run --rm -p 8000:8000 --env-file .env aipos-api
+```
+
+The API is available at `http://localhost:8000`; `/health` is a simple
+readiness check. The container runs Alembic migrations during startup, so it
+must be able to connect to the configured database.
+
+For Vercel, deploy this directory as a **Services** project. The
+`vercel.json` routes requests to the `Dockerfile.vercel` container service.
+Configure `DATABASE_URL` and all required backend secrets as Vercel environment
+variables; never put secret values in the Dockerfile or commit them. The
+container is stateless, so persist application data in Supabase or other
+external storage, not in its filesystem. Set the frontend's
+`EXPO_PUBLIC_API_BASE_URL` to this API deployment's URL and redeploy the
+frontend.
+
 ## Offline Licensing
 
 The POS verifies licenses locally and does not need the API to import or use an installed license. Android and iOS device keys are stored in Expo SecureStore (Android Keystore-backed encryption and iOS Keychain). Electron Windows/macOS keeps the private key in the main process and stores it using Electron `safeStorage`. Browser-only web builds do not support device registration because they lack protected key storage.

@@ -26,8 +26,9 @@ def configure_tesseract() -> None:
         pytesseract.pytesseract.tesseract_cmd = str(_TESSERACT)
     elif shutil.which("tesseract") is None:
         raise RuntimeError(
-            "Tesseract OCR is not installed. Install the UB Mannheim build "
-            "and keep English and Urdu trained data in pos/.tessdata."
+            "Tesseract OCR is not available. Install Tesseract and make it "
+            "available on PATH or set AIPOS_TESSERACT_EXE. Ensure English and "
+            "Urdu trained data are available in AIPOS_TESSDATA_DIR."
         )
 
 
