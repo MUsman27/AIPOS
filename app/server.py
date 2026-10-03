@@ -98,10 +98,15 @@ app = FastAPI(
 # Enable CORS for React Native / Electron frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["null", "http://localhost:8084", "http://127.0.0.1:8084"],
+    allow_origins=[
+        "null",
+        "http://localhost:8084",
+        "http://127.0.0.1:8084",
+        "https://aipos-bice.vercel.app",
+    ],
     allow_credentials=False,
     allow_methods=["*"],
-    allow_headers=["Authorization", "Content-Type", "X-AIPOS-Local-Token"],
+    allow_headers=["Authorization", "Content-Type", "apikey", "X-AIPOS-Local-Token"],
 )
 
 
