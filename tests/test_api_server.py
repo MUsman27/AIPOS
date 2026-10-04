@@ -52,6 +52,20 @@ def test_local_api_token_is_required_when_configured(monkeypatch):
     assert preflight.status_code == 200
 
 
+def test_account_register_preflight_allows_local_web_origin():
+    response = TestClient(app).options(
+        "/account/register",
+        headers={
+            "Origin": "http://localhost:8084",
+            "Access-Control-Request-Method": "POST",
+            "Access-Control-Request-Headers": "content-type",
+        },
+    )
+
+    assert response.status_code == 200
+    assert response.headers["access-control-allow-origin"] == "http://localhost:8084"
+
+
 def test_save_item_route_persists_product_payload():
     payload = {
         "name": "Widget",

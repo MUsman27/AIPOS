@@ -10,32 +10,45 @@ import re
 import secrets
 import tempfile
 from contextlib import asynccontextmanager
-from datetime import date, datetime
+from datetime import date, datetime, time, timedelta, timezone
 from decimal import Decimal
 from pathlib import Path
 from typing import Any, Optional
+from uuid import uuid4
 
 from fastapi import FastAPI, File, HTTPException, Request, UploadFile, Depends, Header
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from pydantic import BaseModel
-from sqlalchemy import select
+from pydantic import BaseModel, Field
+from sqlalchemy import func, select
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
 from app.domain.products.service import ProductService
 from app.infrastructure.database.models import (
+    Client,
     IssuedLicense,
     LicenseCustomer,
+    LicenseSession,
+    LicenseUser,
     LicensedDevice,
     Manufacturer,
     Product,
 )
 from app.infrastructure.database.session import get_session, init_db
+from app.license_auth import (
+    access_token_hash,
+    hash_password,
+    new_access_token,
+    verify_password,
+)
 from app.licensing import (
     DEVICE_CHALLENGE_CONTEXT,
     LicenseError,
     b64url_decode,
+    b64url_encode,
     build_payload,
+    canonical_json,
     load_private_key,
     signing_bytes,
     sign_payload,
@@ -153,6 +166,153 @@ class LicenseGenerate(BaseModel):
     status: str = "ACTIVE"
 
 
+class InvoiceProfileGenerate(BaseModel):
+    shop_name: str = Field(min_length=1, max_length=200)
+    address: str = Field(default="", max_length=500)
+    phone_numbers: list[str] = Field(min_length=1, max_length=10)
+
+
+class AccountRegister(BaseModel):
+    full_name: str = Field(min_length=2, max_length=200)
+    email: str = Field(min_length=3, max_length=254)
+    password: str = Field(min_length=8, max_length=128)
+    phone: str | None = Field(default=None, max_length=50)
+
+
+class AccountLogin(BaseModel):
+    email: str = Field(min_length=3, max_length=254)
+    password: str = Field(min_length=1, max_length=128)
+
+
+class AccountDeviceRegistration(BaseModel):
+    device_id: str = Field(min_length=1, max_length=120)
+    device_public_key: str = Field(min_length=1, max_length=64)
+    proof: str = Field(min_length=1, max_length=128)
+
+
+class ClientEntitlementUpdate(BaseModel):
+    expires: date
+    max_devices: int | None = Field(default=None, ge=1)
+    features: list[str] | None = None
+
+
+_ACCOUNT_SESSION_TTL = timedelta(days=30)
+
+
+def _create_account_session(session: Session, user: LicenseUser) -> tuple[str, datetime]:
+    token = new_access_token()
+    expires_at = datetime.now(timezone.utc).replace(tzinfo=None) + _ACCOUNT_SESSION_TTL
+    session.add(
+        LicenseSession(
+            token_hash=access_token_hash(token),
+            user_id=user.id,
+            expires_at=expires_at,
+        )
+    )
+    return token, expires_at
+
+
+def _authenticated_user(
+    authorization: str | None, session: Session
+) -> tuple[LicenseUser, LicenseSession]:
+    scheme, _, token = (authorization or "").partition(" ")
+    if scheme.lower() != "bearer" or not token:
+        raise HTTPException(status_code=401, detail="Sign in is required")
+    login_session = session.get(LicenseSession, access_token_hash(token))
+    now = datetime.now(timezone.utc).replace(tzinfo=None)
+    if login_session is None or login_session.expires_at <= now:
+        raise HTTPException(status_code=401, detail="Session is invalid or expired")
+    user = session.get(LicenseUser, login_session.user_id)
+    if user is None or not user.is_active:
+        raise HTTPException(status_code=401, detail="Account is inactive")
+    if not user.client.is_active:
+        raise HTTPException(status_code=403, detail="Client account is inactive")
+    return user, login_session
+
+
+def _account_summary(user: LicenseUser) -> dict[str, Any]:
+    return {
+        "id": user.id,
+        "full_name": user.full_name,
+        "email": user.email,
+        "phone": user.phone,
+        "client": {
+            "customer_id": user.customer_id,
+            "name": user.client.name,
+            "is_active": user.client.is_active,
+            "license_expires_at": (
+                user.client.license_expires_at.isoformat()
+                if user.client.license_expires_at
+                else None
+            ),
+            "max_devices": user.client.max_devices,
+        },
+    }
+
+
+def _require_active_entitlement(client: Client) -> tuple[date, list[str]]:
+    now = datetime.now(timezone.utc)
+    expires_at = client.license_expires_at
+    if expires_at is None:
+        raise HTTPException(
+            status_code=403,
+            detail="This account is awaiting license activation by its administrator.",
+        )
+    if expires_at.tzinfo is None:
+        expires_at = expires_at.replace(tzinfo=timezone.utc)
+    if expires_at.date() < now.date():
+        raise HTTPException(
+            status_code=403,
+            detail="This account's license has expired. Contact the administrator to renew it.",
+        )
+    try:
+        features = json.loads(client.license_features)
+    except json.JSONDecodeError as exc:
+        logger.exception("Invalid license features stored for client %s", client.customer_id)
+        raise HTTPException(status_code=500, detail="Client license configuration is invalid") from exc
+    if not isinstance(features, list) or not features:
+        raise HTTPException(status_code=500, detail="Client license features are invalid")
+    return expires_at.date(), features
+
+
+def _issue_account_license(
+    *,
+    client: Client,
+    device: LicensedDevice,
+    session: Session,
+) -> dict[str, Any]:
+    expires, features = _require_active_entitlement(client)
+    private_key_value = os.environ.get("AIPOS_LICENSE_PRIVATE_KEY_FILE") or os.environ.get(
+        "AIPOS_LICENSE_PRIVATE_KEY", ""
+    )
+    if not private_key_value:
+        raise HTTPException(status_code=503, detail="License signing key is not configured")
+    key_id = os.environ.get("AIPOS_LICENSE_KEY_ID", "2026-01")
+    try:
+        payload = build_payload(
+            customer_id=client.customer_id,
+            device_id=device.device_id,
+            expires=expires.isoformat(),
+            key_id=key_id,
+            features=features,
+        )
+        signed = sign_payload(payload, load_private_key(private_key_value))
+    except LicenseError as exc:
+        raise HTTPException(status_code=500, detail="Unable to issue account license") from exc
+    session.add(
+        IssuedLicense(
+            license_id=payload["license_id"],
+            device_id=device.device_id,
+            payload=json.dumps(
+                payload, ensure_ascii=False, sort_keys=True, separators=(",", ":")
+            ),
+            signature=signed["signature"],
+            expires_at=datetime.fromisoformat(payload["expires_at"].replace("Z", "+00:00")),
+        )
+    )
+    return signed
+
+
 def _require_license_token(
     authorization: str | None,
     *,
@@ -164,6 +324,328 @@ def _require_license_token(
     scheme, _, supplied = (authorization or "").partition(" ")
     if scheme.lower() != "bearer" or not secrets.compare_digest(supplied, expected):
         raise HTTPException(status_code=401, detail="Valid bearer token required")
+
+
+@app.post("/account/register", status_code=201)
+def register_account(
+    item: AccountRegister,
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    email = item.email.strip().lower()
+    if not re.fullmatch(r"[^@\s]+@[^@\s]+\.[^@\s]+", email):
+        raise HTTPException(status_code=422, detail="Enter a valid email address")
+    if session.scalar(select(LicenseUser.id).where(LicenseUser.email == email)):
+        raise HTTPException(status_code=409, detail="An account already uses this email")
+
+    client = Client(
+        customer_id=f"CLIENT-{uuid4().hex[:16].upper()}",
+        name=item.full_name.strip(),
+        phone=item.phone.strip() if item.phone and item.phone.strip() else None,
+    )
+    user = LicenseUser(
+        client=client,
+        full_name=item.full_name.strip(),
+        email=email,
+        phone=client.phone,
+        password_hash=hash_password(item.password),
+    )
+    session.add(user)
+    try:
+        session.flush()
+        token, expires_at = _create_account_session(session, user)
+        session.commit()
+    except IntegrityError as exc:
+        session.rollback()
+        raise HTTPException(status_code=409, detail="An account already uses this email") from exc
+    return {
+        "access_token": token,
+        "token_type": "bearer",
+        "expires_at": expires_at.isoformat() + "Z",
+        "account": _account_summary(user),
+    }
+
+
+@app.post("/account/login")
+def login_account(
+    item: AccountLogin,
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    email = item.email.strip().lower()
+    user = session.scalar(select(LicenseUser).where(LicenseUser.email == email))
+    if user is None or not verify_password(item.password, user.password_hash):
+        raise HTTPException(status_code=401, detail="Email or password is incorrect")
+    if not user.is_active or not user.client.is_active:
+        raise HTTPException(status_code=403, detail="Account is inactive")
+
+    token, expires_at = _create_account_session(session, user)
+    session.commit()
+    return {
+        "access_token": token,
+        "token_type": "bearer",
+        "expires_at": expires_at.isoformat() + "Z",
+        "account": _account_summary(user),
+    }
+
+
+@app.post("/account/logout", status_code=204)
+def logout_account(
+    authorization: str | None = Header(default=None),
+    session: Session = Depends(get_session),
+) -> None:
+    _, login_session = _authenticated_user(authorization, session)
+    session.delete(login_session)
+    session.commit()
+
+
+@app.get("/account/me")
+def get_account(
+    authorization: str | None = Header(default=None),
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    user, _ = _authenticated_user(authorization, session)
+    active_devices = session.scalar(
+        select(func.count())
+        .select_from(LicensedDevice)
+        .where(
+            LicensedDevice.customer_id == user.customer_id,
+            LicensedDevice.status == "ACTIVE",
+        )
+    )
+    account = _account_summary(user)
+    account["client"]["active_devices"] = active_devices or 0
+    return account
+
+
+@app.get("/admin/clients")
+def list_clients(
+    authorization: str | None = Header(default=None),
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    _require_license_token(authorization, environment_variable="AIPOS_LICENSE_ADMIN_TOKEN")
+    clients = session.scalars(select(Client).order_by(Client.created_at.desc())).all()
+    device_counts = session.execute(
+        select(LicensedDevice.customer_id, LicensedDevice.status, func.count())
+        .group_by(LicensedDevice.customer_id, LicensedDevice.status)
+    ).all()
+    user_counts = dict(
+        session.execute(
+            select(LicenseUser.customer_id, func.count()).group_by(LicenseUser.customer_id)
+        ).all()
+    )
+
+    counts_by_client: dict[str, dict[str, int]] = {}
+    for customer_id, status, count in device_counts:
+        counts = counts_by_client.setdefault(
+            customer_id, {"registered_devices": 0, "active_devices": 0}
+        )
+        counts["registered_devices"] += count
+        if status == "ACTIVE":
+            counts["active_devices"] += count
+
+    results = []
+    for client in clients:
+        try:
+            features = json.loads(client.license_features)
+        except json.JSONDecodeError as exc:
+            logger.exception("Invalid license features stored for client %s", client.customer_id)
+            raise HTTPException(
+                status_code=500, detail="Client license configuration is invalid"
+            ) from exc
+        if not isinstance(features, list):
+            raise HTTPException(status_code=500, detail="Client license features are invalid")
+        results.append(
+            {
+                "customer_id": client.customer_id,
+                "name": client.name,
+                "phone": client.phone,
+                "address": client.address,
+                "is_active": client.is_active,
+                "license_expires_at": client.license_expires_at,
+                "max_devices": client.max_devices,
+                "features": features,
+                "created_at": client.created_at,
+                "user_count": user_counts.get(client.customer_id, 0),
+                **counts_by_client.get(
+                    client.customer_id,
+                    {"registered_devices": 0, "active_devices": 0},
+                ),
+            }
+        )
+    return {"clients": results, "total": len(results)}
+
+
+@app.put("/admin/clients/{customer_id}/entitlement")
+def update_client_entitlement(
+    customer_id: str,
+    item: ClientEntitlementUpdate,
+    authorization: str | None = Header(default=None),
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    _require_license_token(authorization, environment_variable="AIPOS_LICENSE_ADMIN_TOKEN")
+    client = session.scalar(
+        select(Client).where(Client.customer_id == customer_id).with_for_update()
+    )
+    if client is None:
+        raise HTTPException(status_code=404, detail="Client account not found")
+    try:
+        features = (
+            item.features
+            if item.features is not None
+            else json.loads(client.license_features)
+        )
+        payload = build_payload(
+            customer_id=customer_id,
+            device_id="ENTITLEMENT-VALIDATION",
+            expires=item.expires.isoformat(),
+            key_id=os.environ.get("AIPOS_LICENSE_KEY_ID", "2026-01"),
+            features=features,
+        )
+    except json.JSONDecodeError as exc:
+        logger.exception("Invalid license features stored for client %s", customer_id)
+        raise HTTPException(status_code=500, detail="Client license configuration is invalid") from exc
+    except LicenseError as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+
+    client.license_expires_at = datetime.combine(
+        item.expires, time.max, tzinfo=timezone.utc
+    ).replace(tzinfo=None)
+    if "max_devices" in item.model_fields_set:
+        client.max_devices = item.max_devices
+    client.license_features = json.dumps(payload["features"], separators=(",", ":"))
+    session.commit()
+    return {
+        "customer_id": client.customer_id,
+        "license_expires_at": client.license_expires_at.isoformat() + "Z",
+        "max_devices": client.max_devices,
+        "features": payload["features"],
+    }
+
+
+@app.post("/account/devices/register", status_code=201)
+def register_account_device(
+    item: AccountDeviceRegistration,
+    authorization: str | None = Header(default=None),
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    user, _ = _authenticated_user(authorization, session)
+    client = session.scalar(
+        select(Client).where(Client.customer_id == user.customer_id).with_for_update()
+    )
+    if client is None:
+        raise HTTPException(status_code=404, detail="Client account not found")
+    _require_active_entitlement(client)
+    try:
+        public_bytes = base64.b64decode(item.device_public_key, validate=True)
+        signature = b64url_decode(item.proof)
+        if len(public_bytes) != 32:
+            raise ValueError("Invalid Ed25519 public key length")
+        public_key = Ed25519PublicKey.from_public_bytes(public_bytes)
+        proof_payload = {
+            "customer_id": user.customer_id,
+            "device_id": item.device_id,
+            "device_public_key": item.device_public_key,
+        }
+        public_key.verify(
+            signature,
+            signing_bytes(proof_payload, context=DEVICE_CHALLENGE_CONTEXT),
+        )
+    except (ValueError, InvalidSignature) as exc:
+        raise HTTPException(status_code=400, detail="Invalid device key proof") from exc
+
+    device = session.get(LicensedDevice, item.device_id)
+    if device is not None:
+        if (
+            device.device_public_key != item.device_public_key
+            or device.customer_id != user.customer_id
+        ):
+            raise HTTPException(status_code=409, detail="Device ID is already registered")
+        if device.status != "ACTIVE":
+            raise HTTPException(status_code=409, detail="Device is inactive")
+    else:
+        active_devices = session.scalar(
+            select(func.count())
+            .select_from(LicensedDevice)
+            .where(
+                LicensedDevice.customer_id == user.customer_id,
+                LicensedDevice.status == "ACTIVE",
+            )
+        ) or 0
+        if client.max_devices is not None and active_devices >= client.max_devices:
+            raise HTTPException(status_code=409, detail="The account's device limit has been reached")
+        device = LicensedDevice(
+            device_id=item.device_id,
+            customer_id=user.customer_id,
+            device_public_key=item.device_public_key,
+            registered_by_user_id=user.id,
+            status="ACTIVE",
+        )
+        session.add(device)
+        session.flush()
+
+    signed = _issue_account_license(client=client, device=device, session=session)
+    try:
+        session.commit()
+    except IntegrityError as exc:
+        session.rollback()
+        raise HTTPException(status_code=409, detail="Device registration conflicted with another request") from exc
+    return signed
+
+
+@app.post("/account/devices/{device_id}/renew")
+def renew_account_device_license(
+    device_id: str,
+    authorization: str | None = Header(default=None),
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    user, _ = _authenticated_user(authorization, session)
+    device = session.get(LicensedDevice, device_id)
+    if device is None or device.customer_id != user.customer_id:
+        raise HTTPException(status_code=404, detail="Registered device not found")
+    if device.status != "ACTIVE":
+        raise HTTPException(status_code=409, detail="Device is inactive")
+    client = session.scalar(
+        select(Client).where(Client.customer_id == user.customer_id).with_for_update()
+    )
+    if client is None:
+        raise HTTPException(status_code=404, detail="Client account not found")
+    signed = _issue_account_license(client=client, device=device, session=session)
+    session.commit()
+    return signed
+
+
+@app.get("/account/devices")
+def list_account_devices(
+    authorization: str | None = Header(default=None),
+    session: Session = Depends(get_session),
+) -> list[dict[str, Any]]:
+    user, _ = _authenticated_user(authorization, session)
+    devices = session.scalars(
+        select(LicensedDevice)
+        .where(LicensedDevice.customer_id == user.customer_id)
+        .order_by(LicensedDevice.created_at)
+    )
+    return [
+        {
+            "device_id": device.device_id,
+            "status": device.status,
+            "created_at": device.created_at.isoformat(),
+        }
+        for device in devices
+    ]
+
+
+@app.delete("/account/devices/{device_id}", status_code=204)
+def deactivate_account_device(
+    device_id: str,
+    authorization: str | None = Header(default=None),
+    session: Session = Depends(get_session),
+) -> None:
+    user, _ = _authenticated_user(authorization, session)
+    device = session.get(LicensedDevice, device_id)
+    if device is None or device.customer_id != user.customer_id:
+        raise HTTPException(status_code=404, detail="Registered device not found")
+    device.status = "REVOKED"
+    session.commit()
 
 
 @app.post("/devices/register", status_code=201)
@@ -258,6 +740,39 @@ def generate_license(
     session.add(record)
     session.commit()
     return signed
+
+
+@app.post("/invoice-profile/generate")
+def generate_invoice_profile(
+    item: InvoiceProfileGenerate,
+    authorization: str | None = Header(default=None),
+) -> dict[str, str]:
+    _require_license_token(authorization, environment_variable="AIPOS_LICENSE_ADMIN_TOKEN")
+    private_key_value = os.environ.get("AIPOS_LICENSE_PRIVATE_KEY_FILE") or os.environ.get(
+        "AIPOS_LICENSE_PRIVATE_KEY", ""
+    )
+    if not private_key_value:
+        raise HTTPException(status_code=503, detail="Invoice profile signing key is not configured")
+
+    shop_name = item.shop_name.strip()
+    address = item.address.strip()
+    phone_numbers = [phone.strip() for phone in item.phone_numbers]
+    if not shop_name or any(not phone for phone in phone_numbers):
+        raise HTTPException(status_code=422, detail="Shop name and all contact numbers are required")
+
+    payload = {
+        "version": 1,
+        "key_id": os.environ.get("AIPOS_LICENSE_KEY_ID", "2026-01"),
+        "shop_name": shop_name,
+        "address": address,
+        "phone_numbers": phone_numbers,
+    }
+    payload_bytes = canonical_json(payload)
+    message = b"AIPOS-INVOICE-PROFILE-V1\n" + payload_bytes
+    signature = load_private_key(private_key_value).sign(message)
+    return {
+        "hash": f"{b64url_encode(payload_bytes)}.{b64url_encode(signature)}",
+    }
 
 
 @app.get("/devices/{device_id}")

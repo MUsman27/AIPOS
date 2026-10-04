@@ -200,15 +200,76 @@ class SaleItem(Base):
     product: Mapped[Product | None] = relationship()
 
 
-class LicenseCustomer(Base):
-    __tablename__ = "license_customers"
+class Client(Base):
+    __tablename__ = "clients"
 
     customer_id: Mapped[str] = mapped_column(String(100), primary_key=True)
     name: Mapped[str] = mapped_column(String(200), nullable=False)
+    phone: Mapped[str | None] = mapped_column(String(50), nullable=True)
+    address: Mapped[str | None] = mapped_column(String(500), nullable=True)
+    is_active: Mapped[bool] = mapped_column(
+        Boolean, default=True, nullable=False, server_default="true"
+    )
+    license_expires_at: Mapped[datetime | None] = mapped_column(
+        DateTime, nullable=True
+    )
+    max_devices: Mapped[int | None] = mapped_column(nullable=True)
+    license_features: Mapped[str] = mapped_column(
+        Text,
+        nullable=False,
+        default='["sales","inventory","reports"]',
+        server_default='["sales","inventory","reports"]',
+    )
     created_at: Mapped[datetime] = mapped_column(
         DateTime, nullable=False, default=datetime.now, server_default=func.now()
     )
-    devices: Mapped[list["LicensedDevice"]] = relationship(back_populates="customer")
+    devices: Mapped[list["LicensedDevice"]] = relationship(back_populates="client")
+    users: Mapped[list["LicenseUser"]] = relationship(back_populates="client")
+
+
+class LicenseUser(Base):
+    __tablename__ = "license_users"
+    __table_args__ = (UniqueConstraint("email", name="uq_license_users_email"),)
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    customer_id: Mapped[str] = mapped_column(
+        ForeignKey("clients.customer_id"), nullable=False, index=True
+    )
+    full_name: Mapped[str] = mapped_column(String(200), nullable=False)
+    email: Mapped[str] = mapped_column(String(254), nullable=False)
+    phone: Mapped[str | None] = mapped_column(String(50), nullable=True)
+    password_hash: Mapped[str] = mapped_column(String(256), nullable=False)
+    is_active: Mapped[bool] = mapped_column(
+        Boolean, default=True, nullable=False, server_default="true"
+    )
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime, nullable=False, default=datetime.now, server_default=func.now()
+    )
+    client: Mapped[Client] = relationship(back_populates="users")
+    sessions: Mapped[list["LicenseSession"]] = relationship(
+        back_populates="user", cascade="all, delete-orphan"
+    )
+    devices: Mapped[list["LicensedDevice"]] = relationship(
+        back_populates="registered_by"
+    )
+
+
+class LicenseSession(Base):
+    __tablename__ = "license_sessions"
+
+    token_hash: Mapped[str] = mapped_column(String(64), primary_key=True)
+    user_id: Mapped[int] = mapped_column(
+        ForeignKey("license_users.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    expires_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, index=True)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime, nullable=False, default=datetime.now, server_default=func.now()
+    )
+    user: Mapped[LicenseUser] = relationship(back_populates="sessions")
+
+
+# Preserve imports used by the legacy offline-license administration API.
+LicenseCustomer = Client
 
 
 class LicensedDevice(Base):
@@ -216,14 +277,18 @@ class LicensedDevice(Base):
 
     device_id: Mapped[str] = mapped_column(String(120), primary_key=True)
     customer_id: Mapped[str] = mapped_column(
-        ForeignKey("license_customers.customer_id"), nullable=False, index=True
+        ForeignKey("clients.customer_id"), nullable=False, index=True
+    )
+    registered_by_user_id: Mapped[int | None] = mapped_column(
+        ForeignKey("license_users.id"), nullable=True, index=True
     )
     device_public_key: Mapped[str] = mapped_column(String(64), nullable=False)
     status: Mapped[str] = mapped_column(String(20), nullable=False, default="ACTIVE")
     created_at: Mapped[datetime] = mapped_column(
         DateTime, nullable=False, default=datetime.now, server_default=func.now()
     )
-    customer: Mapped[LicenseCustomer] = relationship(back_populates="devices")
+    client: Mapped[Client] = relationship(back_populates="devices")
+    registered_by: Mapped[LicenseUser | None] = relationship(back_populates="devices")
     licenses: Mapped[list["IssuedLicense"]] = relationship(back_populates="device")
 
 
@@ -241,5 +306,3 @@ class IssuedLicense(Base):
         DateTime, nullable=False, default=datetime.now, server_default=func.now()
     )
     device: Mapped[LicensedDevice] = relationship(back_populates="licenses")
-
-
