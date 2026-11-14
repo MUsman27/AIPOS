@@ -810,7 +810,13 @@ def health_check() -> dict[str, str]:
 
 async def _parse_pdf_file(file: UploadFile) -> dict[str, Any]:
     """Shared logic for parsing uploaded price-list PDFs."""
-    if not file.filename or not file.filename.lower().endswith(".pdf"):
+    # Accept if the filename ends in .pdf OR content-type is application/pdf.
+    # expo/fetch on mobile sends a proper Blob; this fallback covers edge cases.
+    filename = file.filename or ""
+    is_pdf_name = filename.lower().endswith(".pdf")
+    is_pdf_type = (file.content_type or "").lower() in ("application/pdf", "application/octet-stream")
+    if not (is_pdf_name or is_pdf_type):
+        logger.warning("PDF upload rejected: filename=%r content_type=%r", file.filename, file.content_type)
         raise HTTPException(status_code=400, detail="Uploaded file must be a PDF.")
 
     with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
