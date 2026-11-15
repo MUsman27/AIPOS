@@ -825,17 +825,16 @@ async def _parse_pdf_file(file: UploadFile) -> dict[str, Any]:
         tmp_path = Path(tmp.name)
 
     try:
-        manufacturer_name, items = read_price_list(tmp_path)
+        try:
+            manufacturer_name, items = read_price_list(tmp_path, filename=file.filename)
+        except TypeError:
+            manufacturer_name, items = read_price_list(tmp_path)
         items_json = []
         for item in items:
             model_text = _clean_display_value(item.model)
             description_ur = _strip_model_tokens(item.description_ur, model_text)
             description_en = _clean_display_value(item.description_en)
-            if not description_en:
-                description_en = description_ur or model_text or "Unknown item"
             description_en = _strip_model_tokens(description_en, model_text)
-            if not description_en:
-                description_en = "Unknown item"
             items_json.append(
                 {
                     "item_code": item.item_code,
@@ -886,7 +885,10 @@ async def import_pdf_to_db(
         tmp_path = Path(tmp.name)
 
     try:
-        manufacturer_name, inserted, updated = import_file(session, tmp_path)
+        try:
+            manufacturer_name, inserted, updated = import_file(session, tmp_path, filename=file.filename)
+        except TypeError:
+            manufacturer_name, inserted, updated = import_file(session, tmp_path)
         return {
             "status": "success",
             "filename": file.filename,

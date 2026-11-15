@@ -1,0 +1,6497 @@
+{
+  "codes": {
+    "01001001": {
+      "description_en": "AIR FILTER RP",
+      "description_ur": "ائیر فلثر",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01001010": {
+      "description_en": "AIR FILTER DOUBLE JALI RP",
+      "description_ur": "ائیر فلٹر",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "01016001": {
+      "description_en": "AXLE CENTRE WITH NUT RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01016021": {
+      "description_en": "AXLE CENTRE WITH NUT RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01016009": {
+      "description_en": "AXLE CENTRE WITH NUT RP",
+      "description_ur": "",
+      "model": "UD100",
+      "manufacturer": "RP Parts"
+    },
+    "01016005": {
+      "description_en": "AXLE FRONT WITH NUT RP",
+      "description_ur": "ایکسل فرنٹ نٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01016006": {
+      "description_en": "AXLE FRONT WITH NUT RP",
+      "description_ur": "ایکسل فرنٹ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01016008": {
+      "description_en": "AXLE FRONT WITH NUT RP",
+      "description_ur": "",
+      "model": "UD100",
+      "manufacturer": "RP Parts"
+    },
+    "01016002": {
+      "description_en": "AXLE REAR WITH NUT RP",
+      "description_ur": "ریئر بمع",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01016003": {
+      "description_en": "AXLE REAR WITH NUT RP",
+      "description_ur": "ایکسل ریئر بمع نٹ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01016007": {
+      "description_en": "AXLE REAR WITH NUT RP",
+      "description_ur": "ایکسل ریئر بمع نٹ",
+      "model": "UD100",
+      "manufacturer": "RP Parts"
+    },
+    "02001003": {
+      "description_en": "BACK LIGHT RP",
+      "description_ur": "Se لائٹ مکمل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "02002005": {
+      "description_en": "LIGHT BRACKET RP (PLASTIC)",
+      "description_ur": "Se بریکٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01282001": {
+      "description_en": "LIGHT BRACKET RP(PLASTIC)",
+      "description_ur": "Se I بریکٹ",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "02001004": {
+      "description_en": "BACK LIGHT RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01087002": {
+      "description_en": "BACK LIGHT COVER RP",
+      "description_ur": "بیک لائٹ کور",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "02001045": {
+      "description_en": "BACK LIGHT COVER RP",
+      "description_ur": "بیک لائٹ کور",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03106001": {
+      "description_en": "BALL BEARING RP",
+      "description_ur": "Si",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "03106014": {
+      "description_en": "BALL BEARING RP",
+      "description_ur": "بیرنگ",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "03106002": {
+      "description_en": "BALL BEARING RP",
+      "description_ur": "پیرنگ",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "03106003": {
+      "description_en": "BALL BEARING RP",
+      "description_ur": "پیرنگ",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "03106004": {
+      "description_en": "BALL BEARING RP",
+      "description_ur": "Sin",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "03106005": {
+      "description_en": "BALL BEARING RP",
+      "description_ur": "Sin",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "03106006": {
+      "description_en": "BALL BEARING RP",
+      "description_ur": "Siw",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "03106008": {
+      "description_en": "BALL BEARING RP",
+      "description_ur": "Siw",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "03106009": {
+      "description_en": "BALL BEARING RP",
+      "description_ur": "Siw",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "03106010": {
+      "description_en": "BALL BEARING RP",
+      "description_ur": "Siw",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "03106015": {
+      "description_en": "BALL BEARING RP",
+      "description_ur": "Siw",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "03106013": {
+      "description_en": "BALL BEARING RP",
+      "description_ur": "Siw",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "0272001": {
+      "description_en": "BATTERY CAPACITOR 12V RP",
+      "description_ur": "6328",
+      "model": "UNIVERSAL",
+      "manufacturer": "RP Parts"
+    },
+    "01005001": {
+      "description_en": "BRAKE CAM SHAFT FRONT RP",
+      "description_ur": "بریک کیم شافٹ CSB",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01005002": {
+      "description_en": "BRAKE CAM SHAFT REAR RP",
+      "description_ur": "بریک کیم شافٹ ریئر",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "0439002": {
+      "description_en": "BRAKE LEVER RP",
+      "description_ur": "بریک لیور",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "0439003": {
+      "description_en": "BRAKE LEVER N/M RP",
+      "description_ur": "بریک لیور",
+      "model": "CG125 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "01006001": {
+      "description_en": "BRAKE PEDAL RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01006004": {
+      "description_en": "BRAKE PEDAL RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01007001": {
+      "description_en": "BRAKE PEDAL SPRING RP",
+      "description_ur": "بریک پیڈل Sigel",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01007005": {
+      "description_en": "BRAKE PEDAL SPRING RP",
+      "description_ur": "بریک پیڈل Sigel",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01008001": {
+      "description_en": "BRAKE ROD RP",
+      "description_ur": "بریک راڈ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01010005": {
+      "description_en": "SHOE PLATE ONLY FRONT RP",
+      "description_ur": "Sy شُو پلیٹ فرنٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01010020": {
+      "description_en": "SHOE PLATE ONLY FRONT RP",
+      "description_ur": "",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "01010006": {
+      "description_en": "SHOE PLATE ONLY REAR RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01009016": {
+      "description_en": "BRAKE SHOE SET (FMC LEATHER)",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01009014": {
+      "description_en": "BRAKE SHOE SET (LONG SPRING)",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01009002": {
+      "description_en": "BRAKE SHOE SET RP",
+      "description_ur": "",
+      "model": "A100",
+      "manufacturer": "RP Parts"
+    },
+    "02024001": {
+      "description_en": "BRAKE SWITCH FRONT",
+      "description_ur": "بریک سوئچ فرنٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "02024002": {
+      "description_en": "BRAKE SWITCH REAR",
+      "description_ur": "بریک",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01011002": {
+      "description_en": "CABLE BRAKE RP",
+      "description_ur": "Bye ریئر",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01011009": {
+      "description_en": "CABLE BRAKE RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01011026": {
+      "description_en": "CABLE BRAKE RP",
+      "description_ur": "",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "01011017": {
+      "description_en": "CABLE BRAKE N/M RP",
+      "description_ur": "",
+      "model": "CG125 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "01013007": {
+      "description_en": "CABLE CLUTCH RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01013027": {
+      "description_en": "CABLE CLUTCH RP",
+      "description_ur": "کلچ کیبل",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "01013028": {
+      "description_en": "CABLE CLUTCH N/M RP",
+      "description_ur": "کلچ کیبل",
+      "model": "CG125 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "01013005": {
+      "description_en": "CABLE CLUTCH RP",
+      "description_ur": "کلچ کیبل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01078006": {
+      "description_en": "CABLE METER RP",
+      "description_ur": "کلچ کیبل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01078007": {
+      "description_en": "CABLE METER RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01078010": {
+      "description_en": "CABLE METER RP",
+      "description_ur": "",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "01014001": {
+      "description_en": "CABLE RPM RP",
+      "description_ur": "آر-پی۔ایم کیبل",
+      "model": "CG125 CDI -",
+      "manufacturer": "RP Parts"
+    },
+    "01015004": {
+      "description_en": "THROTLE N/M RP",
+      "description_ur": "",
+      "model": "CG125",
+      "manufacturer": "RP Parts"
+    },
+    "01015002": {
+      "description_en": "CABLE THROTTLE RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01015021": {
+      "description_en": "CABLE THROTTLE RP",
+      "description_ur": "",
+      "model": "CG125 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "01015020": {
+      "description_en": "CABLE THROTTLE RP",
+      "description_ur": "",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "03001008": {
+      "description_en": "CAM GEAR SET (IRON)",
+      "description_ur": "",
+      "model": "CG125 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "03001007": {
+      "description_en": "CAM GEAR SET (FIBER)",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03002001": {
+      "description_en": "CAM PIN RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03003003": {
+      "description_en": "CAM SHAFT RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03003010": {
+      "description_en": "CAM SHAFT RP",
+      "description_ur": "",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "03003004": {
+      "description_en": "CAM SHAFT RP",
+      "description_ur": "",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03003006": {
+      "description_en": "CAM SHAFT RP",
+      "description_ur": "",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "03003005": {
+      "description_en": "CAM SHAFT RP",
+      "description_ur": "",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "03087001": {
+      "description_en": "CARBURATOR BEND",
+      "description_ur": "کاربوریٹر بینڈ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03087003": {
+      "description_en": "CARBURATOR BEND",
+      "description_ur": "کاربوریٹر بینڈ",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "02028001": {
+      "description_en": "CDI GUTKA COIL",
+      "description_ur": "سی۔ڈی-آئی گٹکا کوائل",
+      "model": "CD70 CDI -",
+      "manufacturer": "RP Parts"
+    },
+    "02028004": {
+      "description_en": "CDI GUTKA COIL",
+      "description_ur": "گٹکا",
+      "model": "HERO -",
+      "manufacturer": "RP Parts"
+    },
+    "02005014": {
+      "description_en": "CDI UNIT RP",
+      "description_ur": "س۔ڈی-آئی یونٹ",
+      "model": "CD70 CDI -",
+      "manufacturer": "RP Parts"
+    },
+    "02005004": {
+      "description_en": "CDI UNIT RP",
+      "description_ur": "س۔ڈی-آئی",
+      "model": "CG125 CDI -",
+      "manufacturer": "RP Parts"
+    },
+    "02005015": {
+      "description_en": "CDI UNIT RP",
+      "description_ur": "س۔ڈی-آئی یونٹ",
+      "model": "MB100 -",
+      "manufacturer": "RP Parts"
+    },
+    "01018001": {
+      "description_en": "CHAIN LOCK LINK RP",
+      "description_ur": "لاک",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "01018002": {
+      "description_en": "CHAIN LOCK LINK RP",
+      "description_ur": "لاک",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "01018003": {
+      "description_en": "CHAIN LOCK LINK RP",
+      "description_ur": "چین لاک",
+      "model": "",
+      "manufacturer": "RP Parts"
+    },
+    "01019029": {
+      "description_en": "SPROCKET KIT RP",
+      "description_ur": "گراری",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01019010": {
+      "description_en": "SPROCKET KIT NSR RP",
+      "description_ur": "چین",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01019030": {
+      "description_en": "SPROCKET KIT (H-CHAIN)",
+      "description_ur": "چین گراری eae",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01019034": {
+      "description_en": "SPROCKET KIT NSR RP",
+      "description_ur": "گراری",
+      "model": "GD110",
+      "manufacturer": "RP Parts"
+    },
+    "01019024": {
+      "description_en": "SPROCKET KIT NSR RP",
+      "description_ur": "چین گراری",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "01019026": {
+      "description_en": "SPROCKET KIT JPS RP",
+      "description_ur": "چین گراری",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01019018": {
+      "description_en": "SPROCKET KIT JPS 38-15",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01079001": {
+      "description_en": "CHIMTA BUSH RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01079002": {
+      "description_en": "CHIMTA BUSH RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03004001": {
+      "description_en": "CLUTCH BOSS RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03004007": {
+      "description_en": "BOSS COMPLETE RP",
+      "description_ur": "کلچ باس سیٹ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03004014": {
+      "description_en": "CLUTCH BOSS-ONLY RP",
+      "description_ur": "کلچ ob Ca",
+      "model": "CD100",
+      "manufacturer": "RP Parts"
+    },
+    "03177001": {
+      "description_en": "BOSS COMPLETE RP",
+      "description_ur": "nb",
+      "model": "CD100",
+      "manufacturer": "RP Parts"
+    },
+    "03005001": {
+      "description_en": "CLUTCH BOX RP",
+      "description_ur": "See",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03005002": {
+      "description_en": "CLUTCH BOX RP",
+      "description_ur": "کلچ 4S",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03005004": {
+      "description_en": "BOX ONLY WITHOUT GEAR RP",
+      "description_ur": "کلچ 4S",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03005005": {
+      "description_en": "CLUTCH BOX RP",
+      "description_ur": "کلچ au",
+      "model": "GN5",
+      "manufacturer": "RP Parts"
+    },
+    "03005015": {
+      "description_en": "CLUTCH BOX RP",
+      "description_ur": "کلچ Au",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03007001": {
+      "description_en": "BOX NUT LOCK RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03091001": {
+      "description_en": "CLUTCH BUSH RP",
+      "description_ur": "کلچ ہش",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03091002": {
+      "description_en": "CLUTCH BUSH RP",
+      "description_ur": "کلچ ہش",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03093001": {
+      "description_en": "CLUTCH COVER RP",
+      "description_ur": "کلچ کور",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01021001": {
+      "description_en": "CLUTCH COVER RP",
+      "description_ur": "کلچ کور",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03095001": {
+      "description_en": "GEAR SMALL RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03095002": {
+      "description_en": "GEAR SMALL RP",
+      "description_ur": "dus گراری چھوٹی",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03096002": {
+      "description_en": "CLUTCH LIFTER RP",
+      "description_ur": "کلچ لفٹر",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03096004": {
+      "description_en": "CLUTCH LIFTER RP",
+      "description_ur": "کلچ",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03097002": {
+      "description_en": "CLUTCH PACKING RP",
+      "description_ur": "کلچ جین",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03010026": {
+      "description_en": "CLUTCH PLATE SET RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03010027": {
+      "description_en": "PLATE SET RP (GREEN)",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03010004": {
+      "description_en": "CLUTCH PLATE SET RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03010012": {
+      "description_en": "CLUTCH PLATE SET RP",
+      "description_ur": "",
+      "model": "CG125 DLX",
+      "manufacturer": "RP Parts"
+    },
+    "03010013": {
+      "description_en": "CLUTCH PLATE SET RP",
+      "description_ur": "",
+      "model": "GN5",
+      "manufacturer": "RP Parts"
+    },
+    "03010007": {
+      "description_en": "CLUTCH PLATE SET RP",
+      "description_ur": "",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03010008": {
+      "description_en": "CLUTCH PLATE SET RP",
+      "description_ur": "",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "03010009": {
+      "description_en": "CLUTCH PLATE SET RP",
+      "description_ur": "",
+      "model": "YB100",
+      "manufacturer": "RP Parts"
+    },
+    "03010010": {
+      "description_en": "CLUTCH PLATE SET RP",
+      "description_ur": "",
+      "model": "YD100",
+      "manufacturer": "RP Parts"
+    },
+    "03098001": {
+      "description_en": "WARM PATTI RP",
+      "description_ur": "کلچ پٹی",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01085001": {
+      "description_en": "CLUTCH WIRE RP",
+      "description_ur": "کلچ وائیر",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03011007": {
+      "description_en": "CONNECTING ROD RP",
+      "description_ur": "کون راڈ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03011048": {
+      "description_en": "CONNECTING ROD RP",
+      "description_ur": "کون راڈ",
+      "model": "CG125 DLX",
+      "manufacturer": "RP Parts"
+    },
+    "03011022": {
+      "description_en": "CONNECTING ROD RP",
+      "description_ur": "کون راڈ",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "03012001": {
+      "description_en": "COUNTER SHAFT RP",
+      "description_ur": "Rigs شافٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03012002": {
+      "description_en": "COUNTER SHAFT RP",
+      "description_ur": "Rigs شافٹ",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03013001": {
+      "description_en": "CRANK CASE LEFT RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03013005": {
+      "description_en": "CRANK CASE RIGHT RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03013003": {
+      "description_en": "CRANK CASE LEFT RP",
+      "description_ur": "",
+      "model": "RP",
+      "manufacturer": "RP Parts"
+    },
+    "03013006": {
+      "description_en": "CRANK CASE RIGHT RP",
+      "description_ur": "",
+      "model": "RP",
+      "manufacturer": "RP Parts"
+    },
+    "03014006": {
+      "description_en": "CRANK SHAFT 78CC RP",
+      "description_ur": "",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "03105003": {
+      "description_en": "CYLINDER PACKING RP",
+      "description_ur": "سلنٹر",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03015002": {
+      "description_en": "DOWEL PIN RP",
+      "description_ur": "ڈاول پن",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03015005": {
+      "description_en": "DOWEL PIN RP",
+      "description_ur": "ڈاول",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03068001": {
+      "description_en": "DRIVE PLATE RP",
+      "description_ur": "پن",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01076001": {
+      "description_en": "DRUM BUSH SET RP",
+      "description_ur": "ڈرم بش",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "04019001": {
+      "description_en": "DRUM RUBBER SET RP",
+      "description_ur": "ڈرم ربڑ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01025001": {
+      "description_en": "FILTER BOTTLE RP",
+      "description_ur": "فلٹر بوتل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01026001": {
+      "description_en": "FILTER LOTA RP",
+      "description_ur": "AS by",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01026002": {
+      "description_en": "FILTER LOTA RP",
+      "description_ur": "فلٹر لوٹا",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "02007001": {
+      "description_en": "FLASHER SOUND 12V RP",
+      "description_ur": "والا",
+      "model": "UNIVERSAL",
+      "manufacturer": "RP Parts"
+    },
+    "01030004": {
+      "description_en": "FRONT SHOCK SET RP",
+      "description_ur": "فرنٹ شاک",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01030003": {
+      "description_en": "FRONT SHOCK SET RP",
+      "description_ur": "فرنٹ شاک",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01030005": {
+      "description_en": "FRONT SHOCK SET RP",
+      "description_ur": "فرنٹ شاک",
+      "model": "JH90",
+      "manufacturer": "RP Parts"
+    },
+    "01042005": {
+      "description_en": "FUEL COCK RP",
+      "description_ur": "فیول کاک",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01070005": {
+      "description_en": "FUEL OIL FILTER RP",
+      "description_ur": "فیول BT فلٹر",
+      "model": "CG125 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "01042004": {
+      "description_en": "FUEL COCK KEY TYPE RP",
+      "description_ur": "فیول SE چا Dy",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01070001": {
+      "description_en": "FUEL FILTER RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01043001": {
+      "description_en": "FUEL TANK CAP RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01043003": {
+      "description_en": "FUEL TANK CAP RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01043016": {
+      "description_en": "FUEL TANK CAP RP",
+      "description_ur": "",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "01043014": {
+      "description_en": "FUEL TANK CAP RP",
+      "description_ur": "",
+      "model": "CG125 DLX",
+      "manufacturer": "RP Parts"
+    },
+    "03024003": {
+      "description_en": "GASKET FULL RP",
+      "description_ur": "فل کٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03024004": {
+      "description_en": "GASKET FULL RP",
+      "description_ur": "فل کٹ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03024007": {
+      "description_en": "GASKET FULL RP",
+      "description_ur": "فل کٹ",
+      "model": "GN5",
+      "manufacturer": "RP Parts"
+    },
+    "03024006": {
+      "description_en": "GASKET FULL RP",
+      "description_ur": "فل کٹ",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03025001": {
+      "description_en": "GASKET HALF RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03025002": {
+      "description_en": "GASKET HALF RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03025003": {
+      "description_en": "GASKET HALF RP",
+      "description_ur": "ہاف کٹ",
+      "model": "GN5",
+      "manufacturer": "RP Parts"
+    },
+    "03025004": {
+      "description_en": "GASKET HALF RP",
+      "description_ur": "ہاف کٹ",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03072001": {
+      "description_en": "GASKET HEAD RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03072002": {
+      "description_en": "GASKET HEAD RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03072007": {
+      "description_en": "GASKET HEAD RP",
+      "description_ur": "",
+      "model": "JH90",
+      "manufacturer": "RP Parts"
+    },
+    "03072005": {
+      "description_en": "GASKET HEAD RP",
+      "description_ur": "",
+      "model": "GN5",
+      "manufacturer": "RP Parts"
+    },
+    "03072004": {
+      "description_en": "GASKET HEAD RP",
+      "description_ur": "",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03175001": {
+      "description_en": "GASKET PLUG SIDE RP",
+      "description_ur": "چورس جین",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "0682001": {
+      "description_en": "CARBURATOR RP",
+      "description_ur": "کاربوریٹرجین",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03063001": {
+      "description_en": "BEARING X RP",
+      "description_ur": "13/12",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03063002": {
+      "description_en": "BEARING X RP",
+      "description_ur": "گیئر بیرنگ 13/12",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "03063003": {
+      "description_en": "BEARING X RP",
+      "description_ur": "گیئر بیرنگ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03063004": {
+      "description_en": "BEARING X RP",
+      "description_ur": "گیئر بیرنگ 14/12",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "03029011": {
+      "description_en": "DRUM COMPLETE RP",
+      "description_ur": "",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "03184001": {
+      "description_en": "GEAR SHAFT BOLT RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03030002": {
+      "description_en": "SHAFT COMPLETE RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03030007": {
+      "description_en": "SHAFT COMPLETE RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03030005": {
+      "description_en": "SHAFT COMPLETE RP",
+      "description_ur": "",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03030008": {
+      "description_en": "SHAFT COMPLETE RP",
+      "description_ur": "",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "03032010": {
+      "description_en": "TRANSMISSION SET CD70CDI",
+      "description_ur": "گی ر گھچا",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03032002": {
+      "description_en": "TRANSMISSION SET RP",
+      "description_ur": "گی ر گھچا",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03032003": {
+      "description_en": "TRANSMISSION SET RP",
+      "description_ur": "گی ر گھچا",
+      "model": "UD100",
+      "manufacturer": "RP Parts"
+    },
+    "03032009": {
+      "description_en": "TRANSMISSION SET RP",
+      "description_ur": "گی ر گھچا",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "01072012": {
+      "description_en": "HANDLE CONE SET RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01072013": {
+      "description_en": "CONE SET UNIVERSAL RP",
+      "description_ur": "",
+      "model": "CD100 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01048003": {
+      "description_en": "HANDLE LOCK RP",
+      "description_ur": "ہینڈل لاک",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01048010": {
+      "description_en": "HANDLE LOCK RP",
+      "description_ur": "ہینڈل لاک",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "01049001": {
+      "description_en": "HANDLE NUT RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01050001": {
+      "description_en": "HANDLE NUT RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "02022002": {
+      "description_en": "LIGHT COMPLETE RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01052002": {
+      "description_en": "HEAD LIGHT CASE RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01052004": {
+      "description_en": "HEAD LIGHT CASE RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "0122004": {
+      "description_en": "LIGHT REFLECTOR (IRON)",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "02014002": {
+      "description_en": "IGNITION COIL RP",
+      "description_ur": "کوائل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "02014004": {
+      "description_en": "IGNITION COIL RP",
+      "description_ur": "کوائل",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "02014006": {
+      "description_en": "IGNITION COIL RP",
+      "description_ur": "کوائل",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "03036001": {
+      "description_en": "SHAFT COMPLETE RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03036002": {
+      "description_en": "KICK SHAFT ONLY RP",
+      "description_ur": "کک شافٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03036003": {
+      "description_en": "KICK SHAFT ONLY RP",
+      "description_ur": "کک شافٹ خالی",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03036004": {
+      "description_en": "KICK SHAFT ONLY RP",
+      "description_ur": "کک شافٹ خالی",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "02015016": {
+      "description_en": "LEVER ASSEMBLY L/H RP",
+      "description_ur": "کلچ اسمبلی",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "02015035": {
+      "description_en": "ASSEMBLY L/H WITHOUT LEVER",
+      "description_ur": "کلچ اسمبلی",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "02016014": {
+      "description_en": "ASSEMBLY SET BLACK RP",
+      "description_ur": "",
+      "model": "CG125 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "02016011": {
+      "description_en": "LEVER ASSEMBLY SET RP",
+      "description_ur": "اسمبلی سیٹ 2011 ماڈل",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "02016008": {
+      "description_en": "SET (WHITE)(BLACK) RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "0255001": {
+      "description_en": "COIL RING COPPER RP",
+      "description_ur": "کوائل گچھا",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "02006003": {
+      "description_en": "COIL RING COPPER RP",
+      "description_ur": "کوائل گچھا",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "0255002": {
+      "description_en": "COIL RING COPPER RP",
+      "description_ur": "کوائل گچھا",
+      "model": "HERO",
+      "manufacturer": "RP Parts"
+    },
+    "03195004": {
+      "description_en": "MAGNET O RING KIT RP",
+      "description_ur": "",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "03195001": {
+      "description_en": "MAGNET O RING KIT RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03041001": {
+      "description_en": "MAGNET O-RING RP",
+      "description_ur": "میگنٹ Singh کٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03042002": {
+      "description_en": "MAGNET PLATE ONLY RP",
+      "description_ur": "کوائل پلیٹ خای",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03043001": {
+      "description_en": "MAGNET PLATE ONLY RP",
+      "description_ur": "کوائل پلیٹ خای",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03042004": {
+      "description_en": "MAGNET PLATE ONLY RP",
+      "description_ur": "کوائل پلیٹ خای",
+      "model": "HERO",
+      "manufacturer": "RP Parts"
+    },
+    "03195003": {
+      "description_en": "SET RP BLACK(COMPLETE)",
+      "description_ur": "میگنٹ Singh",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03041004": {
+      "description_en": "RP ORANGE",
+      "description_ur": "میگنٹ Singh کٹ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03044002": {
+      "description_en": "MAIN JET NO. RP",
+      "description_ur": "مین جیٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03053001": {
+      "description_en": "MAIN SHAFT RP",
+      "description_ur": "مین شافٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03053002": {
+      "description_en": "MAIN SHAFT RP",
+      "description_ur": "شافٹ",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "01067001": {
+      "description_en": "MAIN STAND RP",
+      "description_ur": "مین",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01067003": {
+      "description_en": "MAIN STAND RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01067002": {
+      "description_en": "MAIN STAND RP",
+      "description_ur": "",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "01067004": {
+      "description_en": "MAIN STAND RP",
+      "description_ur": "",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "02017001": {
+      "description_en": "METER MACHINE RP",
+      "description_ur": "",
+      "model": "CD70",
+      "manufacturer": "RP Parts"
+    },
+    "04007001": {
+      "description_en": "MUD FLAP FRONT RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03045001": {
+      "description_en": "OIL BOLT RP",
+      "description_ur": "آئل بولٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03054001": {
+      "description_en": "OIL GUAGE RP",
+      "description_ur": "آئل گیچ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03054003": {
+      "description_en": "OIL GUAGE RP",
+      "description_ur": "ws",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03057001": {
+      "description_en": "OIL PUMP BUSH RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03055002": {
+      "description_en": "PUMP COMPLETE RP",
+      "description_ur": "el",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03055009": {
+      "description_en": "PUMP COMPLETE RP",
+      "description_ur": "آئل پمپ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03059001": {
+      "description_en": "OIL PUMP ROTTER RP",
+      "description_ur": "آئل پمپ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03060001": {
+      "description_en": "OIL PUMP SCREEN RP",
+      "description_ur": "آئل ہمپ چالی",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03047008": {
+      "description_en": "SEAL 11*6*24*10 RP",
+      "description_ur": "آئل سیل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03047009": {
+      "description_en": "OIL SEAL 12*21*4 RP",
+      "description_ur": "آئل سیل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03047010": {
+      "description_en": "OIL SEAL 13*7*24*5 RP",
+      "description_ur": "آئل سیل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03047006": {
+      "description_en": "OIL SEAL 17*29*5 RP",
+      "description_ur": "آئل سیل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03047007": {
+      "description_en": "OIL SEAL 18*9*30*5 RP",
+      "description_ur": "آئل سیل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03047054": {
+      "description_en": "SEAL 25*35*9*10 RP",
+      "description_ur": "آئل سیل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03047020": {
+      "description_en": "OIL SEAL 27*37*10.5 RP",
+      "description_ur": "آئل سیل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03047018": {
+      "description_en": "OIL SEAL RP",
+      "description_ur": "آئل سیل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03046003": {
+      "description_en": "OIL SEAL KIT RP",
+      "description_ur": "آئل سیل کٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03046001": {
+      "description_en": "OIL SEAL KIT RP",
+      "description_ur": "آئل سیل کٹ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03061001": {
+      "description_en": "OIL THROW SET RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03018095": {
+      "description_en": "PISTON KIT RP",
+      "description_ur": "",
+      "model": "CD100",
+      "manufacturer": "RP Parts"
+    },
+    "03018062": {
+      "description_en": "PISTON KIT RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03018195": {
+      "description_en": "PISTON KIT MR PRINCE",
+      "description_ur": "",
+      "model": "GN5",
+      "manufacturer": "RP Parts"
+    },
+    "03018044": {
+      "description_en": "PISTON KIT RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03018048": {
+      "description_en": "PISTON KIT RP",
+      "description_ur": "",
+      "model": "CG125 DLX",
+      "manufacturer": "RP Parts"
+    },
+    "03018265": {
+      "description_en": "PISTON KIT RP",
+      "description_ur": "",
+      "model": "CG125 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "03018099": {
+      "description_en": "PISTON KIT RP",
+      "description_ur": "",
+      "model": "GN5",
+      "manufacturer": "RP Parts"
+    },
+    "03018007": {
+      "description_en": "PISTON KIT RP",
+      "description_ur": "",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03018080": {
+      "description_en": "PISTON KIT RP",
+      "description_ur": "",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "03018223": {
+      "description_en": "PISTON KIT MR PRINCE",
+      "description_ur": "",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "03018015": {
+      "description_en": "PISTON KIT RP",
+      "description_ur": "",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "3020002": {
+      "description_en": "PISTON RING SET RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "3020164": {
+      "description_en": "PISTON RING SET RP",
+      "description_ur": "",
+      "model": "EURO70",
+      "manufacturer": "RP Parts"
+    },
+    "03020116": {
+      "description_en": "RING SET MR PRINCE",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03020009": {
+      "description_en": "PISTON RING SET RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03020156": {
+      "description_en": "PISTON RING SET RP",
+      "description_ur": "",
+      "model": "CG125 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "03020056": {
+      "description_en": "PISTON RING SET RP",
+      "description_ur": "",
+      "model": "GN5",
+      "manufacturer": "RP Parts"
+    },
+    "03020016": {
+      "description_en": "PISTON RING SET RP",
+      "description_ur": "",
+      "model": "HD110",
+      "manufacturer": "RP Parts"
+    },
+    "03020025": {
+      "description_en": "PISTON RING SET RP",
+      "description_ur": "",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "03082001": {
+      "description_en": "PRESSURE PLATE SET RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03082002": {
+      "description_en": "PRESSURE PLATE SET RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03082011": {
+      "description_en": "PRESSURE PLATE SET RP",
+      "description_ur": "",
+      "model": "GN5",
+      "manufacturer": "RP Parts"
+    },
+    "03082003": {
+      "description_en": "PRESSURE PLATE SET RP",
+      "description_ur": "",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "03083001": {
+      "description_en": "PULSAR COIL RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03083002": {
+      "description_en": "PULSAR COIL RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03083003": {
+      "description_en": "PULSAR COIL RP",
+      "description_ur": "پلسر کوائل",
+      "model": "HERO",
+      "manufacturer": "RP Parts"
+    },
+    "03084002": {
+      "description_en": "ROD SET OLD MODEL RP",
+      "description_ur": "راڈ",
+      "model": "CG125 CDI ]",
+      "manufacturer": "RP Parts"
+    },
+    "02009011": {
+      "description_en": "REGULATOR RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03022001": {
+      "description_en": "ROKER PIN RP",
+      "description_ur": "روکر پن",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03022002": {
+      "description_en": "ROKER PIN RP",
+      "description_ur": "روکر پن",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03021001": {
+      "description_en": "ROKER PLATE RP",
+      "description_ur": "روکر پلیٹ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03023001": {
+      "description_en": "ROKER SET RP",
+      "description_ur": "روکر سیٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03023008": {
+      "description_en": "ROKER SET RP",
+      "description_ur": "روکر سیٹ",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "03023002": {
+      "description_en": "ROKER SET RP",
+      "description_ur": "روکر سیٹ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03023004": {
+      "description_en": "ROKER SET RP",
+      "description_ur": "روکر سیٹ",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "03089001": {
+      "description_en": "ROLLER RUBBER SET RP",
+      "description_ur": "گوٹ ربڑ سیٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01353004": {
+      "description_en": "SPRING SET FRONT RP",
+      "description_ur": "شاک سپرنگ فرنٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01353005": {
+      "description_en": "SPRING SET FRONT RP",
+      "description_ur": "شاک سپرنگ فرنٹ",
+      "model": "JH90",
+      "manufacturer": "RP Parts"
+    },
+    "01353006": {
+      "description_en": "SPRING SET FRONT RP",
+      "description_ur": "شاک سپرنگ فرنٹ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01086003": {
+      "description_en": "SIDE COVER LOCK RP",
+      "description_ur": "سائیڈ کور لاک",
+      "model": "CG125 DLX",
+      "manufacturer": "RP Parts"
+    },
+    "01033001": {
+      "description_en": "SIDE STAND RP",
+      "description_ur": "سائیڈ کور لاک",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01033002": {
+      "description_en": "SIDE STAND RP",
+      "description_ur": "",
+      "model": "CG125 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "01033003": {
+      "description_en": "SIDE STAND RP",
+      "description_ur": "",
+      "model": "CD70 EURO",
+      "manufacturer": "RP Parts"
+    },
+    "04001002": {
+      "description_en": "SIDE STAND SPRING RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "02030014": {
+      "description_en": "PLUG C7HSA WHITE RP",
+      "description_ur": "ہلگ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01034001": {
+      "description_en": "SILENCER BRACKET RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "0240001": {
+      "description_en": "PLUG BP7HS GOLDEN RP",
+      "description_ur": "ہلگ",
+      "model": "YB100",
+      "manufacturer": "RP Parts"
+    },
+    "0240002": {
+      "description_en": "PLUG C7HSA GOLDEN RP",
+      "description_ur": "ہلگ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "0240003": {
+      "description_en": "PLUG D8EA GOLDEN RP",
+      "description_ur": "ہلگ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01037029": {
+      "description_en": "SPEEDOMETER RP",
+      "description_ur": "میٹر مکمل",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01037031": {
+      "description_en": "SPEEDOMETER RP",
+      "description_ur": "میٹر مکمل",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03009001": {
+      "description_en": "- CLUTCH BOX RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "04022001": {
+      "description_en": "SPRING - KICK RP",
+      "description_ur": "کک سپرنگ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "04022002": {
+      "description_en": "SPRING - KICK RP",
+      "description_ur": "سپرنگ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "04014004": {
+      "description_en": "- MAIN STAND RP",
+      "description_ur": "کک",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "04001001": {
+      "description_en": "- SIDE STAND RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "04014001": {
+      "description_en": "STAND RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "04009001": {
+      "description_en": "SPROCKET BOLT KIT RP",
+      "description_ur": "گراری",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "04009002": {
+      "description_en": "SPROCKET BOLT KIT RP",
+      "description_ur": "گراری بولٹ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01059001": {
+      "description_en": "PANNEL ONLY RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "0119004": {
+      "description_en": "STAND PIN RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03065001": {
+      "description_en": "PATTI BOLT RP",
+      "description_ur": "سٹاہر پتری Ae",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03067002": {
+      "description_en": "STUD PCS RP",
+      "description_ur": "",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "02019015": {
+      "description_en": "WITH HANDLE LOCK RP",
+      "description_ur": "سونچ لاک والا",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03073001": {
+      "description_en": "TAPET SCREW RP",
+      "description_ur": "ٹیپٹ کور",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03073002": {
+      "description_en": "TAPET SCREW RP",
+      "description_ur": "",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03075001": {
+      "description_en": "PATTI BOLT RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03078001": {
+      "description_en": "TENSIONER ROD KIT RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03085001": {
+      "description_en": "RUBBER RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01174001": {
+      "description_en": "THROTTLE GUTKA RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03081001": {
+      "description_en": "TIMING BOLT RP",
+      "description_ur": "ٹائمنگ بولٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03049001": {
+      "description_en": "CHAIN LINK RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03049002": {
+      "description_en": "CHAIN LINK RP",
+      "description_ur": "",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "03049007": {
+      "description_en": "CHAIN LINK RP",
+      "description_ur": "",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "03050001": {
+      "description_en": "CHAIN KIT LINK RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03050002": {
+      "description_en": "CHAIN KIT LINK RP",
+      "description_ur": "",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "03050003": {
+      "description_en": "CHAIN KIT LINK RP (RED)",
+      "description_ur": "",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "01047001": {
+      "description_en": "TOP BRIDGE PLATE RP",
+      "description_ur": "",
+      "model": "JH90",
+      "manufacturer": "RP Parts"
+    },
+    "3103014": {
+      "description_en": "VALVE SEAL",
+      "description_ur": "وال سیل",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03103013": {
+      "description_en": "VALVE SEAL",
+      "description_ur": "وال سیل",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "03052007": {
+      "description_en": "VALVE SET RP",
+      "description_ur": "وال سیٹ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03052008": {
+      "description_en": "SET NEW MODEL RP",
+      "description_ur": "وال",
+      "model": "SD110",
+      "manufacturer": "RP Parts"
+    },
+    "03052027": {
+      "description_en": "VALVE SET (STEEL) RP",
+      "description_ur": "",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03052025": {
+      "description_en": "VALVE SET (STEEL) RP",
+      "description_ur": "",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "03052028": {
+      "description_en": "SET(STEEL)OVER SIZE RP",
+      "description_ur": "وال سیٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "03052020": {
+      "description_en": "SET(STEEL)OVER SIZE RP",
+      "description_ur": "وال سیٹ",
+      "model": "SOHRAB",
+      "manufacturer": "RP Parts"
+    },
+    "01061002": {
+      "description_en": "DRUM COMPLETE FRONT RP",
+      "description_ur": "ویل ڈرم فرنٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01061008": {
+      "description_en": "DRUM COMPLETE REAR RP",
+      "description_ur": "وہل ڈرم",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01061020": {
+      "description_en": "DRUM FRONT COMPLETE RP",
+      "description_ur": "bs ڈرم فرنٹ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01061003": {
+      "description_en": "DRUM ONLY FRONT RP",
+      "description_ur": "bs ڈرم فرنٹ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01061009": {
+      "description_en": "DRUM ONLY REAR RP",
+      "description_ur": "ڈرم",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01061010": {
+      "description_en": "DRUM COMPLETE REAR RP",
+      "description_ur": "وہل ڈرم",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01063001": {
+      "description_en": "WHEEL SLEEVE RP",
+      "description_ur": "ویل سیلو",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "01064001": {
+      "description_en": "SPOKE BUTTED RP",
+      "description_ur": "سبوک",
+      "model": "X",
+      "manufacturer": "RP Parts"
+    },
+    "01064003": {
+      "description_en": "SPOKE BUTTED RP",
+      "description_ur": "ویل سبوک",
+      "model": "X",
+      "manufacturer": "RP Parts"
+    },
+    "01064005": {
+      "description_en": "SPOKE BUTTED RP",
+      "description_ur": "ویل سبوک",
+      "model": "2.50X18",
+      "manufacturer": "RP Parts"
+    },
+    "01064007": {
+      "description_en": "SPOKE (STRAIGHT) LONG NUT",
+      "description_ur": "سبوک",
+      "model": "X",
+      "manufacturer": "RP Parts"
+    },
+    "01064014": {
+      "description_en": "SPOKE (STRAIGHT) LONG NUT",
+      "description_ur": "ویل سبوک",
+      "model": "X",
+      "manufacturer": "RP Parts"
+    },
+    "02021002": {
+      "description_en": "WIRING RP COPPER",
+      "description_ur": "وائرنگ",
+      "model": "CD70 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "02021003": {
+      "description_en": "WIRING RP COPPER",
+      "description_ur": "وائرنگ",
+      "model": "CG125 CDI",
+      "manufacturer": "RP Parts"
+    },
+    "02021009": {
+      "description_en": "WIRING RP COPPER",
+      "description_ur": "وائرنگ",
+      "model": "STAR",
+      "manufacturer": "RP Parts"
+    },
+    "36-0103-K0": {
+      "description_en": "AIR FILTER",
+      "description_ur": "ائیر فلیر",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0103-K0": {
+      "description_en": "AIR FILTER",
+      "description_ur": "ائیر فلیر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-0107-K0": {
+      "description_en": "AIR FILTER BOTTLE (HOSE PIPE) 16MM",
+      "description_ur": "ائیر فلیر بوتل ہوز پائپ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-0103-K0": {
+      "description_en": "AIR FILTER FOAM",
+      "description_ur": "ائیر فلیر فوم",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "18-0106-K0": {
+      "description_en": "AIR LOTA",
+      "description_ur": "ائیر لوٹا",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-0106-K0": {
+      "description_en": "AIR LOTA",
+      "description_ur": "ائیر لوٹا",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-0106-01": {
+      "description_en": "AXLE CENTER WITH NUT",
+      "description_ur": "ایکسل سینیر بمع نٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "18-0106-00": {
+      "description_en": "AXLE FRONT WITH NUT",
+      "description_ur": "ایکسل فرنٹ بمع نٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "18-0106-02": {
+      "description_en": "AXLE REAR WITH NUT",
+      "description_ur": "ایکسل رییر بمع نٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-0212-K0": {
+      "description_en": "BACK LIGHT COMPLETE",
+      "description_ur": "بیک الئٹ مکمل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "18-0212-K0": {
+      "description_en": "BACK LIGHT COMPLETE (2003 MODEL)",
+      "description_ur": "بیک الئٹ مکمل ماڈل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0213-K0": {
+      "description_en": "BACK LIGHT HOLDER",
+      "description_ur": "بیک الئٹ ہولڈر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0215-K0": {
+      "description_en": "BACK LIGHT LENS",
+      "description_ur": "بیک الئٹ لینس",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "36-0235-K9": {
+      "description_en": "BACK TAKE (CHROME)",
+      "description_ur": "",
+      "model": "CD70 EURO-2",
+      "manufacturer": "C.P"
+    },
+    "18-0241-K0": {
+      "description_en": "BACK VIEW MIRROR (BALL FUNCTION) SET",
+      "description_ur": "بیک ویو مرر بال فنکشن",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-0204-00": {
+      "description_en": "BALANCER",
+      "description_ur": "پُش پلگ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "00-0217-25": {
+      "description_en": "BATTERY DRY CELL",
+      "description_ur": "",
+      "model": "12V AH",
+      "manufacturer": "C.P"
+    },
+    "00-0217-05": {
+      "description_en": "BATTERY DRY CELL",
+      "description_ur": "",
+      "model": "12V AH",
+      "manufacturer": "C.P"
+    },
+    "00-6000-00": {
+      "description_en": "BEARING",
+      "description_ur": "بییر نگ",
+      "model": "2RS",
+      "manufacturer": "C.P"
+    },
+    "00-6001-00": {
+      "description_en": "BEARING",
+      "description_ur": "بییر نگ",
+      "model": "2RS",
+      "manufacturer": "C.P"
+    },
+    "00-6202-00": {
+      "description_en": "BEARING",
+      "description_ur": "بییر نگ",
+      "model": "2RS",
+      "manufacturer": "C.P"
+    },
+    "00-6203-00": {
+      "description_en": "BEARING",
+      "description_ur": "بییر نگ",
+      "model": "2RS",
+      "manufacturer": "C.P"
+    },
+    "00-6205-00": {
+      "description_en": "BEARING",
+      "description_ur": "بییر نگ",
+      "model": "2RS",
+      "manufacturer": "C.P"
+    },
+    "00-6300-00": {
+      "description_en": "BEARING",
+      "description_ur": "بییر نگ",
+      "model": "2RS",
+      "manufacturer": "C.P"
+    },
+    "00-6301-00": {
+      "description_en": "BEARING",
+      "description_ur": "بییر نگ",
+      "model": "2RS",
+      "manufacturer": "C.P"
+    },
+    "00-6302-00": {
+      "description_en": "BEARING",
+      "description_ur": "بییر نگ",
+      "model": "2RS",
+      "manufacturer": "C.P"
+    },
+    "00-6304-01": {
+      "description_en": "BEARING A (CJB)",
+      "description_ur": "بییر نگ",
+      "model": "",
+      "manufacturer": "C.P"
+    },
+    "00-6328-01": {
+      "description_en": "BEARING A (CJB)",
+      "description_ur": "بییر نگ",
+      "model": "",
+      "manufacturer": "C.P"
+    },
+    "18-0210-01": {
+      "description_en": "BRAKE CABLE",
+      "description_ur": "بریک کیبل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-0210-01": {
+      "description_en": "BRAKE CABLE (6MM)",
+      "description_ur": "بریک کیبل ایم ایم",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-0210-00": {
+      "description_en": "BRAKE CABLE (JAPANESE STYLE)",
+      "description_ur": "بریک کیبل جاپانی اسٹا ئیل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "17-0210-00": {
+      "description_en": "BRAKE CABLE MODEL",
+      "description_ur": "بریک کیبل ماڈل",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-0210-00": {
+      "description_en": "BRAKE CABLE MODEL",
+      "description_ur": "بریک کیبل ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "42-0210-00": {
+      "description_en": "BRAKE CABLE MODEL",
+      "description_ur": "بریک کیبل ماڈل",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0209-00": {
+      "description_en": "BRAKE CAM LEVER & SHAFT FRONT",
+      "description_ur": "بریک کِیم لیور شَافٹ فَرنٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0208-00": {
+      "description_en": "BRAKE CAM LEVER & SHAFT REAR",
+      "description_ur": "بریک کِیم لیور شَافٹ رِییر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0231-K3": {
+      "description_en": "BRAKE PEDAL",
+      "description_ur": "بریک پیڈل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0231-K3": {
+      "description_en": "BRAKE PEDAL",
+      "description_ur": "بریک پیڈل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-0207-00": {
+      "description_en": "BRAKE PEDAL SPRING",
+      "description_ur": "بریک پیڈل اِسیر نگ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-0217-K0": {
+      "description_en": "BRAKE ROD",
+      "description_ur": "بریک راڈ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0205-00": {
+      "description_en": "BRAKE SHOE PLATE ONLY FRONT",
+      "description_ur": "بریک شُو پِلیٹ رصف فَرنٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0206-00": {
+      "description_en": "BRAKE SHOE PLATE ONLY REAR",
+      "description_ur": "بریک شُو پِلیٹ رصف رِییر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "14-0211-00": {
+      "description_en": "BRAKE SHOE SET FRONT W/SPRING",
+      "description_ur": "بریک شو سیٹ فَرنٹ بمع اِسیر نگ",
+      "model": "CD100",
+      "manufacturer": "C.P"
+    },
+    "36-0211-06": {
+      "description_en": "BRAKE SHOE SET WITH BIG SPRING NON-ASBESTOS",
+      "description_ur": "بریک شو سیٹ بمع اِسیر نگ بڑا",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0211-00": {
+      "description_en": "BRAKE SHOE SET WITH SPRING",
+      "description_ur": "بریک شو سیٹ بمع اِسیر نگ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "13-0211-00": {
+      "description_en": "BRAKE SHOE SET WITH SPRING",
+      "description_ur": "بریک شو سیٹ بمع اِسیر نگ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "04-0211-01": {
+      "description_en": "BRAKE SHOE SET WITH SPRING EXTRA GRIP",
+      "description_ur": "بریک شو سیٹ بمع اِسیر نگ ایکسیر ا گرپ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0213-00": {
+      "description_en": "BRAKE SWITCH FRONT",
+      "description_ur": "بریک سوئچ فَرنٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0227-00": {
+      "description_en": "BRAKE SWITCH REAR W/SPRING",
+      "description_ur": "بریک سوئچ رِییر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-0303-K1": {
+      "description_en": "C.D.I UNIT LEED",
+      "description_ur": "یس ڈی آنر یونٹ لیڈ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "24-0303-K1": {
+      "description_en": "C.D.I UNIT LEED (MB100)",
+      "description_ur": "یس ڈی آنر یونٹ لیڈ ایم نی۱۰۰",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "18-0310-00": {
+      "description_en": "C.D.I. STARTING COIL (GUTKA COIL) )",
+      "description_ur": "یس ڈی آنر اِسٹارٹنگ کوائل گٹکا کوائل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "23-0310-00": {
+      "description_en": "C.D.I. STARTING COIL (GUTKA COIL) )",
+      "description_ur": "یس ڈی آنر اِسٹارٹنگ کوائل گٹکا کوائل",
+      "model": "HERO",
+      "manufacturer": "C.P"
+    },
+    "17-0310-HD": {
+      "description_en": "C.D.I. STARTING COIL (GUTKA COIL) HEAVY DUTY COMMON WITH CD70-CDI",
+      "description_ur": "",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0303-00": {
+      "description_en": "C.D.I. UNIT",
+      "description_ur": "یس ڈی آنر یونٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-0303-00": {
+      "description_en": "C.D.I. UNIT",
+      "description_ur": "یس ڈی آنر یونٹ",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "21-0303-00": {
+      "description_en": "C.D.I. UNIT (ELECTRIC START)(4 PIN) )",
+      "description_ur": "یس ڈی آنر یونٹ الیکیر ک اسٹارٹ",
+      "model": "LF70",
+      "manufacturer": "C.P"
+    },
+    "24-0303-00": {
+      "description_en": "C.D.I. UNIT (MB100)",
+      "description_ur": "یس ڈی آنر یونٹ ایم نی۱۰۰",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "24-0303-HD": {
+      "description_en": "C.D.I. UNIT (MB100) (PREMIUM QUALITY)",
+      "description_ur": "یس ڈی آنر یونٹ پِن",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "07-0328-00": {
+      "description_en": "CAM FOLLOWER",
+      "description_ur": "کِیم فالور سِیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "42-0328-00": {
+      "description_en": "CAM FOLLOWER",
+      "description_ur": "کِیم فالور سِیٹ",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "07-0308-00": {
+      "description_en": "CAM GEAR SET",
+      "description_ur": "کِیم گراری سیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "42-0308-00": {
+      "description_en": "CAM GEAR SET (EURO II)",
+      "description_ur": "کِیم گراری یورو",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "07-0308-01": {
+      "description_en": "CAM GEAR SET HEAVY DUTY",
+      "description_ur": "کِیم گراری ھیوی ڈیونر",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "07-0312-00": {
+      "description_en": "CAM PIN ROCKER ORING",
+      "description_ur": "کِیم پِن روکر اُورنگ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "14-0326-00": {
+      "description_en": "CAM SHAFT",
+      "description_ur": "کِیم شَافٹ",
+      "model": "CD100",
+      "manufacturer": "C.P"
+    },
+    "18-0326-00": {
+      "description_en": "CAM SHAFT",
+      "description_ur": "کِیم شَافٹ جی نی او",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "20-0326-00": {
+      "description_en": "CAM SHAFT",
+      "description_ur": "کِیم شَافٹ",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "36-0326-00": {
+      "description_en": "CAM SHAFT (2012 MODEL)",
+      "description_ur": "کِیم شَافٹ ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "24-0326-00": {
+      "description_en": "CAM SHAFT (ALTER)",
+      "description_ur": "کِیم شَافٹ",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "18-0322-00": {
+      "description_en": "CARBURETOR (PZ-16) 72CC",
+      "description_ur": "کاربُورییر یس یس",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0322-00": {
+      "description_en": "CARBURETOR (PZ-16) 78CC",
+      "description_ur": "کاربُورییر یس یس",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "36-0322-00": {
+      "description_en": "CARBURETOR (PZ-18)",
+      "description_ur": "کاربُورییر ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "50-0322-00": {
+      "description_en": "CARBURETOR (PZ-22)",
+      "description_ur": "کاربُورییر",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "42-0322-00": {
+      "description_en": "CARBURETOR (PZ-26 SD)",
+      "description_ur": "کاربُورییر",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "17-0322-00": {
+      "description_en": "CARBURETOR (PZ-26)",
+      "description_ur": "کاربُورییر",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0356-00": {
+      "description_en": "CARBURETOR BEND (BIG HOLE)",
+      "description_ur": "کاربُورییر بینڈ بڑا سوراخ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "36-0356-00": {
+      "description_en": "CARBURETOR BEND (EURO 11)",
+      "description_ur": "کاربُورییر بینڈ یورو",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0356-01": {
+      "description_en": "CARBURETOR BEND (SMALL HOLE)",
+      "description_ur": "کاربُورییر بینڈ چھوٹا سوارخ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "36-0301-00": {
+      "description_en": "CARBURETOR CHOKE KIT",
+      "description_ur": "کاربُورییر چوک کٹ",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0301-00": {
+      "description_en": "CARBURETOR CHOKE KIT",
+      "description_ur": "کاربُورییر چوک کٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "36-0301-01": {
+      "description_en": "CARBURETOR CHOKE KIT COMPLETE",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "17-0301-01": {
+      "description_en": "CARBURETOR CHOKE KIT COMPLETE",
+      "description_ur": "",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-0351-00": {
+      "description_en": "CARBURETOR PISTON W/SPRING",
+      "description_ur": "کاربُورییر پِسٹر بمع اِسیر نگ",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0351-00": {
+      "description_en": "CARBURETOR PISTON W/SPRING",
+      "description_ur": "کاربُورییر پِسٹر بمع اِسیر نگ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-0351-00": {
+      "description_en": "CARBURETOR PISTON W/SPRING",
+      "description_ur": "کاربُورییر پِسٹر بمع اِسیر نگ",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "42-0351-00": {
+      "description_en": "CARBURETOR PISTON W/SPRING",
+      "description_ur": "",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-0371-K1": {
+      "description_en": "CHAIN COVER BOLT KIT",
+      "description_ur": "چٹر کور بولٹ کِٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "18-0370-K5": {
+      "description_en": "CHAIN COVER SET (SILVER)",
+      "description_ur": "چٹر کور سیٹ سلور",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-0370-K5": {
+      "description_en": "CHAIN COVER SET (SILVER)",
+      "description_ur": "",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-0314-02": {
+      "description_en": "CHAIN KIT (38X15+420X104L) MODIFIED \"",
+      "description_ur": "چٹر کِٹ الیر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0314-00": {
+      "description_en": "CHAIN KIT (38X15+428X100L)",
+      "description_ur": "چٹر کِٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "50-0314-00": {
+      "description_en": "CHAIN KIT (38X15+428X102L)",
+      "description_ur": "چٹر کِٹ",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "50-0314-3W": {
+      "description_en": "CHAIN KIT (38X15+428X102L) 3WHEELER",
+      "description_ur": "",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "18-0314-01": {
+      "description_en": "CHAIN KIT (41X14+420X104L) JAPANESE STYLE",
+      "description_ur": "چٹر کِٹ جاپانی ٹائپ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "25-0314-00": {
+      "description_en": "CHAIN KIT (43X14+428HX110L)",
+      "description_ur": "چٹر کِٹ",
+      "model": "CG125-DLX",
+      "manufacturer": "C.P"
+    },
+    "14-0314-00": {
+      "description_en": "CHAIN KIT (43X14+428X108L)",
+      "description_ur": "",
+      "model": "CD100",
+      "manufacturer": "C.P"
+    },
+    "00-0317-00": {
+      "description_en": "CHAIN LOCK",
+      "description_ur": "چٹر الک",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "00-0317-0H": {
+      "description_en": "CHAIN LOCK 420H (HEAVY DUTY)",
+      "description_ur": "",
+      "model": "420H",
+      "manufacturer": "C.P"
+    },
+    "00-0317-01": {
+      "description_en": "CHAIN LOCK",
+      "description_ur": "چٹر الک",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "00-0317-8H": {
+      "description_en": "CHAIN LOCK 428H (HEAVY DUTY)",
+      "description_ur": "",
+      "model": "428H",
+      "manufacturer": "C.P"
+    },
+    "18-0371-K2": {
+      "description_en": "CHAIN SETTING LARGE",
+      "description_ur": "چٹر سیٹنگ بڑی",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "18-0371-K3": {
+      "description_en": "CHAIN SETTING SMALL",
+      "description_ur": "چٹر سیٹنگ چھونر",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "14-0324-00": {
+      "description_en": "CLUTCH BOSS",
+      "description_ur": "کلچ کٹورہ",
+      "model": "CD100",
+      "manufacturer": "C.P"
+    },
+    "04-0324-00": {
+      "description_en": "CLUTCH BOSS",
+      "description_ur": "کلچ کٹورہ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-0324-00": {
+      "description_en": "CLUTCH BOSS",
+      "description_ur": "کلچ کٹورہ",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "42-0324-00": {
+      "description_en": "CLUTCH BOSS",
+      "description_ur": "کلچ کٹورہ",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "13-0324-00": {
+      "description_en": "CLUTCH BOSS",
+      "description_ur": "کلچ کٹورہ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "50-0324-00": {
+      "description_en": "CLUTCH BOSS",
+      "description_ur": "کلچ کٹورہ",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "04-0342-00": {
+      "description_en": "CLUTCH BOSS SPRING",
+      "description_ur": "کلچ بکس اِسیر نگ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0342-00": {
+      "description_en": "CLUTCH BOSS SPRING",
+      "description_ur": "کلچ بکس اِسیر نگ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-0304-00": {
+      "description_en": "CLUTCH BOX ASSY. COMP",
+      "description_ur": "کلچ بکس اسمبیل مکمل",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "50-0304-00": {
+      "description_en": "CLUTCH BOX ASSY. COMP",
+      "description_ur": "کلچ بکس اسمبیل مکمل",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "06-0304-00": {
+      "description_en": "CLUTCH BOX ASSY. COMP. W/GEAR",
+      "description_ur": "کلچ بکس اسمبیل مکمل بمع کلچ گراری",
+      "model": "C50Z2",
+      "manufacturer": "C.P"
+    },
+    "04-0304-00": {
+      "description_en": "CLUTCH BOX ASSY. COMP. W/GEAR",
+      "description_ur": "کلچ بکس اسمبیل مکمل بمع کلچ گراری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-0304-00": {
+      "description_en": "CLUTCH BOX ASSY. COMP. W/GEAR",
+      "description_ur": "کلچ بکس اسمبیل مکمل بمع کلچ گراری",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-0304-01": {
+      "description_en": "CLUTCH BOX W/GEAR",
+      "description_ur": "کلچ بکس رصف بمع گییر",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-0355-00": {
+      "description_en": "CLUTCH BUSH",
+      "description_ur": "کلچ بُش",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "50-0355-00": {
+      "description_en": "CLUTCH BUSH",
+      "description_ur": "کلچ بُش",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "18-0315-00": {
+      "description_en": "CLUTCH CABLE",
+      "description_ur": "کلچ کیبل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "17-0315-00": {
+      "description_en": "CLUTCH CABLE",
+      "description_ur": "کلچ کیبل",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-0315-01": {
+      "description_en": "CLUTCH CABLE MODEL",
+      "description_ur": "کلچ کیبل ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "42-0315-00": {
+      "description_en": "CLUTCH CABLE MODEL",
+      "description_ur": "کلچ کیبل ماڈل",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0349-00": {
+      "description_en": "CLUTCH CENTER KARA",
+      "description_ur": "کلچ سینیر کڑا",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "13-0349-00": {
+      "description_en": "CLUTCH CENTER KARA",
+      "description_ur": "کلچ سینیر کڑا",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "18-0358-00": {
+      "description_en": "CLUTCH COVER",
+      "description_ur": "کلچ کور",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0337-00": {
+      "description_en": "CLUTCH GEAR",
+      "description_ur": "کلچ گراری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0337-00": {
+      "description_en": "CLUTCH GEAR",
+      "description_ur": "کلچ گراری",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "50-0337-00": {
+      "description_en": "CLUTCH GEAR",
+      "description_ur": "",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "13-0337-00": {
+      "description_en": "CLUTCH GEAR 20T",
+      "description_ur": "",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "13-0337-01": {
+      "description_en": "CLUTCH GEAR 65T",
+      "description_ur": "",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "04-0337-01": {
+      "description_en": "CLUTCH GEAR BIG 67T",
+      "description_ur": "کلچ گراری بڑی",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0337-HD": {
+      "description_en": "CLUTCH GEAR HEAVY DUTY",
+      "description_ur": "",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "07-0335-01": {
+      "description_en": "CLUTCH HOUSING ASSEMBLY",
+      "description_ur": "کلچ ہاوسنگ اسمبیل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "14-0335-00": {
+      "description_en": "CLUTCH HOUSING SET",
+      "description_ur": "کلچ ہاوسنگ سیٹ",
+      "model": "CD100",
+      "manufacturer": "C.P"
+    },
+    "07-0335-00": {
+      "description_en": "CLUTCH HOUSING SET",
+      "description_ur": "کلچ ہاوسنگ سیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "07-0335-11": {
+      "description_en": "CLUTCH HOUSING SET W/STEEL (DOTTED) )",
+      "description_ur": "کلچ ہاوسنگ سیٹ بمع اسٹیل ڈوٹٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-0319-00": {
+      "description_en": "CLUTCH LIFTER (CROME)",
+      "description_ur": "کلچ لِفیر کُروم",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-0319-00": {
+      "description_en": "CLUTCH LIFTER (CROME)",
+      "description_ur": "کلچ لِفیر کروم",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "50-0319-00": {
+      "description_en": "CLUTCH LIFTER (CROME) (QINGQI-4ST)",
+      "description_ur": "کلچ لِفیر کُروم",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "04-0319-01": {
+      "description_en": "CLUTCH LIFTER OVER SIZE",
+      "description_ur": "کلچ لِفیر اوور سائز",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0352-00": {
+      "description_en": "CLUTCH LIFTER SPRING",
+      "description_ur": "کلچ لِفیر اِسیر نگ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0306-00": {
+      "description_en": "CLUTCH NUT LOCK SET",
+      "description_ur": "کلچ نَٹ الک سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0306-01": {
+      "description_en": "CLUTCH NUT LOCK WITH OUTSIDE WASHER",
+      "description_ur": "کلچ نَٹ الک بمع آوٹ سائیڈ واشر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0343-00": {
+      "description_en": "CLUTCH OUTER COVER",
+      "description_ur": "کلچ بکس آوٹر کور",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0354-00": {
+      "description_en": "CLUTCH PACKING (GREEN)",
+      "description_ur": "کلچ پیکینگ ہری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0354-00": {
+      "description_en": "CLUTCH PACKING (GREEN)",
+      "description_ur": "کلچ پیکینگ ہری",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-0338-00": {
+      "description_en": "CLUTCH PATTI SET",
+      "description_ur": "کلچ پٹر سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0302-00": {
+      "description_en": "CLUTCH PLATE",
+      "description_ur": "کلچ پِلیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0302-00": {
+      "description_en": "CLUTCH PLATE",
+      "description_ur": "کلچ پِلیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-0302-00": {
+      "description_en": "CLUTCH PLATE",
+      "description_ur": "کلچ پِلیٹ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "50-0302-00": {
+      "description_en": "CLUTCH PLATE",
+      "description_ur": "کلچ پِلیٹ",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "36-0302-01": {
+      "description_en": "CLUTCH PLATE (PAPER TYPE)",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "17-0302-01": {
+      "description_en": "CLUTCH PLATE (PAPER TYPE)",
+      "description_ur": "",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0362-00": {
+      "description_en": "CLUTCH PUSHER",
+      "description_ur": "کلچ پُشر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0344-00": {
+      "description_en": "CLUTCH WIRE",
+      "description_ur": "کلچ وائیر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0320-00": {
+      "description_en": "CONNECTING ROD KIT",
+      "description_ur": "کُون راڈ کِٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0320-00": {
+      "description_en": "CONNECTING ROD KIT",
+      "description_ur": "کُون راڈ کِٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-0320-00": {
+      "description_en": "CONNECTING ROD KIT",
+      "description_ur": "کُون راڈ کِٹ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "20-0320-00": {
+      "description_en": "CONNECTING ROD KIT",
+      "description_ur": "کُون راڈ کِٹ",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "24-0320-00": {
+      "description_en": "CONNECTING ROD KIT",
+      "description_ur": "کُون راڈ کِٹ",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "18-0329-00": {
+      "description_en": "COUNTER SHAFT",
+      "description_ur": "کاونیر شافٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "50-0329-00": {
+      "description_en": "COUNTER SHAFT",
+      "description_ur": "",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "18-0321-00": {
+      "description_en": "CRANK SHAFT COMP. W/BEARING",
+      "description_ur": "ویٹ مکمل بمع بییر نگ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-0321-00": {
+      "description_en": "CRANK SHAFT COMP. W/BEARING",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "24-0321-00": {
+      "description_en": "CRANK SHAFT COMP. W/BEARING",
+      "description_ur": "ویٹ مکمل بمع بییر نگ",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "04-0305-00": {
+      "description_en": "CUSHION RUBBER SET",
+      "description_ur": "کُشن ربڑ سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0305-00": {
+      "description_en": "CUSHION RUBBER SET",
+      "description_ur": "کُشن ربڑ سیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "18-0313-00": {
+      "description_en": "CUSHION SET FRONT",
+      "description_ur": "فَرنٹ کُشن سیٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "17-0313-00": {
+      "description_en": "CUSHION SET FRONT",
+      "description_ur": "فَرنٹ کُشن سیٹ",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "19-0313-00": {
+      "description_en": "CUSHION SET FRONT",
+      "description_ur": "فَرنٹ کُشن سیٹ",
+      "model": "JH90",
+      "manufacturer": "C.P"
+    },
+    "04-0325-00": {
+      "description_en": "CYLINDER",
+      "description_ur": "سلینڈر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0325-00": {
+      "description_en": "CYLINDER",
+      "description_ur": "سلینڈر",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-0325-00": {
+      "description_en": "CYLINDER 100CC",
+      "description_ur": "سلینڈر یس ایم",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "17-0325-00": {
+      "description_en": "CYLINDER 69mm",
+      "description_ur": "سلینڈر ایم ایم",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "24-0325-00": {
+      "description_en": "CYLINDER 78CC",
+      "description_ur": "سلینڈر یس ایم",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "24-0325-02": {
+      "description_en": "CYLINDER 78CC (ALUMINIUM)",
+      "description_ur": "سلینڈر یس یس سلور",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "04-0348-00": {
+      "description_en": "CYLINDER PACKING (GREEN)",
+      "description_ur": "سلینڈر پیکنگ ہری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0348-00": {
+      "description_en": "CYLINDER PACKING (GREEN)",
+      "description_ur": "سلینڈر پیکنگ ہری",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-0402-00": {
+      "description_en": "D RUBBER",
+      "description_ur": "ڈی ربڑ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0404-00": {
+      "description_en": "DOWEL PIN SET",
+      "description_ur": "ڈاول پِن سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0404-00": {
+      "description_en": "DOWEL PIN SET",
+      "description_ur": "ڈاول پِن سیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-0403-00": {
+      "description_en": "DRIVE PLATE",
+      "description_ur": "ڈرائیو پلیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0405-00": {
+      "description_en": "DRUM BUSH SET",
+      "description_ur": "ڈرم بُش سیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-0401-00": {
+      "description_en": "DRUM RUBBER",
+      "description_ur": "ڈرم ربڑ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-0503-00": {
+      "description_en": "ENGINE FOUNDATION LOWER WITH NUT",
+      "description_ur": "انجن فاونڈیشن بولٹ بمع نٹ لوور",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "18-0503-01": {
+      "description_en": "ENGINE FOUNDATION UPPER WITH NUT",
+      "description_ur": "انجن فاونڈیشن بولٹس بمع نٹ اپّر",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-1511-K2": {
+      "description_en": "ENGINE OIL (1000 ML) ULTRA BOOST (20W-50)",
+      "description_ur": "الیر ا بوسٹ اِنجن آئل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-1511-K1": {
+      "description_en": "ENGINE OIL (700 ML) ULTRA BOOST (20W-50)",
+      "description_ur": "الیر ا بوسٹ اِنجن آئل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "14-1511-K2": {
+      "description_en": "ENGINE OIL (800 ML) ULTRA BOOST (20W-50)",
+      "description_ur": "",
+      "model": "CD100",
+      "manufacturer": "C.P"
+    },
+    "04-0504-01": {
+      "description_en": "ENGINE PIECE LEFT",
+      "description_ur": "انجن پیس لیفٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0504-00": {
+      "description_en": "ENGINE PIECE RIGHT",
+      "description_ur": "انجن پیس رائیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "36-0630-S2": {
+      "description_en": "FENDER FRONT (BLACK)",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-0630-S3": {
+      "description_en": "FENDER FRONT (CHROME)",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-0623-S2": {
+      "description_en": "FENDER REAR (BLACK)",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-0623-S3": {
+      "description_en": "FENDER REAR (CHROME)",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0622-00": {
+      "description_en": "FINGER",
+      "description_ur": "فِنگر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "36-0602-00": {
+      "description_en": "FLOAT BALL W/PIN",
+      "description_ur": "فلُوڈ بال بمع پِن",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0602-00": {
+      "description_en": "FLOAT BALL W/PIN",
+      "description_ur": "فلُوڈ بال بمع پِن",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-0602-00": {
+      "description_en": "FLOAT BALL W/PIN",
+      "description_ur": "",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-0602-SC": {
+      "description_en": "FLOAT BALL W/PIN WITH STEEL CLIP",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-0603-00": {
+      "description_en": "FLOAT PIN (NEEDLE VALVE)",
+      "description_ur": "فلُوڈ پِن",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0603-00": {
+      "description_en": "FLOAT PIN (NEEDLE VALVE)",
+      "description_ur": "فلُوڈ پِن",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0603-00": {
+      "description_en": "FLOAT PIN (NEEDLE VALVE)",
+      "description_ur": "فلُوڈ پِن",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "36-0624-K0": {
+      "description_en": "FOOT REST BAR",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-0618-K0": {
+      "description_en": "FOOT REST BAR WITH SIDE STAND",
+      "description_ur": "فٹ ریسٹ بار بمع سائیڈ اسٹینڈ",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-0601-K0": {
+      "description_en": "FOOT REST REAR (SET)",
+      "description_ur": "فٹ ریسٹ رییر",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-0601-K0": {
+      "description_en": "FOOT REST REAR (SET)",
+      "description_ur": "فٹ ریسٹ رییر",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "36-0625-K0": {
+      "description_en": "FOOT REST RUBBER (SET)",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0625-K0": {
+      "description_en": "FOOT REST RUBBER (SET)",
+      "description_ur": "",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0616-00": {
+      "description_en": "FORK BUSH (CHIMTA BUSH)",
+      "description_ur": "چمٹہ بُش",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0616-00": {
+      "description_en": "FORK BUSH (CHIMTA BUSH)",
+      "description_ur": "چمٹہ بُش",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "18-0611-K0": {
+      "description_en": "FRONT SHOCK BOTTOM SET ( BOTTLE)",
+      "description_ur": "فرنٹ شاک بو ٹم سیٹ بو تل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "19-0611-K0": {
+      "description_en": "FRONT SHOCK BOTTOM SET ( BOTTLE)",
+      "description_ur": "فرنٹ شاک بو ٹم سیٹ بو تل",
+      "model": "JH90",
+      "manufacturer": "C.P"
+    },
+    "18-0606-K3": {
+      "description_en": "FRONT SHOCK GLASS BIG CHROME SET",
+      "description_ur": "فرنٹ شاک گالس بڑا کروم سیٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-0606-K3": {
+      "description_en": "FRONT SHOCK GLASS BIG CHROME SET",
+      "description_ur": "فرنٹ شاک گالس بڑا کروم سیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "19-0606-K3": {
+      "description_en": "FRONT SHOCK GLASS BIG CHROME SET",
+      "description_ur": "فرنٹ شاک گالس بڑا کروم سیٹ",
+      "model": "JH90",
+      "manufacturer": "C.P"
+    },
+    "18-0608-K3": {
+      "description_en": "FRONT SHOCK GLASS SMALL CHROME SET",
+      "description_ur": "فرنٹ شاک گالس چھوٹا کروم سیٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-0608-K3": {
+      "description_en": "FRONT SHOCK GLASS SMALL CHROME SET",
+      "description_ur": "فرنٹ شاک گالس چھوٹا کروم سیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "19-0608-K3": {
+      "description_en": "FRONT SHOCK GLASS SMALL CHROME SET",
+      "description_ur": "فرنٹ شاک گالس چھوٹا کروم سیٹ",
+      "model": "JH90",
+      "manufacturer": "C.P"
+    },
+    "18-0606-K2": {
+      "description_en": "FRONT SHOCK KAAN BLACK SET",
+      "description_ur": "فرنٹ شاک کان کاال سیٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-0606-K2": {
+      "description_en": "FRONT SHOCK KAAN BLACK SET",
+      "description_ur": "فرنٹ شاک کان کاال سیٹ",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-0606-K1": {
+      "description_en": "FRONT SHOCK KAAN RED SET",
+      "description_ur": "فرنٹ شاک کان الل سیٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-0606-K1": {
+      "description_en": "FRONT SHOCK KAAN RED SET",
+      "description_ur": "فرنٹ شاک کان الل سیٹ",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-0910-S1": {
+      "description_en": "FRONT SHOCK ROD (INNER TUBE)",
+      "description_ur": "فرنٹ شاک راڈ انر ٹیوب",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "19-0910-S1": {
+      "description_en": "FRONT SHOCK ROD (INNER TUBE)",
+      "description_ur": "فرنٹ شاک راڈ انر ٹیوب",
+      "model": "JH90",
+      "manufacturer": "C.P"
+    },
+    "18-0615-K0": {
+      "description_en": "FRONT SHOCK SPRING BIG SET",
+      "description_ur": "فرنٹ شاک اسیر نگ بڑاسیٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "19-0615-K0": {
+      "description_en": "FRONT SHOCK SPRING SET",
+      "description_ur": "فرنٹ شاک اسیر نگ سیٹ",
+      "model": "JH90",
+      "manufacturer": "C.P"
+    },
+    "04-1925-00": {
+      "description_en": "FRONT SPROCKET 14T",
+      "description_ur": "فَرنٹ اِسپاکٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-0605-00": {
+      "description_en": "FUEL COCK",
+      "description_ur": "فُیول کاک",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "24-0605-00": {
+      "description_en": "FUEL COCK (CD70C)",
+      "description_ur": "فُیول کاک یس ڈی یس",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "18-0605-01": {
+      "description_en": "FUEL COCK WITH LOCK",
+      "description_ur": "فُیول کاک بمع الک",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "00-0607-00": {
+      "description_en": "FUEL FILTER",
+      "description_ur": "فُیول فلیر",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "04-0609-00": {
+      "description_en": "FUEL TANK CAP",
+      "description_ur": "ٹینک کیپ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-0609-00": {
+      "description_en": "FUEL TANK CAP",
+      "description_ur": "ٹینک کیپ",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0711-01": {
+      "description_en": "GASKET CLUTCH BOSS",
+      "description_ur": "گیس کِٹ کلچ کٹورہ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0711-03": {
+      "description_en": "GASKET ENGINE PIECE GREEN",
+      "description_ur": "گیس کِٹ مٹر اِنجن پیس ہری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-0704-00": {
+      "description_en": "GASKET FULL (GREEN)",
+      "description_ur": "کیس کِٹ فُل ہری",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-0704-00": {
+      "description_en": "GASKET FULL (GREEN)",
+      "description_ur": "کیس کِٹ فُل ہری",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-0704-00": {
+      "description_en": "GASKET FULL (GREEN)",
+      "description_ur": "کیس کِٹ فُل ہری",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "18-0704-01": {
+      "description_en": "GASKET HALF (GREEN)",
+      "description_ur": "کیس کِٹ ہاف ہری",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-0704-01": {
+      "description_en": "GASKET HALF (GREEN)",
+      "description_ur": "کیس کِٹ ہاف ہری",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-0704-01": {
+      "description_en": "GASKET HALF (GREEN)",
+      "description_ur": "کیس کِٹ ہاف ہری",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "04-0711-02": {
+      "description_en": "GASKET TIMING COVER GREEN",
+      "description_ur": "کیس کِٹ ٹائمنگ کور ہری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0711-04": {
+      "description_en": "GASKET TOP COVER GREEN",
+      "description_ur": "کیس کِٹ ٹاپ کور ہری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0707-21": {
+      "description_en": "GEAR",
+      "description_ur": "گییر گراری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0707-31": {
+      "description_en": "GEAR",
+      "description_ur": "گییر گراری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0707-41": {
+      "description_en": "GEAR",
+      "description_ur": "گییر گراری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0707-51": {
+      "description_en": "GEAR",
+      "description_ur": "گییر گراری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0707-61": {
+      "description_en": "GEAR LEGS",
+      "description_ur": "گییر گراری نکہ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-0707-61": {
+      "description_en": "GEAR LEGS",
+      "description_ur": "گییر گراری نکہ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0707-71": {
+      "description_en": "GEAR",
+      "description_ur": "گییر گراری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0707-81": {
+      "description_en": "GEAR",
+      "description_ur": "گییر گراری",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0725-13": {
+      "description_en": "GEAR BEARING 13.5x12",
+      "description_ur": "گییر بییر نگ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "24-0725-13": {
+      "description_en": "GEAR BEARING 13.5x12",
+      "description_ur": "گییر بییر نگ",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "04-0725-14": {
+      "description_en": "GEAR BEARING 14x12",
+      "description_ur": "گییر بییر نگ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "24-0725-14": {
+      "description_en": "GEAR BEARING 14x12",
+      "description_ur": "گییر بییر نگ",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "04-0712-00": {
+      "description_en": "GEAR CENTER PIECE 67T",
+      "description_ur": "",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0703-01": {
+      "description_en": "GEAR DRUM COMPLETE",
+      "description_ur": "گییر ڈرم مکمل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "23-0703-01": {
+      "description_en": "GEAR DRUM COMPLETE",
+      "description_ur": "گییر ڈرم مکمل",
+      "model": "HERO",
+      "manufacturer": "C.P"
+    },
+    "04-0706-00": {
+      "description_en": "GEAR DRUM WASHER",
+      "description_ur": "گییر ڈرم واشر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "21-0708-00": {
+      "description_en": "GEAR INDICATOR INNER SWITCH",
+      "description_ur": "گییر اِنڈیکییر انر سوئچ",
+      "model": "LF70",
+      "manufacturer": "C.P"
+    },
+    "18-0702-00": {
+      "description_en": "GEAR LEVER",
+      "description_ur": "گییر لیور",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "17-0702-00": {
+      "description_en": "GEAR LEVER",
+      "description_ur": "گییر لیور",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "50-0702-00": {
+      "description_en": "GEAR LEVER (CHROME)",
+      "description_ur": "گییر لیور",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "36-0702-00": {
+      "description_en": "GEAR LEVER (HONDA TYPE)",
+      "description_ur": "گییر لیور ھنڈا ٹائپ",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0701-00": {
+      "description_en": "GEAR SHAFT COMPLETE",
+      "description_ur": "گییر شافٹ مکمل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0701-00": {
+      "description_en": "GEAR SHAFT COMPLETE",
+      "description_ur": "گییر شافٹ مکمل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "50-0701-00": {
+      "description_en": "GEAR SHAFT COMPLETE",
+      "description_ur": "گییر شافٹ مکمل",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "04-0728-01": {
+      "description_en": "GEAR SHAFT SPRING (SMALL)",
+      "description_ur": "گییر شافٹ اِسیر نگ چھوٹا",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0717-00": {
+      "description_en": "GEAR STAR",
+      "description_ur": "گییر اسٹار",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0730-00": {
+      "description_en": "GEAR WASHER KIT",
+      "description_ur": "گییر واشر کِٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0730-00": {
+      "description_en": "GEAR WASHER KIT",
+      "description_ur": "گییر واشر کِٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-0819-25": {
+      "description_en": "H/L BULB 12V 25X25W",
+      "description_ur": "ہیڈ الئٹ بلب",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0819-35": {
+      "description_en": "H/L BULB 12V 35X35W",
+      "description_ur": "ہیڈ الئٹ بلب",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-0830-K3": {
+      "description_en": "HANDLE BAR WITH BALANCER",
+      "description_ur": "ہینڈل بار بمع بیلنش",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0813-00": {
+      "description_en": "HANDLE CONE SET",
+      "description_ur": "ہینڈل کُون سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0813-02": {
+      "description_en": "HANDLE CONE SET (ROLLER BEARING TYPE) )",
+      "description_ur": "ہینڈل کُون سیٹ رولر بییر نگ ٹائپ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0813-01": {
+      "description_en": "HANDLE GOLI SET (NYLON)",
+      "description_ur": "ہینڈل کُون بال سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-0810-K0": {
+      "description_en": "HANDLE GRIP SET",
+      "description_ur": "",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0824-00": {
+      "description_en": "HANDLE HOLDER SET",
+      "description_ur": "ہینڈل ہولڈر سیٹ گیلوانئیر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0816-00": {
+      "description_en": "HANDLE LOCK",
+      "description_ur": "ہینڈل الک",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-0814-00": {
+      "description_en": "HANDLE NUT (CROME)",
+      "description_ur": "ہینڈل نٹ کروم",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0809-00": {
+      "description_en": "HANDLE T BRIDGE PLATE",
+      "description_ur": "ٹاپ برئج پلیٹ پولیشڈ ہینڈل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-0823-00": {
+      "description_en": "HANDLE T ONLY",
+      "description_ur": "رصف ہینڈل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0823-00": {
+      "description_en": "HANDLE T ONLY",
+      "description_ur": "رصف ہینڈل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-0803-00": {
+      "description_en": "HEAD COMPLETE",
+      "description_ur": "ہیڈ مکمل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-0803-00": {
+      "description_en": "HEAD COMPLETE",
+      "description_ur": "ہیڈ مکمل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "24-0803-00": {
+      "description_en": "HEAD COMPLETE",
+      "description_ur": "ہیڈ مکمل",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "36-0803-00": {
+      "description_en": "HEAD COMPLETE MODEL",
+      "description_ur": "ہیڈ مکمل ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-0804-00": {
+      "description_en": "HEAD GASKET (RED LINING)",
+      "description_ur": "ہیڈ گیس کِٹ الل الئنینگ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-0804-00": {
+      "description_en": "HEAD GASKET (RED LINING)",
+      "description_ur": "ہیڈ گیس کِٹ الل الئنینگ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-0804-00": {
+      "description_en": "HEAD GASKET (RED LINING)",
+      "description_ur": "ہیڈ گیس کِٹ الل الئنینگ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "18-0815-K0": {
+      "description_en": "HEAD LIGHT CASE",
+      "description_ur": "ہیڈ الئٹ کیس",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-0815-K0": {
+      "description_en": "HEAD LIGHT CASE",
+      "description_ur": "",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "18-0801-K0": {
+      "description_en": "HEAD LIGHT COMPLETE WITH FIT BULB",
+      "description_ur": "ہیڈ الئٹ مکمل بمع فٹ بلب",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0808-00": {
+      "description_en": "HEAD LIGHT HOLDER",
+      "description_ur": "ہیڈ الئٹ ہولڈر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-0806-K0": {
+      "description_en": "HEAD LIGHT LENS (STAINLEY)",
+      "description_ur": "الئٹ لینس اسٹینےل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "18-0802-K0": {
+      "description_en": "HEAD LIGHT ONLY WITH FIT BULB (WITHOUT CASE)",
+      "description_ur": "",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "18-0816-K0": {
+      "description_en": "HEAD LIGHT REFLECTOR",
+      "description_ur": "ہیڈ الئٹ ریفلیکیر",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "18-0811-K3": {
+      "description_en": "HEAD LIGHT RIM CHROME",
+      "description_ur": "ہیڈ الئٹ رِم",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0805-00": {
+      "description_en": "HOCKEY PATTI",
+      "description_ur": "ہایک پٹر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "20-0805-00": {
+      "description_en": "HOCKEY PATTI",
+      "description_ur": "ہایک پٹر",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "04-0802-02": {
+      "description_en": "HORN CROME 12V H-DUTY 100% COPPER",
+      "description_ur": "",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "36-0901-00": {
+      "description_en": "IGNITION COIL 12V",
+      "description_ur": "اگنیشن کوائل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-0901-00": {
+      "description_en": "IGNITION COIL 12V",
+      "description_ur": "اگنیشن کوائل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-0901-00": {
+      "description_en": "IGNITION COIL 12V",
+      "description_ur": "اگنیشن کوائل",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-0920-K0": {
+      "description_en": "INDICATOR (2003)",
+      "description_ur": "انڈیکییر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "00-0920-K9": {
+      "description_en": "INDICATOR (SPECIAL)",
+      "description_ur": "",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "07-0920-K0": {
+      "description_en": "INDICATOR ASSY",
+      "description_ur": "انڈیکییر اسمبیل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "36-0920-K0": {
+      "description_en": "INDICATOR FRONT LEFT",
+      "description_ur": "انڈیکییر فرنٹ لیفٹ",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-0919-K0": {
+      "description_en": "INDICATOR FRONT RIGHT",
+      "description_ur": "انڈیتییر فرنٹ رائٹ",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-0922-K0": {
+      "description_en": "INDICATOR RUBBER",
+      "description_ur": "",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-0922-K0": {
+      "description_en": "INDICATOR RUBBER",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "17-0902-00": {
+      "description_en": "INSULATOR",
+      "description_ur": "اِنسولییر",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "42-0902-01": {
+      "description_en": "INSULATOR (HONDA TYPE)",
+      "description_ur": "اِنسولییر ھنڈا ٹائپ",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-0902-00": {
+      "description_en": "INSULATOR WITH ORING",
+      "description_ur": "اِنسولییر بمع اُورنگ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-1001-00": {
+      "description_en": "JUMP RIB FRONT",
+      "description_ur": "فَرنٹ جمپ رب",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1001-00": {
+      "description_en": "JUMP RIB FRONT",
+      "description_ur": "",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-1104-00": {
+      "description_en": "KEY SET",
+      "description_ur": "یک سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-1104-00": {
+      "description_en": "KEY SET",
+      "description_ur": "یک سیٹ",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "40-1102-00": {
+      "description_en": "KICK",
+      "description_ur": "کِک",
+      "model": "C100",
+      "manufacturer": "C.P"
+    },
+    "14-1102-00": {
+      "description_en": "KICK",
+      "description_ur": "",
+      "model": "CD100",
+      "manufacturer": "C.P"
+    },
+    "36-1102-00": {
+      "description_en": "KICK",
+      "description_ur": "کِک",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-1102-00": {
+      "description_en": "KICK",
+      "description_ur": "کِک کُروم",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-1102-00": {
+      "description_en": "KICK",
+      "description_ur": "کِک",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-1101-01": {
+      "description_en": "KICK SHAFT COMPLETE",
+      "description_ur": "کِک شافٹ مکمل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1101-01": {
+      "description_en": "KICK SHAFT COMPLETE",
+      "description_ur": "کِک شافٹ مکمل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "50-1101-01": {
+      "description_en": "KICK SHAFT COMPLETE",
+      "description_ur": "کِک شافٹ مکمل",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "04-1101-00": {
+      "description_en": "KICK SHAFT ONLY",
+      "description_ur": "کِک شافٹ رصف",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1101-00": {
+      "description_en": "KICK SHAFT ONLY",
+      "description_ur": "کِک شافٹ رصف",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "50-1101-00": {
+      "description_en": "KICK SHAFT ONLY",
+      "description_ur": "کِک شافٹ رصف",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "04-1103-00": {
+      "description_en": "KICK SPRING",
+      "description_ur": "کِک اِسیر نگ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1103-00": {
+      "description_en": "KICK SPRING",
+      "description_ur": "کِک اِسیر نگ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "36-1202-00": {
+      "description_en": "LEVER ASSEMBLY SET BLACK (2010 MODEL)",
+      "description_ur": "لیور اِسمبیل سیٹ کاال ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "42-1202-03": {
+      "description_en": "LEVER ASSEMBLY SET BLACK MODEL",
+      "description_ur": "لیور اِسمبیل سیٹ کاال ماڈل",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-1202-13": {
+      "description_en": "LEVER ASSY HALF LEFT ONLY BLACK (2010 MODEL) ) \"",
+      "description_ur": "لیور اِسمبیل ھاف لیفٹ رصف کاال ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "42-1202-13": {
+      "description_en": "LEVER ASSY HALF LEFT ONLY BLACK (2012 MODEL)",
+      "description_ur": "",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-1202-11": {
+      "description_en": "LEVER ASSY. LEFT ONLY BLACK (2010 MODEL)",
+      "description_ur": "لیور اِسمبیل لیفٹ رصف کاال ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "42-1202-11": {
+      "description_en": "LEVER ASSY. LEFT ONLY 'BLACK' MODEL",
+      "description_ur": "لیور اِسمبیل لیفٹ رصف کاال ماڈل",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-1204-K2": {
+      "description_en": "LEVER BRAKE (R) BLACK",
+      "description_ur": "لیور بریک رائیٹ کاال",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-1205-K2": {
+      "description_en": "LEVER CLUTCH (L) BLACK",
+      "description_ur": "لیور بریک لیفٹ کاال",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-1204-01": {
+      "description_en": "LEVER HOLDER BRAKE WITH SCREW MODEL",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-1203-01": {
+      "description_en": "LEVER HOLDER LEFT LOWER MODEL",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-1204-00": {
+      "description_en": "LEVER HOLDER RIGHT MODEL (THROTTLE ONLY)",
+      "description_ur": "لیور ہولڈر رائیٹ ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-1130-K0": {
+      "description_en": "LIMITER PIPE (YELLOW)",
+      "description_ur": "",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-1322-00": {
+      "description_en": "MAGNET COIL RING",
+      "description_ur": "مِیگنٹ کوائل گُچھا",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "17-1322-00": {
+      "description_en": "MAGNET COIL RING",
+      "description_ur": "مِیگنٹ کوائل گُچھا",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "23-1322-00": {
+      "description_en": "MAGNET COIL RING",
+      "description_ur": "مِیگنٹ کوائل گُچھا",
+      "model": "HERO",
+      "manufacturer": "C.P"
+    },
+    "50-1322-00": {
+      "description_en": "MAGNET COIL RING",
+      "description_ur": "",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "18-1322-L1": {
+      "description_en": "MAGNET COIL RING LEED",
+      "description_ur": "",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "18-1311-00": {
+      "description_en": "MAGNET COMPLETE",
+      "description_ur": "مِیگنٹ مکمل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "17-1311-00": {
+      "description_en": "MAGNET COMPLETE",
+      "description_ur": "مِیگنٹ مکمل",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "23-1311-00": {
+      "description_en": "MAGNET COMPLETE (HERO)",
+      "description_ur": "مِیگنٹ مکمل",
+      "model": "HERO",
+      "manufacturer": "C.P"
+    },
+    "04-1304-01": {
+      "description_en": "MAGNET ORING KIT",
+      "description_ur": "مِیگنٹ اُورنگ کِٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1304-02": {
+      "description_en": "MAGNET ORING KIT W/OIL SEAL",
+      "description_ur": "مِیگنٹ اُورنگ کِٹ بمع آئل سیل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "42-1304-11": {
+      "description_en": "MAGNET ORING KIT W/OIL SEAL (05 PCS) COMMON CG125-CDI",
+      "description_ur": "",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "42-1304-02": {
+      "description_en": "MAGNET ORING KIT W/OIL SEAL (08 PCS) COMMON CG125-CDI",
+      "description_ur": "",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-1312-00": {
+      "description_en": "MAGNET PLATE ONLY",
+      "description_ur": "مِیگنٹ پلیٹ رصف",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "17-1312-00": {
+      "description_en": "MAGNET PLATE ONLY",
+      "description_ur": "مِیگنٹ پلیٹ رصف",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "23-1312-00": {
+      "description_en": "MAGNET PLATE ONLY",
+      "description_ur": "مِیگنٹ پلیٹ رصف",
+      "model": "HERO",
+      "manufacturer": "C.P"
+    },
+    "04-1315-03": {
+      "description_en": "MAIN JET #",
+      "description_ur": "مٹر جیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1315-04": {
+      "description_en": "MAIN JET #",
+      "description_ur": "مٹر جیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1315-05": {
+      "description_en": "MAIN JET #",
+      "description_ur": "مٹر جیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1301-00": {
+      "description_en": "MAIN SHAFT",
+      "description_ur": "مٹر شافٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-1320-K0": {
+      "description_en": "MAIN STAND",
+      "description_ur": "",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-1320-K0": {
+      "description_en": "MAIN STAND",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-1310-00": {
+      "description_en": "METER CABLE",
+      "description_ur": "مییر کیبل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-1310-00": {
+      "description_en": "METER CABLE MODEL",
+      "description_ur": "مییر کیبل ماڈل",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-1310-00": {
+      "description_en": "METER CABLE MODEL",
+      "description_ur": "مییر کیبل ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "42-1310-00": {
+      "description_en": "METER CABLE MODEL",
+      "description_ur": "مییر کیبل ماڈل",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-1303-00": {
+      "description_en": "METER COMPLETE",
+      "description_ur": "مییر مکمل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "42-1303-00": {
+      "description_en": "METER COMPLETE",
+      "description_ur": "مییر مکمل",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-1303-01": {
+      "description_en": "METER COMPLETE (2006 MODEL)",
+      "description_ur": "مییر مکمل ماڈل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "42-1314-00": {
+      "description_en": "METER COVER",
+      "description_ur": "مییر کَور",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-1314-01": {
+      "description_en": "METER COVER (2006 MODEL)",
+      "description_ur": "مییر کَور ماڈل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "14-1321-00": {
+      "description_en": "METER GEAR SET",
+      "description_ur": "مییر گراری سیٹ",
+      "model": "CD100",
+      "manufacturer": "C.P"
+    },
+    "04-1321-00": {
+      "description_en": "METER GEAR SET",
+      "description_ur": "مییر گراری سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "36-1321-00": {
+      "description_en": "METER GEAR SET (2013 MODEL)",
+      "description_ur": "مییر گراری سیٹ ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-1321-01": {
+      "description_en": "METER GEAR SET (METAL)",
+      "description_ur": "مییر گراری سیٹ لوھا",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-1321-01": {
+      "description_en": "METER GEAR SET W/BUSH (JH-70)",
+      "description_ur": "مییر گراری سیٹ بمع بُش",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-1319-02": {
+      "description_en": "METER MOVEMENT W/NEELDE",
+      "description_ur": "مییر مومنٹ بمع نیڈل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-1323-00": {
+      "description_en": "MIXTURE SCREW KIT",
+      "description_ur": "مکسچر اسکریو کٹ ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-1323-00": {
+      "description_en": "MIXTURE SCREW KIT",
+      "description_ur": "مکسچر اسکریو کٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1323-00": {
+      "description_en": "MIXTURE SCREW KIT",
+      "description_ur": "مکسچر اسکریو کٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "42-1323-00": {
+      "description_en": "MIXTURE SCREW KIT",
+      "description_ur": "",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-1330-K3": {
+      "description_en": "MUFFLER ASSY",
+      "description_ur": "مفلر اسمبیل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "36-1330-K3": {
+      "description_en": "MUFFLER ASSY (CHROME)",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-1335-K3": {
+      "description_en": "MUFFLER BEND",
+      "description_ur": "",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-1331-K0": {
+      "description_en": "MUFFLER BRACKET",
+      "description_ur": "",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-1306-00": {
+      "description_en": "MUFFLER WASHER (COPPER)",
+      "description_ur": "مفلر واشر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1403-00": {
+      "description_en": "NEUTRAL SWITCH",
+      "description_ur": "نیوٹرل سوئچ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "24-1403-01": {
+      "description_en": "NEUTRAL SWITCH WITH WIRE",
+      "description_ur": "نیوٹرل سوئچ بمع وائیر",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "04-1501-00": {
+      "description_en": "OIL BOLT CROME W/WASHER",
+      "description_ur": "آئل بولٹ بمع واشر کروم",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1514-00": {
+      "description_en": "OIL GUAGE (CROME)",
+      "description_ur": "آئل گیج بمع اُورنگ کروم",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1514-00": {
+      "description_en": "OIL GUAGE (CROME)",
+      "description_ur": "آئل گیج بمع اُورنگ کروم",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "14-1506-00": {
+      "description_en": "OIL PUMP COMPLETE",
+      "description_ur": "آئل پَمپ مکمل",
+      "model": "CD100",
+      "manufacturer": "C.P"
+    },
+    "18-1506-00": {
+      "description_en": "OIL PUMP COMPLETE",
+      "description_ur": "آئل پَمپ مکمل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-1506-00": {
+      "description_en": "OIL PUMP COMPLETE",
+      "description_ur": "آئل پَمپ مکمل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "24-1506-00": {
+      "description_en": "OIL PUMP COMPLETE",
+      "description_ur": "آئل پَمپ مکمل ھیوی ڈیونر",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "14-1506-HD": {
+      "description_en": "OIL PUMP COMPLETE (PREMIUM QUALITY)",
+      "description_ur": "",
+      "model": "CD100",
+      "manufacturer": "C.P"
+    },
+    "18-1506-HD": {
+      "description_en": "OIL PUMP COMPLETE (PREMIUM QUALITY)",
+      "description_ur": "",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "24-1506-HD": {
+      "description_en": "OIL PUMP COMPLETE (PREMIUM QUALITY)",
+      "description_ur": "",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "04-1508-01": {
+      "description_en": "OIL PUMP GEAR EASY FIT",
+      "description_ur": "آئل پَمپ گراری ایزی فٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1505-00": {
+      "description_en": "OIL PUMP JALI",
+      "description_ur": "آئل پَمپ جایل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1505-00": {
+      "description_en": "OIL PUMP JALI",
+      "description_ur": "آئل پَمپ جایل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "07-1504-00": {
+      "description_en": "OIL PUMP KUPPA",
+      "description_ur": "آئل پَمپ کُپہ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-1512-00": {
+      "description_en": "OIL PUMP ROD",
+      "description_ur": "آئل پَمپ راڈ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1512-01": {
+      "description_en": "OIL PUMP ROD WITH BUSH",
+      "description_ur": "آئل پَمپ بمع بُش",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "00-1162-00": {
+      "description_en": "OIL SEAL 11X6X24X10",
+      "description_ur": "آئل سیل",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "00-1221-00": {
+      "description_en": "OIL SEAL 12X21X4",
+      "description_ur": "آئل سیل",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "00-1382-00": {
+      "description_en": "OIL SEAL 13X8X24X5",
+      "description_ur": "آئل سیل",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "00-1729-00": {
+      "description_en": "OIL SEAL 17X29X5",
+      "description_ur": "آئل سیل",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "00-1893-00": {
+      "description_en": "OIL SEAL 18X9X30X5",
+      "description_ur": "آئل سیل",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "00-2135-07": {
+      "description_en": "OIL SEAL 21X35X7 (FRONT HUB)",
+      "description_ur": "",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "00-2235-00": {
+      "description_en": "OIL SEAL 22X35X7",
+      "description_ur": "آئل سیل",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "04-1507-00": {
+      "description_en": "OIL SEAL KIT",
+      "description_ur": "آئل سیل کِٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1515-00": {
+      "description_en": "OIL THROUGH KIT",
+      "description_ur": "آئل تُھرو کٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "50-1515-00": {
+      "description_en": "OIL THROUGH KIT",
+      "description_ur": "",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "04-1602-01": {
+      "description_en": "PETROL PIPE 160MM (1BOX = PCS)",
+      "description_ur": "پییر ول پائپ بکس",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1615-50": {
+      "description_en": "PISTON KIT",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1615-50": {
+      "description_en": "PISTON KIT",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "42-1615-50": {
+      "description_en": "PISTON KIT",
+      "description_ur": "",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "13-1615-50": {
+      "description_en": "PISTON KIT",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "20-1615-50": {
+      "description_en": "PISTON KIT",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "04-1615-10": {
+      "description_en": "PISTON KIT",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1615-10": {
+      "description_en": "PISTON KIT",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "42-1615-10": {
+      "description_en": "PISTON KIT",
+      "description_ur": "",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "13-1615-10": {
+      "description_en": "PISTON KIT",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "20-1615-10": {
+      "description_en": "PISTON KIT",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "04-1615-15": {
+      "description_en": "PISTON KIT",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1615-15": {
+      "description_en": "PISTON KIT",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-1615-15": {
+      "description_en": "PISTON KIT",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "20-1615-15": {
+      "description_en": "PISTON KIT",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "04-1615-00": {
+      "description_en": "PISTON KIT STD",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1615-00": {
+      "description_en": "PISTON KIT STD",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "42-1615-00": {
+      "description_en": "PISTON KIT STD",
+      "description_ur": "",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "13-1615-00": {
+      "description_en": "PISTON KIT STD",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "20-1615-00": {
+      "description_en": "PISTON KIT STD",
+      "description_ur": "پِسٹر کِٹ",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "04-1614-50": {
+      "description_en": "PISTON RING SET",
+      "description_ur": "پِسٹر رِنگ سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1614-50": {
+      "description_en": "PISTON RING SET",
+      "description_ur": "پِسٹر رِنگ سیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-1614-50": {
+      "description_en": "PISTON RING SET",
+      "description_ur": "پِسٹر رِنگ سیٹ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "04-1614-10": {
+      "description_en": "PISTON RING SET",
+      "description_ur": "پِسٹر رِنگ سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1614-10": {
+      "description_en": "PISTON RING SET",
+      "description_ur": "پِسٹر رِنگ سیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-1614-10": {
+      "description_en": "PISTON RING SET",
+      "description_ur": "پِسٹر رِنگ سیٹ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "04-1614-15": {
+      "description_en": "PISTON RING SET",
+      "description_ur": "پِسٹر رِنگ سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1614-15": {
+      "description_en": "PISTON RING SET",
+      "description_ur": "پِسٹر رِنگ سیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-1614-15": {
+      "description_en": "PISTON RING SET",
+      "description_ur": "پِسٹر رِنگ سیٹ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "04-1614-00": {
+      "description_en": "PISTON RING SET STD",
+      "description_ur": "پِسٹر رِنگ سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1614-00": {
+      "description_en": "PISTON RING SET STD",
+      "description_ur": "پِسٹر رِنگ سیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-1614-00": {
+      "description_en": "PISTON RING SET STD",
+      "description_ur": "پِسٹر رِنگ سیٹ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "04-1604-00": {
+      "description_en": "PLUG C7HSA",
+      "description_ur": "اِسپارک پلگ سنگل پوائنٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1612-01": {
+      "description_en": "PLUG CAP (BLACK)",
+      "description_ur": "پلگ کیپ کاال",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1612-00": {
+      "description_en": "PLUG CAP (STEEL)",
+      "description_ur": "پلگ کیپ اِسٹیل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1612-02": {
+      "description_en": "PLUG CAP BLACK (WATER PROOF)",
+      "description_ur": "پلگ کیپ کاال واٹر پروف",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1604-00": {
+      "description_en": "PLUG DP8EA-9",
+      "description_ur": "اِسپارک پلگ سنگل پوائنٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-1601-00": {
+      "description_en": "PRESSURE PLATE",
+      "description_ur": "پریشر پِلیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1601-00": {
+      "description_en": "PRESSURE PLATE",
+      "description_ur": "پریشر پِلیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "13-1601-00": {
+      "description_en": "PRESSURE PLATE",
+      "description_ur": "پریشر پِلیٹ",
+      "model": "QINGQI-4ST",
+      "manufacturer": "C.P"
+    },
+    "50-1601-00": {
+      "description_en": "PRESSURE PLATE",
+      "description_ur": "پریشر پِلیٹ",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "18-1617-00": {
+      "description_en": "PULSAR COIL",
+      "description_ur": "پَلش کوائل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "23-1617-00": {
+      "description_en": "PULSAR COIL",
+      "description_ur": "پَلش کوائل",
+      "model": "HERO",
+      "manufacturer": "C.P"
+    },
+    "07-1603-00": {
+      "description_en": "PUSH ROD",
+      "description_ur": "پُش راڈ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "17-1603-00": {
+      "description_en": "PUSH ROD (BLACK)",
+      "description_ur": "پُش راڈ کاال",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-1607-00": {
+      "description_en": "PUSH RUBBER",
+      "description_ur": "پُش ربڑ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1810-00": {
+      "description_en": "R.P.M CABLE",
+      "description_ur": "آر نر ایم کیبل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "07-1806-00": {
+      "description_en": "R.P.M. GEAR",
+      "description_ur": "آر نر ایم گییر",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "18-1840-K3": {
+      "description_en": "REAR FORK (BLACK) (CHIMTA) WITH BUSH",
+      "description_ur": "",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "18-1875-K0": {
+      "description_en": "REAR SHOCK SPRING (SET)",
+      "description_ur": "رییر شاک اسیر نگ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "19-1875-K0": {
+      "description_en": "REAR SHOCK SPRING SET",
+      "description_ur": "رییر شاک اسیر نگ",
+      "model": "JH90",
+      "manufacturer": "C.P"
+    },
+    "36-1805-00": {
+      "description_en": "RECTIFIER",
+      "description_ur": "رِیکٹیفائر",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-1805-00": {
+      "description_en": "RECTIFIER 12V",
+      "description_ur": "رِیکٹیفائر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1805-TP": {
+      "description_en": "RECTIFIER 12V (TRANSPARENT)",
+      "description_ur": "",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-1805-K1": {
+      "description_en": "RECTIFIER LEED",
+      "description_ur": "ریکٹیفائر لیڈ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-1802-00": {
+      "description_en": "ROCKER PIN",
+      "description_ur": "روکر پِن",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-1802-00": {
+      "description_en": "ROCKER PIN (2PC/SET)",
+      "description_ur": "روکر پِن",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1812-00": {
+      "description_en": "ROCKER PIN WASHER",
+      "description_ur": "روکر پِن واشر",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "07-1811-00": {
+      "description_en": "ROCKER PLATE",
+      "description_ur": "روکر پِلیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "42-1811-00": {
+      "description_en": "ROCKER PLATE",
+      "description_ur": "روکر پِلیٹ",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-1801-00": {
+      "description_en": "ROCKER W/BEARING & TAPPET SCREW",
+      "description_ur": "روکر بمع بیر نگ اینڈ ٹیپٹ اسکریو",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-1801-00": {
+      "description_en": "ROCKER W/TAPPET NUT BOLT",
+      "description_ur": "روکر بمع ٹیپٹ نٹ اینڈ بولٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "42-1801-00": {
+      "description_en": "ROCKER W/TAPPET NUT BOLT",
+      "description_ur": "روکر سیٹ بمع ٹیپٹ نٹ اینڈ بولٹ",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-1803-00": {
+      "description_en": "ROLLER BOLT (CROME) WITH WASHER",
+      "description_ur": "رولر بُولٹ کروم",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1807-01": {
+      "description_en": "ROLLER RUBBER ONLY WITHOUT BUSH",
+      "description_ur": "رولر ربڑ رصف بغیر بُش",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "50-1807-01": {
+      "description_en": "ROLLER RUBBER ONLY WITHOUT BUSH",
+      "description_ur": "",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "04-1808-01": {
+      "description_en": "ROLLER TENSIONER SET WITHOUT BUSH",
+      "description_ur": "رولر ٹینشیی سیٹ بغیر بُش",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "50-1808-01": {
+      "description_en": "ROLLER TENSIONER SET WITHOUT BUSH",
+      "description_ur": "",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "18-1960-K0": {
+      "description_en": "SEAT ASSY DOUBLE",
+      "description_ur": "سِیٹ اسمبیل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-1960-K0": {
+      "description_en": "SEAT ASSY. DOUBLE",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-1945-K2": {
+      "description_en": "SEAT COWL (BLACK) SET",
+      "description_ur": "سِیٹ کاوَل کاال",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-1945-K1": {
+      "description_en": "SEAT COWL (RED SET)",
+      "description_ur": "سِیٹ کاوَل الل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "18-1945-K1": {
+      "description_en": "SEAT COWL (RED) SET",
+      "description_ur": "سِیٹ کاوَل الل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "18-1936-K3": {
+      "description_en": "SEAT PIPE ASSY WITH BRACKET",
+      "description_ur": "",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "18-1910-C0": {
+      "description_en": "SHOCK PUMP REAR SET",
+      "description_ur": "شاک پمپ رئیر سیٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "19-1910-C0": {
+      "description_en": "SHOCK PUMP REAR SET",
+      "description_ur": "شاک پمپ رئیر سیٹ",
+      "model": "JH90",
+      "manufacturer": "C.P"
+    },
+    "07-1901-00": {
+      "description_en": "SHOCK REAR",
+      "description_ur": "شاک رییر",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-1901-02": {
+      "description_en": "SHOCK REAR BLACK H/D",
+      "description_ur": "شاک رییر کاال ھیوی ڈیونر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1901-03": {
+      "description_en": "SHOCK REAR RED H/D",
+      "description_ur": "شاک رییر الل ھیوی ڈیونر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "19-1920-00": {
+      "description_en": "SHOCK SEAL (DOUBLE SPRING)27X37X10.5",
+      "description_ur": "شاک سیل",
+      "model": "JH90",
+      "manufacturer": "C.P"
+    },
+    "04-1920-00": {
+      "description_en": "SHOCK SEAL 25X35X9",
+      "description_ur": "شاک سیل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1920-00": {
+      "description_en": "SHOCK SEAL 27X39X10.5",
+      "description_ur": "شاک سیل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "18-1953-K2": {
+      "description_en": "SIDE COVER SET L & R (BLACK SET)",
+      "description_ur": "",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-1935-K2": {
+      "description_en": "SIDE STAND",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-1935-K2": {
+      "description_en": "SIDE STAND",
+      "description_ur": "",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-1905-00": {
+      "description_en": "SLIDE PIN JET",
+      "description_ur": "سالئیڈ پِن جیٹ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-1905-00": {
+      "description_en": "SLIDE PIN JET",
+      "description_ur": "سالئیڈ پِن جیٹ ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-1905-00": {
+      "description_en": "SLIDE PIN JET",
+      "description_ur": "سالئیڈ پِن جیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-1905-00": {
+      "description_en": "SLIDE PIN JET",
+      "description_ur": "سالئیڈ پِن جیٹ",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "42-1905-00": {
+      "description_en": "SLIDE PIN JET",
+      "description_ur": "",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-1932-00": {
+      "description_en": "SLOW JET",
+      "description_ur": "سلُو جیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1913-00": {
+      "description_en": "SOUND FLASHER 12V",
+      "description_ur": "ساونڈ فلیشر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "00-1929-01": {
+      "description_en": "SPOKE BUTTED 2.25X17",
+      "description_ur": "اِسپُوک بٹڈ",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "00-1929-02": {
+      "description_en": "SPOKE BUTTED 2.50X17",
+      "description_ur": "اِسپُوک بٹڈ",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "00-1929-03": {
+      "description_en": "SPOKE BUTTED 2.50X18",
+      "description_ur": "اِسپُوک بٹڈ",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "00-1929-04": {
+      "description_en": "SPOKE BUTTED 3.00X17",
+      "description_ur": "اِسپُوک بٹڈ",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "42-1929-44": {
+      "description_en": "SPOKE STRAIGHT 3.00X17 (BIG NIPPLE)",
+      "description_ur": "بڑا نپل اسپوک اِسیر یٹ",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "07-1906-00": {
+      "description_en": "SPROCKET BOLT KIT (CROME)",
+      "description_ur": "اِسپاکٹ بولٹ کُروم",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "07-1906-02": {
+      "description_en": "SPROCKET BOLT KIT (GOLDEN)",
+      "description_ur": "اِسپاکٹ بولٹ گولڈن",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-1906-01": {
+      "description_en": "SPROCKET BOLT KIT GALVANIZE",
+      "description_ur": "اِسپاکٹ بولٹ گیلوانئیر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1919-00": {
+      "description_en": "SPROCKET LOCK 14T",
+      "description_ur": "اِسپاکٹ بولٹ الک",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1904-00": {
+      "description_en": "SPROCKET PANNEL",
+      "description_ur": "اِسپاکٹ پینل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-1908-00": {
+      "description_en": "STUD",
+      "description_ur": "اِسٹڈ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-1908-00": {
+      "description_en": "STUD",
+      "description_ur": "اِسٹڈ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "24-1908-00": {
+      "description_en": "STUD",
+      "description_ur": "اِسٹڈ",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "14-1917-00": {
+      "description_en": "SWITCH",
+      "description_ur": "",
+      "model": "CD100",
+      "manufacturer": "C.P"
+    },
+    "04-1917-00": {
+      "description_en": "SWITCH",
+      "description_ur": "سوئچ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-1917-00": {
+      "description_en": "SWITCH",
+      "description_ur": "سوئچ",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "23-1917-00": {
+      "description_en": "SWITCH",
+      "description_ur": "سوئچ",
+      "model": "HERO",
+      "manufacturer": "C.P"
+    },
+    "04-1916-00": {
+      "description_en": "SWITCH KIT",
+      "description_ur": "سوئچ کِٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-1916-00": {
+      "description_en": "SWITCH KIT",
+      "description_ur": "سوئچ کِٹ",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-2009-00": {
+      "description_en": "TAPPET COVER (CROME)",
+      "description_ur": "ٹیپٹ کور بمع اُورنگ کروم",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-2009-00": {
+      "description_en": "TAPPET COVER (CROME)",
+      "description_ur": "ٹیپٹ کور بمع اُورنگ کروم",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-2003-00": {
+      "description_en": "TAPPET NUT & BOLT",
+      "description_ur": "ٹیپٹ نَٹ اِینڈ بُولٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-2003-00": {
+      "description_en": "TAPPET NUT & BOLT",
+      "description_ur": "ٹیپٹ نَٹ اِینڈ بُولٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "36-2007-00": {
+      "description_en": "TENSIONER PATTI",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-2007-00": {
+      "description_en": "TENSIONER PATTI",
+      "description_ur": "ٹِینشیی پٹر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-2010-00": {
+      "description_en": "THROTTLE CABLE",
+      "description_ur": "اِیکسیلیر کیبل",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "07-2010-00": {
+      "description_en": "THROTTLE CABLE",
+      "description_ur": "اِیکسیلیر کیبل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "42-2010-00": {
+      "description_en": "THROTTLE CABLE",
+      "description_ur": "اِیکسیلیر کیبل",
+      "model": "CG125-EURO2",
+      "manufacturer": "C.P"
+    },
+    "36-2010-00": {
+      "description_en": "THROTTLE CABLE MM",
+      "description_ur": "اِیکسیلیر کیبل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-2001-00": {
+      "description_en": "TIMING CHAIN 82L",
+      "description_ur": "ٹائمنگ چٹر لنک",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "20-2001-00": {
+      "description_en": "TIMING CHAIN 84L",
+      "description_ur": "ٹائمنگ چٹر لنک",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "04-2001-01": {
+      "description_en": "TIMING CHAIN KIT 82L",
+      "description_ur": "ٹائمنگ چٹر کٹ لنک",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "20-2001-01": {
+      "description_en": "TIMING CHAIN KIT 84L",
+      "description_ur": "ٹائمنگ چٹر کٹ لنک",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "04-2008-00": {
+      "description_en": "TIMING COVER",
+      "description_ur": "ٹائمنگ کَور",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-2002-00": {
+      "description_en": "TIMING GEAR",
+      "description_ur": "ٹائمنگ گراری",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "20-2002-00": {
+      "description_en": "TIMING GEAR",
+      "description_ur": "ٹائمنگ گراری",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "36-2002-00": {
+      "description_en": "TIMING GEAR (2012 MODEL)",
+      "description_ur": "ٹائمنگ گراری ماڈل",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "04-2023-00": {
+      "description_en": "TIMING ROD W/PUSH RUBBER",
+      "description_ur": "ٹائمنگ راڈ بمع پُش ربڑ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-2023-01": {
+      "description_en": "TIMING ROD W/PUSH RUBBER & SPRING",
+      "description_ur": "ٹائمنگ راڈ بمع پُش ربڑ اینڈ اِسیر نگ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-2022-00": {
+      "description_en": "TIMING SPRING",
+      "description_ur": "ٹائمنگ اِسیر نگ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-2011-00": {
+      "description_en": "TOP COVER (BLACK)",
+      "description_ur": "ٹاپ کور کاال",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-2011-00": {
+      "description_en": "TOP COVER (HEAD)",
+      "description_ur": "ہیڈ ٹاپ کور",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-2020-00": {
+      "description_en": "TOP COVER ORING",
+      "description_ur": "ٹاپ کور اُورنگ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "04-2024-00": {
+      "description_en": "TRANSMISSION ASSY. COMPLETE",
+      "description_ur": "گییر گُچھا",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-2024-00": {
+      "description_en": "TRANSMISSION ASSY. COMPLETE",
+      "description_ur": "گییر گُچھا",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "50-2024-00": {
+      "description_en": "TRANSMISSION ASSY. COMPLETE",
+      "description_ur": "گییر گُچھا",
+      "model": "UNITED-100",
+      "manufacturer": "C.P"
+    },
+    "00-2005-01": {
+      "description_en": "TYRE SEALANT ML",
+      "description_ur": "",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "00-2005-02": {
+      "description_en": "TYRE SEALANT ML",
+      "description_ur": "",
+      "model": "UNIVERSAL",
+      "manufacturer": "C.P"
+    },
+    "04-2209-00": {
+      "description_en": "VALVE CAP",
+      "description_ur": "وال کیپ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-2204-00": {
+      "description_en": "VALVE COTTER",
+      "description_ur": "وال کیچر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-2204-00": {
+      "description_en": "VALVE COTTER",
+      "description_ur": "وال کیچر",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "17-2204-00": {
+      "description_en": "VALVE COTTER",
+      "description_ur": "وال کیچر",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "20-2204-00": {
+      "description_en": "VALVE COTTER",
+      "description_ur": "وال کیچر",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "04-2202-00": {
+      "description_en": "VALVE SEAL",
+      "description_ur": "وال سیل",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-2202-00": {
+      "description_en": "VALVE SEAL",
+      "description_ur": "وال سیل",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "20-2202-00": {
+      "description_en": "VALVE SEAL",
+      "description_ur": "وال سیل",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "04-2208-00": {
+      "description_en": "VALVE SET",
+      "description_ur": "وال سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-2208-00": {
+      "description_en": "VALVE SET",
+      "description_ur": "وال سیٹ",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "20-2208-00": {
+      "description_en": "VALVE SET",
+      "description_ur": "وال سیٹ",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "04-2208-02": {
+      "description_en": "VALVE SET OVER SIZE",
+      "description_ur": "وال سیٹ اوور سائز",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "17-2208-02": {
+      "description_en": "VALVE SET OVER SIZE",
+      "description_ur": "وال سیٹ اوور سائز",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "20-2208-02": {
+      "description_en": "VALVE SET OVER SIZE",
+      "description_ur": "وال سیٹ اوور سائز",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "04-2206-00": {
+      "description_en": "VALVE SPRING SET",
+      "description_ur": "وال اِسیر نگ سیٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-2206-00": {
+      "description_en": "VALVE SPRING SET",
+      "description_ur": "وال اِسیر نگ سیٹ",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "20-2206-00": {
+      "description_en": "VALVE SPRING SET",
+      "description_ur": "وال اِسیر نگ سیٹ",
+      "model": "SOHRAB",
+      "manufacturer": "C.P"
+    },
+    "04-2305-00": {
+      "description_en": "WEIGHT COLLAR",
+      "description_ur": "ویٹ کالر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "00-2306-01": {
+      "description_en": "WHEEL CHAIN 420X104L",
+      "description_ur": "ویل چٹر",
+      "model": "420X104L",
+      "manufacturer": "C.P"
+    },
+    "00-2306-11": {
+      "description_en": "WHEEL CHAIN 420X104L W/O BOX",
+      "description_ur": "ویل چٹر",
+      "model": "420X104L",
+      "manufacturer": "C.P"
+    },
+    "00-2306-02": {
+      "description_en": "WHEEL CHAIN 428X100L",
+      "description_ur": "ویل چٹر",
+      "model": "428X100L",
+      "manufacturer": "C.P"
+    },
+    "04-2302-00": {
+      "description_en": "WHEEL DRUM FRONT",
+      "description_ur": "ویل ڈرم فرنٹ",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "04-2301-00": {
+      "description_en": "WHEEL DRUM REAR",
+      "description_ur": "ویل ڈرم رِئیر",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "07-2301-00": {
+      "description_en": "WHEEL DRUM REAR",
+      "description_ur": "ویل ڈرم رِئیر",
+      "model": "CG125",
+      "manufacturer": "C.P"
+    },
+    "18-2309-C2": {
+      "description_en": "WHEEL RIM SET (2.25X17/2.50X17)",
+      "description_ur": "",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "04-2304-00": {
+      "description_en": "WHEEL SLEEVE",
+      "description_ur": "ویل سیلو",
+      "model": "CD70F",
+      "manufacturer": "C.P"
+    },
+    "18-2307-00": {
+      "description_en": "WIRING",
+      "description_ur": "وائرنگ",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-2307-00": {
+      "description_en": "WIRING",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "17-2307-00": {
+      "description_en": "WIRING",
+      "description_ur": "وائرنگ",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "24-2307-00": {
+      "description_en": "WIRING",
+      "description_ur": "وائرنگ",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "18-2307-HD": {
+      "description_en": "WIRING \"HEAVY DUTY\"",
+      "description_ur": "",
+      "model": "CD70-CDI",
+      "manufacturer": "C.P"
+    },
+    "36-2307-HD": {
+      "description_en": "WIRING \"HEAVY DUTY\"",
+      "description_ur": "",
+      "model": "CD70-EURO2",
+      "manufacturer": "C.P"
+    },
+    "17-2307-HD": {
+      "description_en": "WIRING \"HEAVY DUTY\"",
+      "description_ur": "",
+      "model": "CG125-CDI",
+      "manufacturer": "C.P"
+    },
+    "24-2307-HD": {
+      "description_en": "WIRING \"HEAVY DUTY\"",
+      "description_ur": "",
+      "model": "STAR",
+      "manufacturer": "C.P"
+    },
+    "kjk": {
+      "description_en": "klkds",
+      "description_ur": "",
+      "model": "",
+      "manufacturer": "Database"
+    },
+    "A100": {
+      "description_en": "Widget",
+      "description_ur": "",
+      "model": "",
+      "manufacturer": "Database"
+    }
+  },
+  "phrases": {
+    "فلٹر": "Oil Filter",
+    "ائیر": "Air",
+    "ایئر": "Air",
+    "ائل": "Oil",
+    "آئل": "Oil",
+    "پٹرول": "Petrol",
+    "پیٹل": "Petrol Cock",
+    "پک کیپ": "Spark Plug Cap",
+    "پلگ کیپ": "Spark Plug Cap",
+    "پلک کیپ": "Spark Plug Cap",
+    "کیپ": "Cap",
+    "پلگ": "Plug",
+    "نٹ": "Nut",
+    "بولٹ": "Bolt",
+    "واشر": "Washer",
+    "بش": "Bush",
+    "بیرنگ": "Bearing 63/28 Open",
+    "کیبل": "Cable",
+    "کلچ": "Clutch Warm",
+    "بریک": "BRAKE SWITCH REAR",
+    "میٹر": "Speedo Meter Assy",
+    "ریس": "Throttle",
+    "چوک": "Choke",
+    "لیور": "Lever",
+    "ہینڈل": "Handle lock Universal",
+    "گریپ": "Grip",
+    "چمٹا": "Swing Arm",
+    "ڈرم": "DRUM ONLY REAR RP",
+    "ہب": "Hub",
+    "اکسل": "Axle",
+    "ایکسل": "Axle",
+    "سنٹر": "Center",
+    "شاک": "Shock Pump Rear",
+    "سپرنگ": "SPRING - KICK RP",
+    "چین": "Drive Chain",
+    "گراری": "SPROCKET FLANGE DRIVE",
+    "سیٹ": "Set",
+    "سلنڈر": "Cylinder",
+    "پسٹن": "Piston",
+    "رنگ": "Ring (STD,0.50,1.00)",
+    "والو": "Valve",
+    "راکر": "Rocker",
+    "کیم": "Cam",
+    "شافٹ": "Cam Shaft",
+    "پن": "DRIVE PLATE RP",
+    "روڈ": "Rod",
+    "کاربوریٹر": "Insulator",
+    "کک": "Kick",
+    "گول": "Round",
+    "پیکنگ": "Gasket",
+    "پیک": "Packing",
+    "گاسکٹ": "Gasket",
+    "سیل": "Oil Seal",
+    "ربڑ": "Rubber",
+    "ربر": "Rubber",
+    "پلیٹ": "Plate",
+    "پریشر": "Pressure",
+    "شو": "Shoe",
+    "پیڈ": "Pad",
+    "اشارہ": "Indicator (Right)",
+    "لائٹ": "Light",
+    "ہیڈ": "Head",
+    "بیک": "Back",
+    "ہارن": "Horn Assy",
+    "سوئچ": "SWITCH",
+    "لاک": "Chain Lock",
+    "چابی": "Key",
+    "جالی": "Mesh",
+    "بوتل": "Bottle",
+    "پائپ": "Pipe",
+    "وائرنگ": "Wiring (United)",
+    "کوائل": "IGNITION COIL RP",
+    "میگنٹ": "Magnet",
+    "سی ڈی آئی": "CDI",
+    "ریگولیٹر": "Regulator",
+    "بیٹری": "Battery",
+    "ٹائر": "Tyre",
+    "ٹیوب": "Tube",
+    "رم": "Rim",
+    "سپوک": "Spoke",
+    "مڈگارڈ": "Mudguard",
+    "فٹ بار": "Step Bar",
+    "فٹ ریسٹ": "Footrest",
+    "سٹینڈ": "Stand",
+    "سائیڈ": "Side",
+    "مین": "MAIN STAND RP",
+    "ٹینک": "Fuel Tank",
+    "ٹینکی": "Fuel Tank",
+    "ٹاپہ": "Side Cover",
+    "سائلنسر": "Silencer",
+    "مفلر": "Muffler",
+    "مکمل": "Complete",
+    "نیو": "New Model",
+    "اولڈ": "Old Model",
+    "پرانا": "Old Model",
+    "بمعہ": "With",
+    "بمع": "With",
+    "ڈبل": "Double",
+    "سنگل": "Single",
+    "فرنٹ": "Front",
+    "پچہلی": "Rear",
+    "اگلی": "Front",
+    "چہوٹی": "Small",
+    "بڑی": "Big",
+    "اٹل": "Atal",
+    "رولر": "Roller",
+    "ڈاگ": "Dog / Pawl",
+    "کتا": "Pawl",
+    "گولی": "Ball Bearing",
+    "سپروکیٹ": "Sprocket",
+    "ائیر فلثر": "AIR FILTER RP",
+    "ائیر فلٹر": "Air Filter",
+    "ایکسل فرنٹ نٹ": "AXLE FRONT WITH NUT RP",
+    "ایکسل فرنٹ": "AXLE FRONT WITH NUT RP",
+    "ریئر بمع": "AXLE REAR WITH NUT RP",
+    "ایکسل ریئر بمع نٹ": "AXLE REAR WITH NUT RP",
+    "Se لائٹ مکمل": "BACK LIGHT RP",
+    "Se بریکٹ": "LIGHT BRACKET RP (PLASTIC)",
+    "Se I بریکٹ": "LIGHT BRACKET RP(PLASTIC)",
+    "بیک لائٹ کور": "BACK LIGHT COVER RP",
+    "Si": "BALL BEARING RP",
+    "پیرنگ": "BALL BEARING RP",
+    "Sin": "BALL BEARING RP",
+    "Siw": "BALL BEARING RP",
+    "6328": "BATTERY CAPACITOR 12V RP",
+    "بریک کیم شافٹ CSB": "BRAKE CAM SHAFT FRONT RP",
+    "بریک کیم شافٹ ریئر": "BRAKE CAM SHAFT REAR RP",
+    "بریک لیور": "BRAKE LEVER N/M RP",
+    "بریک پیڈل Sigel": "BRAKE PEDAL SPRING RP",
+    "بریک راڈ": "BRAKE ROD",
+    "Sy شو پلیٹ فرنٹ": "SHOE PLATE ONLY FRONT RP",
+    "بریک سوئچ فرنٹ": "BRAKE SWITCH FRONT",
+    "Bye ریئر": "CABLE BRAKE RP",
+    "کلچ کیبل": "CLUTCH CABLE",
+    "آر-پی۔ایم کیبل": "CABLE RPM RP",
+    "کاربوریٹر بینڈ": "CARBURATOR BEND",
+    "سی۔ڈی-آئی گٹکا کوائل": "CDI GUTKA COIL",
+    "گٹکا": "CDI GUTKA COIL",
+    "س۔ڈی-آئی یونٹ": "CDI UNIT RP",
+    "س۔ڈی-آئی": "CDI UNIT RP",
+    "چین لاک": "Chain Lock",
+    "چین گراری eae": "SPROCKET KIT (H-CHAIN)",
+    "چین گراری": "SPROCKET KIT JPS RP",
+    "کلچ باس سیٹ": "BOSS COMPLETE RP",
+    "کلچ ob Ca": "CLUTCH BOSS-ONLY RP",
+    "nb": "BOSS COMPLETE RP",
+    "See": "CLUTCH BOX RP",
+    "کلچ 4S": "BOX ONLY WITHOUT GEAR RP",
+    "کلچ au": "CLUTCH BOX RP",
+    "کلچ Au": "CLUTCH BOX RP",
+    "کلچ ہش": "CLUTCH BUSH RP",
+    "کلچ کور": "Clutch Cover",
+    "dus گراری چہوٹی": "GEAR SMALL RP",
+    "کلچ لفٹر": "CLUTCH LIFTER RP",
+    "کلچ جین": "Clutch Jain",
+    "کلچ پٹی": "WARM PATTI RP",
+    "کلچ وائیر": "CLUTCH WIRE",
+    "کون راڈ": "CONNECTING ROD RP",
+    "Rigs شافٹ": "COUNTER SHAFT RP",
+    "سلنٹر": "CYLINDER PACKING RP",
+    "ڈاول پن": "DOWEL PIN RP",
+    "ڈاول": "DOWEL PIN RP",
+    "ڈرم بش": "DRUM BUSH SET RP",
+    "ڈرم ربڑ": "Wheel Drum Rubber",
+    "فلٹر بوتل": "FILTER BOTTLE RP",
+    "AS by": "FILTER LOTA RP",
+    "فلٹر لوٹا": "FILTER LOTA RP",
+    "والا": "FLASHER SOUND 12V RP",
+    "فرنٹ شاک": "Shock Front(With Accessories)",
+    "فیول کاک": "FUEL COCK",
+    "فیول BT فلٹر": "FUEL OIL FILTER RP",
+    "فیول SE چا Dy": "FUEL COCK KEY TYPE RP",
+    "فل کٹ": "GASKET FULL RP",
+    "ہاف کٹ": "GASKET HALF RP",
+    "چورس جین": "GASKET PLUG SIDE RP",
+    "کاربوریٹرجین": "Carburetor Jain",
+    "13/12": "BEARING X RP",
+    "گیئر بیرنگ 13/12": "BEARING X RP",
+    "گیئر بیرنگ": "BEARING X RP",
+    "گیئر بیرنگ 14/12": "BEARING X RP",
+    "گی ر گہچا": "TRANSMISSION SET RP",
+    "ہینڈل لاک": "HANDLE LOCK RP",
+    "کک شافٹ": "KICK SHAFT ONLY RP",
+    "کک شافٹ خالی": "KICK SHAFT ONLY RP",
+    "کلچ اسمبلی": "ASSEMBLY L/H WITHOUT LEVER",
+    "اسمبلی سیٹ 2011 ماڈل": "LEVER ASSEMBLY SET RP",
+    "کوائل گچہا": "Magnet Coil Ring",
+    "میگنٹ Singh کٹ": "RP ORANGE",
+    "کوائل پلیٹ خای": "MAGNET PLATE ONLY RP",
+    "میگنٹ Singh": "SET RP BLACK(COMPLETE)",
+    "مین جیٹ": "MAIN JET NO. RP",
+    "مین شافٹ": "MAIN SHAFT RP",
+    "آئل بولٹ": "OIL BOLT RP",
+    "آئل گیچ": "OIL GUAGE RP",
+    "ws": "OIL GUAGE RP",
+    "el": "PUMP COMPLETE RP",
+    "آئل پمپ": "Oil Pump Gear",
+    "آئل ہمپ چالی": "OIL PUMP SCREEN RP",
+    "آئل سیل": "OIL SEAL 22X35X7",
+    "آئل سیل کٹ": "OIL SEAL KIT",
+    "پلسر کوائل": "PULSAR COIL RP",
+    "راڈ": "Oil Pump Rod",
+    "روکر پن": "Rocker Pin",
+    "روکر پلیٹ": "ROCKER PLATE",
+    "روکر سیٹ": "ROKER SET RP",
+    "گوٹ ربڑ سیٹ": "ROLLER RUBBER SET RP",
+    "شاک سپرنگ فرنٹ": "SPRING SET FRONT RP",
+    "سائیڈ کور لاک": "SIDE STAND RP",
+    "ہلگ": "PLUG D8EA GOLDEN RP",
+    "میٹر مکمل": "SPEEDOMETER RP",
+    "کک سپرنگ": "SPRING - KICK RP",
+    "گراری بولٹ": "SPROCKET BOLT KIT RP",
+    "سٹاہر پتری Ae": "PATTI BOLT RP",
+    "سونچ لاک والا": "WITH HANDLE LOCK RP",
+    "ٹیپٹ کور": "TAPET SCREW RP",
+    "ٹائمنگ بولٹ": "TIMING BOLT RP",
+    "وال سیل": "VALVE SEAL",
+    "وال سیٹ": "VALVE SET",
+    "وال": "SET NEW MODEL RP",
+    "ویل ڈرم فرنٹ": "WHEEL DRUM FRONT",
+    "وہل ڈرم": "DRUM COMPLETE REAR RP",
+    "bs ڈرم فرنٹ": "DRUM ONLY FRONT RP",
+    "ویل سیلو": "WHEEL SLEEVE",
+    "سبوک": "SPOKE (STRAIGHT) LONG NUT",
+    "ویل سبوک": "SPOKE (STRAIGHT) LONG NUT",
+    "ائیر فلیر": "AIR FILTER",
+    "ائیر فلیر بوتل ہوز پائپ": "AIR FILTER BOTTLE (HOSE PIPE) 16MM",
+    "ائیر فلیر فوم": "AIR FILTER FOAM",
+    "ائیر لوٹا": "AIR LOTA",
+    "ایکسل سینیر بمع نٹ": "AXLE CENTER WITH NUT",
+    "ایکسل فرنٹ بمع نٹ": "AXLE FRONT WITH NUT",
+    "ایکسل رییر بمع نٹ": "AXLE REAR WITH NUT",
+    "بیک الئٹ مکمل": "BACK LIGHT COMPLETE",
+    "بیک الئٹ مکمل ماڈل": "BACK LIGHT COMPLETE (2003 MODEL)",
+    "بیک الئٹ ہولڈر": "BACK LIGHT HOLDER",
+    "بیک الئٹ لینس": "BACK LIGHT LENS",
+    "بیک ویو مرر بال فنکشن": "BACK VIEW MIRROR (BALL FUNCTION) SET",
+    "پش پلگ": "BALANCER",
+    "بییر نگ": "BEARING A (CJB)",
+    "بریک کیبل": "BRAKE CABLE",
+    "بریک کیبل ایم ایم": "BRAKE CABLE (6MM)",
+    "بریک کیبل جاپانی اسٹا ئیل": "BRAKE CABLE (JAPANESE STYLE)",
+    "بریک کیبل ماڈل": "BRAKE CABLE MODEL",
+    "بریک کیم لیور شافٹ فرنٹ": "BRAKE CAM LEVER & SHAFT FRONT",
+    "بریک کیم لیور شافٹ رییر": "BRAKE CAM LEVER & SHAFT REAR",
+    "بریک پیڈل": "Brake Pedal",
+    "بریک پیڈل اسیر نگ": "BRAKE PEDAL SPRING",
+    "بریک شو پلیٹ رصف فرنٹ": "BRAKE SHOE PLATE ONLY FRONT",
+    "بریک شو پلیٹ رصف رییر": "BRAKE SHOE PLATE ONLY REAR",
+    "بریک شو سیٹ فرنٹ بمع اسیر نگ": "BRAKE SHOE SET FRONT W/SPRING",
+    "بریک شو سیٹ بمع اسیر نگ بڑا": "BRAKE SHOE SET WITH BIG SPRING NON-ASBESTOS",
+    "بریک شو سیٹ بمع اسیر نگ": "BRAKE SHOE SET WITH SPRING",
+    "بریک شو سیٹ بمع اسیر نگ ایکسیر ا گرپ": "BRAKE SHOE SET WITH SPRING EXTRA GRIP",
+    "بریک سوئچ رییر": "BRAKE SWITCH REAR W/SPRING",
+    "یس ڈی آنر یونٹ لیڈ": "C.D.I UNIT LEED",
+    "یس ڈی آنر یونٹ لیڈ ایم نی100": "C.D.I UNIT LEED (MB100)",
+    "یس ڈی آنر اسٹارٹنگ کوائل گٹکا کوائل": "C.D.I. STARTING COIL (GUTKA COIL) )",
+    "یس ڈی آنر یونٹ": "C.D.I. UNIT",
+    "یس ڈی آنر یونٹ الیکیر ک اسٹارٹ": "C.D.I. UNIT (ELECTRIC START)(4 PIN) )",
+    "یس ڈی آنر یونٹ ایم نی100": "C.D.I. UNIT (MB100)",
+    "یس ڈی آنر یونٹ پن": "C.D.I. UNIT (MB100) (PREMIUM QUALITY)",
+    "کیم فالور سیٹ": "CAM FOLLOWER",
+    "کیم گراری سیٹ": "CAM GEAR SET",
+    "کیم گراری یورو": "CAM GEAR SET (EURO II)",
+    "کیم گراری ہیوی ڈیونر": "CAM GEAR SET HEAVY DUTY",
+    "کیم پن روکر اورنگ": "CAM PIN ROCKER ORING",
+    "کیم شافٹ": "CAM SHAFT (ALTER)",
+    "کیم شافٹ جی نی او": "CAM SHAFT",
+    "کیم شافٹ ماڈل": "CAM SHAFT (2012 MODEL)",
+    "کاربورییر یس یس": "CARBURETOR (PZ-16) 78CC",
+    "کاربورییر ماڈل": "CARBURETOR (PZ-18)",
+    "کاربورییر": "CARBURETOR (PZ-26)",
+    "کاربورییر بینڈ بڑا سوراخ": "CARBURETOR BEND (BIG HOLE)",
+    "کاربورییر بینڈ یورو": "CARBURETOR BEND (EURO 11)",
+    "کاربورییر بینڈ چہوٹا سوارخ": "CARBURETOR BEND (SMALL HOLE)",
+    "کاربورییر چوک کٹ": "CARBURETOR CHOKE KIT",
+    "کاربورییر پسٹر بمع اسیر نگ": "CARBURETOR PISTON W/SPRING",
+    "چٹر کور بولٹ کٹ": "CHAIN COVER BOLT KIT",
+    "چٹر کور سیٹ سلور": "CHAIN COVER SET (SILVER)",
+    "چٹر کٹ الیر": "CHAIN KIT (38X15+420X104L) MODIFIED \"",
+    "چٹر کٹ": "CHAIN KIT (43X14+428HX110L)",
+    "چٹر کٹ جاپانی ٹائپ": "CHAIN KIT (41X14+420X104L) JAPANESE STYLE",
+    "چٹر الک": "CHAIN LOCK",
+    "چٹر سیٹنگ بڑی": "CHAIN SETTING LARGE",
+    "چٹر سیٹنگ چہونر": "CHAIN SETTING SMALL",
+    "کلچ کٹورہ": "CLUTCH BOSS",
+    "کلچ بکس اسیر نگ": "CLUTCH BOSS SPRING",
+    "کلچ بکس اسمبیل مکمل": "CLUTCH BOX ASSY. COMP",
+    "کلچ بکس اسمبیل مکمل بمع کلچ گراری": "CLUTCH BOX ASSY. COMP. W/GEAR",
+    "کلچ بکس رصف بمع گییر": "CLUTCH BOX W/GEAR",
+    "کلچ بش": "CLUTCH BUSH",
+    "کلچ کیبل ماڈل": "CLUTCH CABLE MODEL",
+    "کلچ سینیر کڑا": "CLUTCH CENTER KARA",
+    "کلچ گراری": "Gear Primary Drive",
+    "کلچ گراری بڑی": "CLUTCH GEAR BIG 67T",
+    "کلچ ہاوسنگ اسمبیل": "CLUTCH HOUSING ASSEMBLY",
+    "کلچ ہاوسنگ سیٹ": "CLUTCH HOUSING SET",
+    "کلچ ہاوسنگ سیٹ بمع اسٹیل ڈوٹٹ": "CLUTCH HOUSING SET W/STEEL (DOTTED) )",
+    "کلچ لفیر کروم": "CLUTCH LIFTER (CROME) (QINGQI-4ST)",
+    "کلچ لفیر اوور سائز": "CLUTCH LIFTER OVER SIZE",
+    "کلچ لفیر اسیر نگ": "CLUTCH LIFTER SPRING",
+    "کلچ نٹ الک سیٹ": "CLUTCH NUT LOCK SET",
+    "کلچ نٹ الک بمع آوٹ سائیڈ واشر": "CLUTCH NUT LOCK WITH OUTSIDE WASHER",
+    "کلچ بکس آوٹر کور": "CLUTCH OUTER COVER",
+    "کلچ پیکینگ ہری": "CLUTCH PACKING (GREEN)",
+    "کلچ پٹر سیٹ": "CLUTCH PATTI SET",
+    "کلچ پلیٹ": "CLUTCH PLATE",
+    "کلچ پشر": "Clutch Pusher",
+    "کون راڈ کٹ": "Connecting Rod Kit",
+    "کاونیر شافٹ": "COUNTER SHAFT",
+    "ویٹ مکمل بمع بییر نگ": "CRANK SHAFT COMP. W/BEARING",
+    "کشن ربڑ سیٹ": "CUSHION RUBBER SET",
+    "فرنٹ کشن سیٹ": "CUSHION SET FRONT",
+    "سلینڈر": "CYLINDER",
+    "سلینڈر یس ایم": "CYLINDER 78CC",
+    "سلینڈر ایم ایم": "CYLINDER 69mm",
+    "سلینڈر یس یس سلور": "CYLINDER 78CC (ALUMINIUM)",
+    "سلینڈر پیکنگ ہری": "CYLINDER PACKING (GREEN)",
+    "ڈی ربڑ": "D RUBBER",
+    "ڈاول پن سیٹ": "DOWEL PIN SET",
+    "ڈرائیو پلیٹ": "DRIVE PLATE",
+    "ڈرم بش سیٹ": "DRUM BUSH SET",
+    "انجن فاونڈیشن بولٹ بمع نٹ لوور": "ENGINE FOUNDATION LOWER WITH NUT",
+    "انجن فاونڈیشن بولٹس بمع نٹ اپر": "ENGINE FOUNDATION UPPER WITH NUT",
+    "الیر ا بوسٹ انجن آئل": "ENGINE OIL (700 ML) ULTRA BOOST (20W-50)",
+    "انجن پیس لیفٹ": "ENGINE PIECE LEFT",
+    "انجن پیس رائیٹ": "ENGINE PIECE RIGHT",
+    "فنگر": "FINGER",
+    "فلوڈ بال بمع پن": "FLOAT BALL W/PIN",
+    "فلوڈ پن": "FLOAT PIN (NEEDLE VALVE)",
+    "فٹ ریسٹ بار بمع سائیڈ اسٹینڈ": "FOOT REST BAR WITH SIDE STAND",
+    "فٹ ریسٹ رییر": "FOOT REST REAR (SET)",
+    "چمٹہ بش": "FORK BUSH (CHIMTA BUSH)",
+    "فرنٹ شاک بو ٹم سیٹ بو تل": "FRONT SHOCK BOTTOM SET ( BOTTLE)",
+    "فرنٹ شاک گالس بڑا کروم سیٹ": "FRONT SHOCK GLASS BIG CHROME SET",
+    "فرنٹ شاک گالس چہوٹا کروم سیٹ": "FRONT SHOCK GLASS SMALL CHROME SET",
+    "فرنٹ شاک کان کاال سیٹ": "FRONT SHOCK KAAN BLACK SET",
+    "فرنٹ شاک کان الل سیٹ": "FRONT SHOCK KAAN RED SET",
+    "فرنٹ شاک راڈ انر ٹیوب": "FRONT SHOCK ROD (INNER TUBE)",
+    "فرنٹ شاک اسیر نگ بڑاسیٹ": "FRONT SHOCK SPRING BIG SET",
+    "فرنٹ شاک اسیر نگ سیٹ": "FRONT SHOCK SPRING SET",
+    "فرنٹ اسپاکٹ": "FRONT SPROCKET 14T",
+    "فیول کاک یس ڈی یس": "FUEL COCK (CD70C)",
+    "فیول کاک بمع الک": "FUEL COCK WITH LOCK",
+    "فیول فلیر": "FUEL FILTER",
+    "ٹینک کیپ": "Tank Cap",
+    "گیس کٹ کلچ کٹورہ": "GASKET CLUTCH BOSS",
+    "گیس کٹ مٹر انجن پیس ہری": "GASKET ENGINE PIECE GREEN",
+    "کیس کٹ فل ہری": "GASKET FULL (GREEN)",
+    "کیس کٹ ہاف ہری": "GASKET HALF (GREEN)",
+    "کیس کٹ ٹائمنگ کور ہری": "GASKET TIMING COVER GREEN",
+    "کیس کٹ ٹاپ کور ہری": "GASKET TOP COVER GREEN",
+    "گییر گراری": "GEAR",
+    "گییر گراری نکہ": "GEAR LEGS",
+    "گییر بییر نگ": "GEAR BEARING 14x12",
+    "گییر ڈرم مکمل": "GEAR DRUM COMPLETE",
+    "گییر ڈرم واشر": "GEAR DRUM WASHER",
+    "گییر انڈیکییر انر سوئچ": "GEAR INDICATOR INNER SWITCH",
+    "گییر لیور": "GEAR LEVER (CHROME)",
+    "گییر لیور ہنڈا ٹائپ": "GEAR LEVER (HONDA TYPE)",
+    "گییر شافٹ مکمل": "GEAR SHAFT COMPLETE",
+    "گییر شافٹ اسیر نگ چہوٹا": "GEAR SHAFT SPRING (SMALL)",
+    "گییر اسٹار": "GEAR STAR",
+    "گییر واشر کٹ": "GEAR WASHER KIT",
+    "ہیڈ الئٹ بلب": "H/L BULB 12V 35X35W",
+    "ہینڈل بار بمع بیلنش": "HANDLE BAR WITH BALANCER",
+    "ہینڈل کون سیٹ": "HANDLE CONE SET",
+    "ہینڈل کون سیٹ رولر بییر نگ ٹائپ": "HANDLE CONE SET (ROLLER BEARING TYPE) )",
+    "ہینڈل کون بال سیٹ": "HANDLE GOLI SET (NYLON)",
+    "ہینڈل ہولڈر سیٹ گیلوانئیر": "HANDLE HOLDER SET",
+    "ہینڈل الک": "HANDLE LOCK",
+    "ہینڈل نٹ کروم": "HANDLE NUT (CROME)",
+    "ٹاپ برئج پلیٹ پولیشڈ ہینڈل": "HANDLE T BRIDGE PLATE",
+    "رصف ہینڈل": "HANDLE T ONLY",
+    "ہیڈ مکمل": "HEAD COMPLETE",
+    "ہیڈ مکمل ماڈل": "HEAD COMPLETE MODEL",
+    "ہیڈ گیس کٹ الل الئنینگ": "HEAD GASKET (RED LINING)",
+    "ہیڈ الئٹ کیس": "HEAD LIGHT CASE",
+    "ہیڈ الئٹ مکمل بمع فٹ بلب": "HEAD LIGHT COMPLETE WITH FIT BULB",
+    "ہیڈ الئٹ ہولڈر": "HEAD LIGHT HOLDER",
+    "الئٹ لینس اسٹینےل": "HEAD LIGHT LENS (STAINLEY)",
+    "ہیڈ الئٹ ریفلیکیر": "HEAD LIGHT REFLECTOR",
+    "ہیڈ الئٹ رم": "HEAD LIGHT RIM CHROME",
+    "ہایک پٹر": "HOCKEY PATTI",
+    "اگنیشن کوائل": "IGNITION COIL 12V",
+    "انڈیکییر": "INDICATOR (2003)",
+    "انڈیکییر اسمبیل": "INDICATOR ASSY",
+    "انڈیکییر فرنٹ لیفٹ": "INDICATOR FRONT LEFT",
+    "انڈیتییر فرنٹ رائٹ": "INDICATOR FRONT RIGHT",
+    "انسولییر": "INSULATOR",
+    "انسولییر ہنڈا ٹائپ": "INSULATOR (HONDA TYPE)",
+    "انسولییر بمع اورنگ": "INSULATOR WITH ORING",
+    "فرنٹ جمپ رب": "JUMP RIB FRONT",
+    "یک سیٹ": "KEY SET",
+    "کک کروم": "KICK",
+    "کک شافٹ مکمل": "KICK SHAFT COMPLETE",
+    "کک شافٹ رصف": "KICK SHAFT ONLY",
+    "کک اسیر نگ": "KICK SPRING",
+    "لیور اسمبیل سیٹ کاال ماڈل": "LEVER ASSEMBLY SET BLACK MODEL",
+    "لیور اسمبیل ہاف لیفٹ رصف کاال ماڈل": "LEVER ASSY HALF LEFT ONLY BLACK (2010 MODEL) ) \"",
+    "لیور اسمبیل لیفٹ رصف کاال ماڈل": "LEVER ASSY. LEFT ONLY 'BLACK' MODEL",
+    "لیور بریک رائیٹ کاال": "LEVER BRAKE (R) BLACK",
+    "لیور بریک لیفٹ کاال": "LEVER CLUTCH (L) BLACK",
+    "لیور ہولڈر رائیٹ ماڈل": "LEVER HOLDER RIGHT MODEL (THROTTLE ONLY)",
+    "میگنٹ کوائل گچہا": "MAGNET COIL RING",
+    "میگنٹ مکمل": "MAGNET COMPLETE (HERO)",
+    "میگنٹ اورنگ کٹ": "MAGNET ORING KIT",
+    "میگنٹ اورنگ کٹ بمع آئل سیل": "MAGNET ORING KIT W/OIL SEAL",
+    "میگنٹ پلیٹ رصف": "MAGNET PLATE ONLY",
+    "مٹر جیٹ": "MAIN JET #",
+    "مٹر شافٹ": "MAIN SHAFT",
+    "مییر کیبل": "METER CABLE",
+    "مییر کیبل ماڈل": "METER CABLE MODEL",
+    "مییر مکمل": "METER COMPLETE",
+    "مییر مکمل ماڈل": "METER COMPLETE (2006 MODEL)",
+    "مییر کور": "METER COVER",
+    "مییر کور ماڈل": "METER COVER (2006 MODEL)",
+    "مییر گراری سیٹ": "METER GEAR SET",
+    "مییر گراری سیٹ ماڈل": "METER GEAR SET (2013 MODEL)",
+    "مییر گراری سیٹ لوہا": "METER GEAR SET (METAL)",
+    "مییر گراری سیٹ بمع بش": "METER GEAR SET W/BUSH (JH-70)",
+    "مییر مومنٹ بمع نیڈل": "METER MOVEMENT W/NEELDE",
+    "مکسچر اسکریو کٹ ماڈل": "MIXTURE SCREW KIT",
+    "مکسچر اسکریو کٹ": "MIXTURE SCREW KIT",
+    "مفلر اسمبیل": "MUFFLER ASSY",
+    "مفلر واشر": "MUFFLER WASHER (COPPER)",
+    "نیوٹرل سوئچ": "NEUTRAL SWITCH",
+    "نیوٹرل سوئچ بمع وائیر": "NEUTRAL SWITCH WITH WIRE",
+    "آئل بولٹ بمع واشر کروم": "OIL BOLT CROME W/WASHER",
+    "آئل گیج بمع اورنگ کروم": "OIL GUAGE (CROME)",
+    "آئل پمپ مکمل": "OIL PUMP COMPLETE",
+    "آئل پمپ مکمل ہیوی ڈیونر": "OIL PUMP COMPLETE",
+    "آئل پمپ گراری ایزی فٹ": "OIL PUMP GEAR EASY FIT",
+    "آئل پمپ جایل": "OIL PUMP JALI",
+    "آئل پمپ کپہ": "OIL PUMP KUPPA",
+    "آئل پمپ راڈ": "OIL PUMP ROD",
+    "آئل پمپ بمع بش": "OIL PUMP ROD WITH BUSH",
+    "آئل تہرو کٹ": "OIL THROUGH KIT",
+    "پییر ول پائپ بکس": "PETROL PIPE 160MM (1BOX = PCS)",
+    "پسٹر کٹ": "PISTON KIT STD",
+    "پسٹر رنگ سیٹ": "PISTON RING SET STD",
+    "اسپارک پلگ سنگل پوائنٹ": "PLUG DP8EA-9",
+    "پلگ کیپ کاال": "PLUG CAP (BLACK)",
+    "پلگ کیپ اسٹیل": "PLUG CAP (STEEL)",
+    "پلگ کیپ کاال واٹر پروف": "PLUG CAP BLACK (WATER PROOF)",
+    "پریشر پلیٹ": "PRESSURE PLATE",
+    "پلش کوائل": "PULSAR COIL",
+    "پش راڈ": "Push Rod",
+    "پش راڈ کاال": "PUSH ROD (BLACK)",
+    "پش ربڑ": "PUSH RUBBER",
+    "آر نر ایم کیبل": "R.P.M CABLE",
+    "آر نر ایم گییر": "R.P.M. GEAR",
+    "رییر شاک اسیر نگ": "REAR SHOCK SPRING SET",
+    "ریکٹیفائر": "RECTIFIER 12V",
+    "ریکٹیفائر لیڈ": "RECTIFIER LEED",
+    "روکر پن واشر": "ROCKER PIN WASHER",
+    "روکر بمع بیر نگ اینڈ ٹیپٹ اسکریو": "ROCKER W/BEARING & TAPPET SCREW",
+    "روکر بمع ٹیپٹ نٹ اینڈ بولٹ": "ROCKER W/TAPPET NUT BOLT",
+    "روکر سیٹ بمع ٹیپٹ نٹ اینڈ بولٹ": "ROCKER W/TAPPET NUT BOLT",
+    "رولر بولٹ کروم": "ROLLER BOLT (CROME) WITH WASHER",
+    "رولر ربڑ رصف بغیر بش": "ROLLER RUBBER ONLY WITHOUT BUSH",
+    "رولر ٹینشیی سیٹ بغیر بش": "ROLLER TENSIONER SET WITHOUT BUSH",
+    "سیٹ اسمبیل": "SEAT ASSY DOUBLE",
+    "سیٹ کاول کاال": "SEAT COWL (BLACK) SET",
+    "سیٹ کاول الل": "SEAT COWL (RED) SET",
+    "شاک پمپ رئیر سیٹ": "SHOCK PUMP REAR SET",
+    "شاک رییر": "SHOCK REAR",
+    "شاک رییر کاال ہیوی ڈیونر": "SHOCK REAR BLACK H/D",
+    "شاک رییر الل ہیوی ڈیونر": "SHOCK REAR RED H/D",
+    "شاک سیل": "SHOCK SEAL 27X39X10.5",
+    "سالئیڈ پن جیٹ": "SLIDE PIN JET",
+    "سالئیڈ پن جیٹ ماڈل": "SLIDE PIN JET",
+    "سلو جیٹ": "SLOW JET",
+    "ساونڈ فلیشر": "SOUND FLASHER 12V",
+    "اسپوک بٹڈ": "SPOKE BUTTED 3.00X17",
+    "بڑا نپل اسپوک اسیر یٹ": "SPOKE STRAIGHT 3.00X17 (BIG NIPPLE)",
+    "اسپاکٹ بولٹ کروم": "SPROCKET BOLT KIT (CROME)",
+    "اسپاکٹ بولٹ گولڈن": "SPROCKET BOLT KIT (GOLDEN)",
+    "اسپاکٹ بولٹ گیلوانئیر": "SPROCKET BOLT KIT GALVANIZE",
+    "اسپاکٹ بولٹ الک": "SPROCKET LOCK 14T",
+    "اسپاکٹ پینل": "SPROCKET PANNEL",
+    "اسٹڈ": "STUD",
+    "سوئچ کٹ": "SWITCH KIT",
+    "ٹیپٹ کور بمع اورنگ کروم": "TAPPET COVER (CROME)",
+    "ٹیپٹ نٹ اینڈ بولٹ": "TAPPET NUT & BOLT",
+    "ٹینشیی پٹر": "TENSIONER PATTI",
+    "ایکسیلیر کیبل": "THROTTLE CABLE MM",
+    "ٹائمنگ چٹر لنک": "TIMING CHAIN 84L",
+    "ٹائمنگ چٹر کٹ لنک": "TIMING CHAIN KIT 84L",
+    "ٹائمنگ کور": "TIMING COVER",
+    "ٹائمنگ گراری": "Timing (Sprocket Cam)",
+    "ٹائمنگ گراری ماڈل": "TIMING GEAR (2012 MODEL)",
+    "ٹائمنگ راڈ بمع پش ربڑ": "TIMING ROD W/PUSH RUBBER",
+    "ٹائمنگ راڈ بمع پش ربڑ اینڈ اسیر نگ": "TIMING ROD W/PUSH RUBBER & SPRING",
+    "ٹائمنگ اسیر نگ": "TIMING SPRING",
+    "ٹاپ کور کاال": "TOP COVER (BLACK)",
+    "ہیڈ ٹاپ کور": "TOP COVER (HEAD)",
+    "ٹاپ کور اورنگ": "TOP COVER ORING",
+    "گییر گچہا": "TRANSMISSION ASSY. COMPLETE",
+    "وال کیپ": "VALVE CAP",
+    "وال کیچر": "VALVE COTTER",
+    "وال سیٹ اوور سائز": "VALVE SET OVER SIZE",
+    "وال اسیر نگ سیٹ": "VALVE SPRING SET",
+    "ویٹ کالر": "WEIGHT COLLAR",
+    "ویل چٹر": "WHEEL CHAIN 428X100L",
+    "ویل ڈرم رئیر": "WHEEL DRUM REAR",
+    "ائ فل": "AIR FILTER",
+    "ee": "CABLE BRAKE",
+    "1 مم": "CABLE CLUTCH",
+    "خص": "CABLE RACE",
+    "02": "CABLE BRAKE",
+    "4ت -2": "CAM GEAR",
+    "a": "VALVE CATTOR",
+    "یپ ےم": "DRUM BUSH",
+    "1": "VALVE SEAL",
+    "a:": "ENGINE VALVE",
+    "Te": "ENGINE VALVE",
+    "ae": "GEAR SHAFT",
+    "5": "FRONT SPROCKIT",
+    "لت": "FRONT SPROCKIT",
+    "aC": "GEAR BEARING",
+    "سض": "GEAR BEARING",
+    "سس": "GEAR BEARING",
+    "as": "HALF KIT",
+    "va": "HANDLE CUP",
+    "Fa": "HANDLE SWITCH ASSEMBLY",
+    "جس": "SWITCH ASSEMBLY L/H",
+    "بیک لائٹ مکمل": "Back Light",
+    "63/28": "Brake Pedal",
+    "بریک شو (13211": "Brake Shoe (132H) CG125",
+    "بریک شو(105)": "Brake Shoe Short Spring (105H)",
+    "بریک شو(106)": "Brake Shoe Short Spring (106H)",
+    "بریک شو۔ (104)": "Brake Shoe Long Spring (104H)",
+    "بریک سویچ رئیر": "C.D.I Unit",
+    "سی۔ڈی-آئی یونٹ": "C.D.I Unit (Big)",
+    "کلچ کیبل نیو": "Cable Clutch",
+    "یٹر کیب نیو": "Cable Meter",
+    "آر پی ایم کیب": "Cable R.P.M",
+    "ریس کیب نیو": "Cable Throttle",
+    "کیم چین": "Cam Chain",
+    "گیر": "Gear C3 (23461)",
+    "کیم گیر": "Cam Gear",
+    "کیم گیر (ماڈل": "Cam Gear Model (2022) KOK CG125",
+    "کاربوریٹر نڈل وال": "Carburator Needle Valve",
+    "کاربوریٹر سلائی ٹیو": "Carburator Repair Kit",
+    "چین کور": "Chain Cover (Silver)",
+    "چین کور ڈیلیکس": "Chain Cover",
+    "کور": "Chain Cover",
+    "gis بکسہ": "Clutch Box",
+    "کلچ ب س جین": "Clutch Box Jain",
+    "کلچ ب سہ سپرنگ": "Clutch Box Spring",
+    "کلچ ہوزنگ": "Clutch Housing FCC",
+    "کلچ ورم": "Clutch Warm",
+    "ES": "Clutch Warm",
+    "oS راڈ کٹ": "Connecting Road Kit",
+    "گون کٹ": "Connecting Rod Kit",
+    "گون راڈ کٹ": "Connecting Rod Kit",
+    "ونک راڈ ک": "Connecting Rod Kit",
+    "سیلنڈر": "Cylinder 97CM",
+    "سیلنڈر جین": "Cylinder Jain",
+    "ڈسک پیڈ": "Disk Pad",
+    "فرنٹ فینڈر": "Fendor Front",
+    "فینڈر رئیر": "Fendor Rear",
+    "فلٹرفوم": "Filter Foam",
+    "شر جائی )2008": "Filter Jali (2008)",
+    "فلٹر جالی (2013)": "Filter Jali (2013)",
+    "فلٹر جالی (2021)": "Filter Jali (2021)",
+    "فلیشر (آواز کےساتہ": "Flasher (with Sound)",
+    "فلیشر(آوازکےبغیر": "Flasher (without Sound)",
+    "فٹ ربڑ": "Footbar Rubber",
+    "فٹ بار ربڑ Subs": "Footbar Rubber",
+    "فٹ بار ربڑ": "Footbar Rubber",
+    "ڈیلیکس فٹ ریسٹ": "Footrest",
+    "gs گراری": "Gear Primary Drive",
+    "of": "Gear M3 (23451)",
+    "گیر فنگر": "Gear Finger",
+    "گیر لیور": "Gear Lever",
+    "گیر شاف سپرنگ": "Gear Shaft Spring",
+    "گیر شفٹر": "Gear Shifter",
+    "گیر کچہا": "Gear Transmission",
+    "ٹه سی ڈیلی س": "Grip Rubber",
+    "ہینڈل بیرنگ": "Handle Cone Set",
+    "ہینڈل ونک": "Handle Cone Set",
+    "ہینڈل گون": "Handle Cone Set",
+    "ہیڈ جین گول": "Head Jain (Round)",
+    "ہیڈ جین چورس": "Head Jain (Square)",
+    "ہیڈ جین سائیڈ": "Head Jain Plug Side",
+    "Ay لائیٹ ہولژر": "Head Light Holder",
+    "1 ہیڈ لائیٹ ہولڑر ڈیلیۃ": "Head Light Holder",
+    "اشارہ Sy": "Indicator Rubber",
+    "اشارہ ربڑ": "Indicator Rubber",
+    "کاربوریٹرانسولیٹر": "Insulator",
+    "لیور بریک": "Lever Brake",
+    "لیور کلچ": "Lever Clutch",
+    "گچہا": "Magnet Coil Ring",
+    "ین سٹینڈ": "Main Stand",
+    "ین سٹینڈ ڈیلی س": "Main Stand",
+    "میٹرگراری": "Meter Gear CG",
+    "سلنسر": "Muffler Assy(Silver)",
+    "سلنسر واشر": "Muffler Exhaust Gasket",
+    "ہاکی پٹی": "Muffler Hockey Patri",
+    "آئ پ پ کیپ": "Oil Pump Cap",
+    "ریکٹی فائر": "Rectifier",
+    "bed": "Ring (2.00)",
+    "آرم": "Rocker",
+    "روکر el": "Rocker Arm",
+    "روکر آرم": "Rocker Arm",
+    "روکر": "Rocker Pin",
+    "سیل کلچ": "Seal Clutch Warm (12-22-5)",
+    "سیلف موٹر": "Self Motor",
+    "سائیڈ سٹینڈ": "Side Stand",
+    "سائیڈ سٹینڈ ڈیلی س": "Side Stand (F)",
+    "سپارک پلگ": "Spark Plug DPR8EA-9",
+    "سپارک پلگ(پلاٹینب": "Plug C7HSA-GP (Platinum)",
+    "سپارک پلگ کیپ": "Spark Plug Cap",
+    "سپارک پلگ(پلاٹینی": "Plug DP8EA9 - GP (Platinum)",
+    "اسٹارٹنگ": "Starting Coil",
+    "اسٹارٹنگ کوائل": "Starting Coil",
+    "ف بار": "Step Bar",
+    "ف بار ڈیلی س": "Step Bar",
+    "چمنہ": "Swing Arm with bush",
+    "چمٹہ": "Swing Arm with bush",
+    "رئیر شاک": "Shock Pump Rear",
+    "رئیر شاک پمپ": "Shock Pump Rear",
+    "رئیر پمپ": "Switch Ignition",
+    "اگنی ن سوئچ": "Switch Ignition",
+    "اگنی ن سوئچ ڈیلی س": "Switch Ignition",
+    "سوئچ ک": "Kit 2pcs (Ignition + Handle Lock)",
+    "کٹ": "Switch Kit 3pcs",
+    "3پیس سوچ کٹ": "Switch Kit 3pcs",
+    "سونچ ونکر": "Switch Winker",
+    "ٹین نر پٹی": "Tensioner Patti",
+    "ٹینشنر راڈ": "Tensioner Rod",
+    "ٹاپ کور": "Top Cover",
+    "ٹیپٹ کور او رنگ": "Top Cover O-Ring",
+    "dls": "Valve (Over Size)",
+    "وال کاٹر": "Valve Carter",
+    "وائزر": "with HeadLight (Red, Black, Silver)",
+    "بریک وش پ لی صرف یئرر": "Wheel Hub Panel Plate Rear",
+    "ویل گوٹ": "Wheel Sleeve",
+    "وائرنگ ڈیلیکس": "Wiring",
+    "کلچ بکسہ": "Clutch Box (FCC)",
+    "اشارہ پتری سیٹ": "( )",
+    "آئل گیج": "CG",
+    "سپرتگ مین سٹینڈ": "CD",
+    "سپرتگ شاک باٹم": ".",
+    "کون سیٹ": "J",
+    "شاک بولٹ بمعە واشر": ") (Que",
+    "بولٹ سٹینلذ": "DS Le CD",
+    "بولٹ بریک سٹاپر": "HL",
+    "شاک راد": "ty dae",
+    "کک نیا": "Dream Jobe",
+    "ہید لائٹ کیسں جینئین": "() CD",
+    "بریک کیم لیور سیٹفرنٹ": "TT () CG",
+    "ایکسل فرنٹ بمعه نٹ": "pay",
+    "کیبل میٹر": "088 CD",
+    "کیبل میٹر ل": "( ) 66 CD",
+    "مونوگرام پتری": "( ) CD",
+    "کیبل ریس": "( ) GGJ",
+    "گرپ ربر ریس سائیڈ": ") (",
+    "کیبل بڑی ہب": "a ) (",
+    "کیبل بریکف": "( ) KYH",
+    "کیبل کلچ": "Prider KVWM",
+    "کیبل کنچ ل": "( ) 66",
+    "کیبل کنچ": "KCS",
+    "فٹ مکمل": "pb CD",
+    "فٹ مکمل ہ2": "pb",
+    "سائیذ سٹیند": "( )",
+    "سائیذ سٹیند ء": "( ) 65",
+    "بریک شو سیٹ بڑا سپرئگگ": "\"",
+    "چائنه": "ane",
+    "مین سٹیند پتری ء": "56",
+    "گرپ ربر سیٹ": ") ( CD",
+    "بیک لائٹ": "( ) ys",
+    "بیک لائٹ بریکٹ": "( ) Sos Hy",
+    "چین کور سیٹ4587": "(0) CD",
+    "چین کور سیٹ": "( ) -",
+    "مین سٹینل نی فٹنگ": "(",
+    "مین سٹیند 1": "6810",
+    "ٹائمنگ چین کٹ": "84L",
+    "پرانە": "Jobs Dads es",
+    "سوئچ اسمبل": "+ (On/Off,Dim, Indicator)",
+    "اشارہ مکمل": "( ) Mega Corp",
+    "سلنڈر 5ہ": "Ravi .",
+    "بینڈ": "shay",
+    "جیرنلن": "nai",
+    "جین": "Jobs dua",
+    "میگنٹ کور": "wee",
+    "میگنٹ کور جین": ". (Self Start)",
+    "پچہلا شاک گلاس سرخ ۔": "YS",
+    "سیٹ ٹیک نیا": "(GN) Jou",
+    "سیٹ ٹیک": "(GN) .",
+    "بریک پرانه": "Jd Joe .",
+    "بریک نیا": "Jon Joe",
+    "گیئر لیوریرانه": "Joe",
+    "گیئر لیور": "MGP . -",
+    "ہید لائٹ": "Sy",
+    "پتری": "Sta",
+    "ہید لائٹ مکمل سپیشل": "()",
+    "بیک لائٹ ہولذر": "(N.M)",
+    "کلچ اسمبلی اوپر والا حصه ل": "67 CD",
+    "اشارہ مکمل پرانە": "Joe",
+    "اشارہ ربرجینئین": "(,) Jd",
+    "ہید لائٹ کیس جینئین": "() CG",
+    "میٹ رکیس": "(MGP Plus)",
+    "میٹر گراری سیٹ رمیٹل ل": ") 66",
+    "میٹر گراری سیٹ بپلاسٹک": "(, GGJ",
+    "میٹر گراری سیٹ میٹل": "(, JH",
+    "میٹر گراری سیٹ": "KYH (SMa)",
+    "کشتی": "a CD",
+    "پائپ نیا": "Ls! Joe",
+    "گرپ ربہر سیٹ": ") ( )",
+    "فٹ": ") ) (",
+    "ڈرم ربر سیٹ": "(Micro)",
+    "ربر سیٹ سپیشل": "es a () CD",
+    "آئل نٹ": ",",
+    "بریک شو چہوٹا": "SB ps",
+    "چورس": "SOs CD",
+    "کنچ": "S98) SS",
+    "باہر والیے": "Sais CD",
+    "شاک سپرئگ": "Sy",
+    "شاک باٹم": "SB",
+    "فلٹر نیا ماڈل": "MGP",
+    "آئل گیج 105ہ": "4",
+    "خام مال کی قیمتوں میں تبد یلی کی وجہ سے 186 ک": "16",
+    "عد": "/ ire",
+    "وو": "oi JF gtk",
+    "رش": "fF(Mxt#t",
+    "و ۔ عد": "SE",
+    "عصد": "Posse",
+    "ایک لاٹلررڑ عد": "()",
+    "ری": "ti Ags",
+    "ا ہہ ےہ": "-153Gram A",
+    "لورسیٹ ح": "070 er COEF",
+    "رو جح و": "ud",
+    "نے میں": "Pe nea)",
+    "م تا ای وویا": "00 SWE )",
+    "مرکا": "JSF (C070) wed",
+    "زنس": ". Wt ( )",
+    "ہی لاٹ لین سس": ") ( ) ( ra",
+    "یک ار ہراب پر رک": "( - ) (CD- #",
+    "ا اب ول": "JF ut",
+    "آشارر6": ", SF bs",
+    "ا ری ناڈ": "a0 JF yu, / 02s",
+    "اٹ مائیڑ ٹن پرنگک بویٹ": "12544 bt",
+    "امک پڑل م": "0 JF 4s",
+    "بث ای": "JF Je",
+    "ہاش اہ ہم": ". whos il"
+  },
+  "words": {
+    "فلٹر": "Filter",
+    "ائیر": "Air",
+    "ایئر": "Air",
+    "ائل": "Oil",
+    "آئل": "Oil",
+    "پٹرول": "Petrol",
+    "پیٹل": "Petrol Cock",
+    "پک کیپ": "Spark Plug Cap",
+    "پلگ کیپ": "Spark Plug Cap",
+    "پلک کیپ": "Spark Plug Cap",
+    "کیپ": "Cap",
+    "پلگ": "Plug",
+    "نٹ": "Nut",
+    "بولٹ": "Bolt",
+    "واشر": "Washer",
+    "بش": "Bush",
+    "بیرنگ": "Bearing",
+    "کیبل": "Cable",
+    "کلچ": "Clutch",
+    "بریک": "Brake",
+    "میٹر": "Speedometer",
+    "ریس": "Throttle",
+    "چوک": "Choke",
+    "لیور": "Lever",
+    "ہینڈل": "Handlebar",
+    "گریپ": "Grip",
+    "چمٹا": "Swing Arm",
+    "ڈرم": "Drum",
+    "ہب": "Hub",
+    "اکسل": "Axle",
+    "ایکسل": "Axle",
+    "سنٹر": "Center",
+    "شاک": "Shock Absorber",
+    "سپرنگ": "Spring",
+    "چین": "Drive Chain",
+    "گراری": "Sprocket",
+    "سیٹ": "Set",
+    "سلنڈر": "Cylinder",
+    "پسٹن": "Piston",
+    "رنگ": "Ring",
+    "والو": "Valve",
+    "راکر": "Rocker",
+    "کیم": "Cam",
+    "شافٹ": "Shaft",
+    "پن": "Pin",
+    "روڈ": "Rod",
+    "کاربوریٹر": "Insulator",
+    "کک": "Kick",
+    "گول": "Round",
+    "پیکنگ": "Gasket",
+    "پیک": "Packing",
+    "گاسکٹ": "Gasket",
+    "سیل": "Oil Seal",
+    "ربڑ": "Rubber",
+    "ربر": "Rubber",
+    "پلیٹ": "Plate",
+    "پریشر": "Pressure",
+    "شو": "Shoe",
+    "پیڈ": "Pad",
+    "اشارہ": "Indicator",
+    "لائٹ": "Light",
+    "ہیڈ": "Head",
+    "بیک": "Back",
+    "ہارن": "Horn",
+    "سوئچ": "SWITCH",
+    "لاک": "Lock",
+    "چابی": "Key",
+    "جالی": "Mesh",
+    "بوتل": "Bottle",
+    "پائپ": "Pipe",
+    "وائرنگ": "Wiring",
+    "کوائل": "Coil",
+    "میگنٹ": "Magnet",
+    "سی ڈی آئی": "CDI",
+    "ریگولیٹر": "Regulator",
+    "بیٹری": "Battery",
+    "ٹائر": "Tyre",
+    "ٹیوب": "Tube",
+    "رم": "Rim",
+    "سپوک": "Spoke",
+    "مڈگارڈ": "Mudguard",
+    "فٹ بار": "Footrest Bar",
+    "فٹ ریسٹ": "Footrest",
+    "سٹینڈ": "Stand",
+    "سائیڈ": "Side",
+    "مین": "Main",
+    "ٹینک": "Fuel Tank",
+    "ٹینکی": "Fuel Tank",
+    "ٹاپہ": "Side Cover",
+    "سائلنسر": "Silencer",
+    "مفلر": "Muffler",
+    "مکمل": "Complete",
+    "نیو": "New Model",
+    "اولڈ": "Old Model",
+    "پرانا": "Old Model",
+    "بمعہ": "With",
+    "بمع": "With",
+    "ڈبل": "Double",
+    "سنگل": "Single",
+    "فرنٹ": "Front",
+    "پچہلی": "Rear",
+    "اگلی": "Front",
+    "چہوٹی": "Small",
+    "بڑی": "Big",
+    "اٹل": "Atal",
+    "رولر": "Roller",
+    "ڈاگ": "Dog / Pawl",
+    "کتا": "Pawl",
+    "گولی": "Ball Bearing",
+    "سپروکیٹ": "Sprocket",
+    "سلینڈر": "CYLINDER",
+    "فنگر": "FINGER",
+    "انسولییر": "INSULATOR",
+    "ریکٹیفائر": "RECTIFIER",
+    "اسٹڈ": "STUD",
+    "سیلنڈر": "Cylinder",
+    "کاربوریٹرانسولیٹر": "Insulator",
+    "آرم": "Rocker",
+    "dls": "Valve"
+  }
+}

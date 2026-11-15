@@ -12,16 +12,17 @@ from app.pdf_import.parse import ParsedItem
 from app.pdf_import.read import read_price_list
 
 
-def import_file(session: Session, path: Path) -> tuple[str, int, int]:
+def import_file(session: Session, path: Path, filename: str | None = None) -> tuple[str, int, int]:
     """Import one PDF. Existing items keep their sale price and get a new purchase price."""
     if path.suffix.lower() != ".pdf":
         raise ValueError("Choose a PDF file.")
     if not path.is_file():
         raise FileNotFoundError(f"PDF not found: {path}")
-    manufacturer_name, items = read_price_list(path)
+    effective_name = filename or path.name
+    manufacturer_name, items = read_price_list(path, filename=effective_name)
     if not items:
-        raise ValueError(f"No items were found in {path.name}.")
-    inserted, updated = upsert_items(session, manufacturer_name, path.name, items)
+        raise ValueError(f"No items were found in {effective_name}.")
+    inserted, updated = upsert_items(session, manufacturer_name, effective_name, items)
     return manufacturer_name, inserted, updated
 
 

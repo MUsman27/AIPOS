@@ -15,17 +15,21 @@ from app.pdf_import.parse import (
     parse_cp,
     parse_mitsuboshi,
     parse_ocr_text,
+    parse_pilot,
     parse_rp,
     parse_spider,
 )
 
 
-def read_price_list(path: Path) -> tuple[str, list[ParsedItem]]:
+def read_price_list(path: Path, filename: str | None = None) -> tuple[str, list[ParsedItem]]:
     document = pymupdf.open(path)
     items: list[ParsedItem] = []
+    effective_name = filename or path.name
     try:
         first_text = document[0].get_text("text") if document.page_count else ""
-        name, kind = classify_price_list(path.name, first_text)
+        name, kind = classify_price_list(effective_name, first_text)
+        if kind == "pilot":
+            return name, parse_pilot(document)
         for index, page in enumerate(document):
             print(f"  page {index + 1}/{document.page_count}", flush=True)
             items.extend(_read_page(page, kind))
